@@ -1,3 +1,4 @@
+'use strict'
 import bodyParser from 'body-parser';
 import express from 'express';
 import dotenv from 'dotenv';
@@ -5,7 +6,12 @@ import cors from 'cors';
 import database from './databases/connectDatabase';
 import { routes } from './routes';
 import checkToken from './auth'
-import { port } from './config';
+
+import countConnections from './helpers/check.connect';
+import currentConfig from './config';
+
+const port = currentConfig.app.port;
+
 dotenv.config();
 const app = express();
 //cors
@@ -28,7 +34,6 @@ async function startApp() {
     await database;
     // Start your application logic
     console.log('Database initialized, starting application...');
-    // Rest of your application logic here
   } catch (error) {
     console.error('Failed to initialize the database:', error);
     process.exit(1); // Exit if the database fails to initialize
@@ -36,7 +41,9 @@ async function startApp() {
 }
 
 startApp();
-
+// count connect of database
+// countConnections();
+// 
 app.use(cors(allowedOrigins));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());

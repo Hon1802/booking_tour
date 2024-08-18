@@ -1,3 +1,4 @@
+'use strict'
 import { Router, Request, Response } from 'express';
 import { handleRegister, handleLogin } from '../controller/customers';
 

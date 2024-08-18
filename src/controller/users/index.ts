@@ -1,3 +1,4 @@
+'use strict'
 import { UserData } from '../../databases/interface/userInterface';
 import { handleUserId } from '../../services/userService';
 import { Request, Response } from 'express';

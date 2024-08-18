@@ -1,3 +1,4 @@
+'use strict'
 import Joi from "joi";
 import { userInterface } from "../databases/interface/userInterface";
 // Define the validation schema

@@ -1,3 +1,4 @@
+'use strict'
 import { Router } from 'express';
 export const adminRoute = Router();
 adminRoute.get('/', (req, res) => {

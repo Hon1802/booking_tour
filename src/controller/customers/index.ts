@@ -1,10 +1,9 @@
+'use strict'
 import { UserData } from '../../databases/interface/userInterface';
 import { handleUserRegister, handleUserLogin } from '../../services/userService';
 import { Request, Response } from 'express';
 // import validate
 import { userValidate } from '../../helpers/validation';
-import { ifError } from 'assert';
-import { create } from 'domain';
 import { logger } from '../../log';
 function isValidDate(dateString:string) {
     const date = new Date(dateString);

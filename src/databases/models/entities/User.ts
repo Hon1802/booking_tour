@@ -1,3 +1,4 @@
+'use strict'
 import { Entity, ObjectIdColumn, ObjectId, Column, BeforeInsert, BeforeUpdate } from 'typeorm';
 import { IsEmail, IsNotEmpty, MinLength, MaxLength, IsOptional, IsInt, Min, Max, IsDate, IsString } from 'class-validator';
 import { Transform } from 'class-transformer';

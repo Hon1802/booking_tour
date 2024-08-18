@@ -1,3 +1,4 @@
+'use strict'
 import { Router, Request, Response } from 'express';
 import { handleGetUserById } from '../controller/users';
 

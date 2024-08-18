@@ -1,14 +1,20 @@
+'use strict'
 import { AppDataSource } from '../databases/connectDatabase';
 import { UserData } from '../databases/interface/userInterface';
 import { User } from '../databases/models/entities/User';
 import { logger } from '../log';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
-import { jwt_secret, salt_rounds } from '../config';
+import currentConfig from '../config';
 import { validate } from 'class-validator';
 // import { ObjectId } from 'typeorm';
 import { ObjectId } from 'mongodb';
 const managerUser = AppDataSource.mongoManager;
+
+// some const
+const jwt_secret = currentConfig.app.jwt_secret;
+const salt_rounds = currentConfig.app.salt_rounds;
+
 export const handleUserRegister = async (
   fullName: string,
   address: string,

@@ -3,11 +3,12 @@
 import 'reflect-metadata';
 import { DataSource } from 'typeorm';
 import { logger } from '../log';
-import { mongoURL } from '../config';
+import currentConfig from '../config';
+
 
 export const AppDataSource = new DataSource({
   type: 'mongodb',
-  url: mongoURL,
+  url: currentConfig.db.url,
   database: 'datatourv2',
   useNewUrlParser: true,
   synchronize: true,
@@ -17,18 +18,6 @@ export const AppDataSource = new DataSource({
   migrations: [__dirname + '/migration/*.ts']
 });
 
-// const initializeConnection = async (): Promise<void> => {
-//   try {
-//     await AppDataSource.initialize();
-//     logger.info('Connect success!');
-//   } catch (err) {
-//     if (err instanceof Error) {
-//       logger.error('Error during connect to database', err);
-//     } else {
-//       logger.error('Unknown error during connect to database');
-//     }
-//   }
-// };
 const closeConnection = async (): Promise<void> => {
   try {
     await AppDataSource.destroy(); // Close the connection

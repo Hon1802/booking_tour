@@ -1,3 +1,4 @@
+'use strict'
 import winston, { transports, format } from 'winston';
 export const customerLogger = winston.createLogger({
   transports: [
