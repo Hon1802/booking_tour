@@ -20,9 +20,6 @@ export const handleUserRegister = async (
   address: string,
   email: string,
   password: string,
-  dateOfBirth: Date,
-  phone: string,
-  gender: string
 ): Promise<UserData> => {
   let userData: UserData;
   let isExist = await managerUser.findOne(User, { where: { email } });
@@ -50,10 +47,11 @@ export const handleUserRegister = async (
     user.name = fullName;
     user.address = address;
     user.email = email;
-    user.dateOfBirth = new Date(dateOfBirth);
+    // user.dateOfBirth = new Date(dateOfBirth);
+    user.dateOfBirth = new Date('2002-01-01');
     user.password = await bcrypt.hash(password, parseInt(salt_rounds));
-    user.phone = phone;
-    user.gender = gender;
+    user.phone = '0987654321';
+    user.gender = 'default';
     user.refreshToken = refreshToken;
     // Kiểm tra validation của user
     const errors = await validate(user);
@@ -93,13 +91,10 @@ export const handleUserRegister = async (
               name: user.name,
               address: user.address,
               email: user.email,
-              dateOfBirth: user.dateOfBirth,
-              phone: user.phone,
-              gender: user.gender,
               avata: 'no_image',
               id: user.id
             },
-            accessToken: accessToken,
+            publicKey: accessToken,
             refreshToken: refreshToken
           };
         } catch (error) {
@@ -148,6 +143,7 @@ export const handleUserLogin = async (email: string, password: string): Promise<
               expiresIn: '1h' //
             }
           );
+
         userData = {
             status: 200,
             errCode: 200,
@@ -155,21 +151,17 @@ export const handleUserLogin = async (email: string, password: string): Promise<
             userInfor: {
                 name: isExist?.name,
                 role: isExist.userFlg == 1 ? 'user' : 'admin',
-                address: isExist?.address,
                 email: isExist?.email,
-                dateOfBirth: isExist?.dateOfBirth,
-                phone: isExist?.phone,
-                gender: isExist?.gender,
                 avata: isExist?.avatar,
                 id: isExist?.id
             },
-        accessToken: accessToken,
+        publicKey: accessToken,
         refreshToken: refreshToken
         };
-        if(isExist.id)
-            {
-                saveToken(isExist?.id , refreshToken);
-            }
+        // if(isExist.id)
+        //     {
+        //         saveToken(isExist?.id , refreshToken, publicKey);
+        //     }
         return userData;
     }else{
         userData = {
@@ -240,18 +232,19 @@ export const handleUserId = async (id: string): Promise<UserData> => {
 export const checkTokenExist = async (token: string): Promise<boolean> => {
   // Implement your token existence check logic here
   // This is a placeholder, replace it with actual implementation
-
-  return true;
+  let isExist = await managerUser.findOne(User, { where: { access_token : token } });
+  return !isExist;
 };
 // 
-export const saveToken = async (userId: ObjectId,freshtoken: string): Promise<boolean> => {
+export const saveToken = async (userId: ObjectId, refreshToken: string, publicKey: string): Promise<boolean> => {
     const user = await managerUser.getMongoRepository(User).findOneAndUpdate(
         // Điều kiện tìm kiếm
         { _id: userId },
         // Cập nhật dữ liệu
         { $set: { 
-            refreshToken: freshtoken 
+            publicKey: publicKey,
+            refreshToken: refreshToken
         } }
       );
-    return false;
+    return true;
   };

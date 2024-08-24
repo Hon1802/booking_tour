@@ -11,26 +11,20 @@ function isValidDate(dateString:string) {
   }
 // Handle user registration request
 export const handleRegister = async (req: Request, res: Response) => {
-  const { fullName, address, email, password, dateOfBirth, phone, gender } = req.body;
+  const { fullName, address, email, password} = req.body;
   if (!email || !password) {
     return res.status(400).json({
       errCode: 400,
       message: 'Missing inputs value'
     });
   }
-  if (!isValidDate(dateOfBirth)) {
-    return res.status(400).json({
-      errCode: 400,
-      message: 'Invalid date of birth'
-    });
-  }
-  const userData: UserData = await handleUserRegister(fullName, address, email, password, dateOfBirth, phone, gender);
+  const userData: UserData = await handleUserRegister(fullName, address, email, password);
 
   return res.status(userData.status).json({
     errCode: userData.errCode,
     message: userData.errMessage,
     ...(userData.userInfor && { userInfo: userData.userInfor }),
-    ...(userData.accessToken && { accessToken: userData.accessToken }),
+    ...(userData.publicKey && { accessToken: userData.publicKey }),
     ...(userData.refreshToken && { refreshToken: userData.refreshToken })
   });
 };
@@ -60,7 +54,7 @@ export const handleLogin = async (req: Request, res: Response) => {
     errCode: userData.errCode,
     message: userData.errMessage,
     ...(userData.userInfor && { userInfo: userData.userInfor }),
-    ...(userData.accessToken && { accessToken: userData.accessToken }),
+    // ...(userData.accessToken && { accessToken: userData.accessToken }),
     ...(userData.refreshToken && { refreshToken: userData.refreshToken })
   });
 };
@@ -80,7 +74,7 @@ export const handleLogout = async (req: Request, res: Response) => {
     errCode: userData.errCode,
     message: userData.errMessage,
     ...(userData.userInfor && { userInfo: userData.userInfor }),
-    ...(userData.accessToken && { accessToken: userData.accessToken }),
+    // ...(userData.accessToken && { accessToken: userData.accessToken }),
     ...(userData.refreshToken && { refreshToken: userData.refreshToken })
   });
 };
@@ -100,7 +94,7 @@ export const handleForgotPassword = async (req: Request, res: Response) => {
     errCode: userData.errCode,
     message: userData.errMessage,
     ...(userData.userInfor && { userInfo: userData.userInfor }),
-    ...(userData.accessToken && { accessToken: userData.accessToken }),
+    // ...(userData.accessToken && { accessToken: userData.accessToken }),
     ...(userData.refreshToken && { refreshToken: userData.refreshToken })
   });
 };

@@ -1,6 +1,6 @@
 'use strict'
 import { Router, Request, Response } from 'express';
-import { handleRegister, handleLogin } from '../controller/customers';
+import { handleRegister, handleLogin, handleLogout } from '../controller/customers';
 
 export const customerRoute = Router();
 
@@ -17,7 +17,7 @@ customerRoute.post('/login', async (req: Request, res: Response) => {
 });
 
 customerRoute.post('/logout', async (req: Request, res: Response) => {
-  await handleRegister(req, res);
+  await handleLogout(req, res);
 });
 
 customerRoute.post('/register', async (req: Request, res: Response) => {

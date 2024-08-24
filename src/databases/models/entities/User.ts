@@ -18,7 +18,7 @@ export class User {
   @MinLength(6, { message: 'Password must be at least 6 characters long' })
   public password!: string;
 
-  @Column({ type: 'varchar', length: 50, name: 'full_name' })
+  @Column({ type: 'varchar', length: 50, name: 'name' })
   @IsNotEmpty({ message: 'Name is required' })
   @MaxLength(50, { message: 'Name cannot be longer than 50 characters' })
   public name!: string;
@@ -59,11 +59,16 @@ export class User {
   @IsString()
   @IsOptional()
   public gender!: string;
-
+// refreshToken
   @Column({ type: 'string', nullable: true, name: 'refresh_token' })
   @IsString()
   @IsOptional()
   public refreshToken!: string;
+  // public_key
+  @Column({ type: 'string', nullable: true, name: 'public_key' })
+  @IsString()
+  @IsOptional()
+  public publicKey!: string;
 
   @Column({ type: 'string', nullable: true, name: 'avatar' })
   @IsString()

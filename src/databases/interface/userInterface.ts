@@ -4,8 +4,9 @@ export interface UserData {
   errCode: number;
   errMessage: string | object;
   userInfor?: object; // optional property
-  accessToken?: string;
+  publicKey?: string;
   refreshToken?: string;
+  gender?:string
 }
 export interface userInterface {
   email?: string,
