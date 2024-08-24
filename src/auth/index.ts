@@ -10,21 +10,23 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
   // List of URLs to bypass
   const bypassUrls = [
     '/',
+    '/v1/api/sign-up',
     '/api',
+    // '/api/customer/register',
     '/api/customer/login',
-    '/api/logout',
-    '/auth/logout',
-    '/api/register',
-    '/api/hot-tour',
-    '/api/filter-tour',
-    '/api/latest-tour',
-    '/api/get-all-tours',
-    '/auth/login/failed',
-    '/auth/login/success',
-    '/api/get-tour-by-id',
-    '/auth/google/callback'
+    // '/api/logout',
+    // '/auth/logout',
+    // '/api/register',
+    // '/api/hot-tour',
+    // '/api/filter-tour',
+    // '/api/latest-tour',
+    // '/api/get-all-tours',
+    // '/auth/login/failed',
+    // '/auth/login/success',
+    // '/api/get-tour-by-id',
+    // '/auth/google/callback'
   ].map((url) => url.toLowerCase().trim());
-
+  // check url pass or check token
   if (bypassUrls.includes(req.url.toLowerCase().trim())) {
     next();
     return;
@@ -51,7 +53,8 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
       });
     } else {
       const tokenExists = await checkTokenExist(token);
-      if (tokenExists) {
+      if (!tokenExists) {
+
         next();
       } else {
         return res.status(401).json({
