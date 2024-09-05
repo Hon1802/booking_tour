@@ -1,7 +1,8 @@
 'use strict'
 import { Entity, ObjectIdColumn, ObjectId, Column, BeforeInsert, BeforeUpdate } from 'typeorm';
-import { IsEmail, IsNotEmpty, MinLength, MaxLength, IsOptional, IsInt, Min, Max, IsDate, IsString } from 'class-validator';
+import { IsEmail, IsNotEmpty, MaxLength, IsOptional, IsInt, Min, Max, IsDate, IsString, Matches, MinLength} from 'class-validator';
 import { Transform } from 'class-transformer';
+
 
 @Entity()
 export class User {
@@ -15,8 +16,13 @@ export class User {
 
   @Column({ type: 'varchar', length: 255, name: 'password' })
   @IsNotEmpty({ message: 'Password is required' })
-  @MinLength(6, { message: 'Password must be at least 6 characters long' })
+  @MinLength(8, { message: 'Password must be at least 8 characters long' })
+  @Matches(/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]/, {
+    message:
+    'Password must include at least one uppercase letter, one lowercase letter, one number, and one special character',
+  })
   public password!: string;
+
 
   @Column({ type: 'varchar', length: 50, name: 'name' })
   @IsNotEmpty({ message: 'Name is required' })

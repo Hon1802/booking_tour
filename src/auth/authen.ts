@@ -5,6 +5,7 @@ import { logger } from '../log';
 // payload
 interface Payload {
     userId?: string | undefined;
+    role?: string | 'user';
     email?: string | undefined;
 }
 const createTokenPair = async (

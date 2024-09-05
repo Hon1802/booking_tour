@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 
-export const sentMail = async (from: string, toMail: string, pass: string, content: string) => {
+export const sentMail = async (from: string, toMail: string, pass: string, content: string,subject:string ) => {
   // Create a transporter object using your email service
   const transporter = nodemailer.createTransport({
     service: 'gmail', // or another service like 'smtp', 'yahoo', etc.
@@ -14,7 +14,7 @@ export const sentMail = async (from: string, toMail: string, pass: string, conte
   const mailOptions = {
     from: from,
     to: toMail,
-    subject: 'Subject of your email',
+    subject: subject,
     text: `Pass word :  ${content}`
     // html: '<p>Hello, this is the body of your email!</p>', // if you want to send HTML email
   };

@@ -19,6 +19,8 @@ export interface Config {
       port: string | number;
       salt_rounds: string;
       jwt_secret: string;
+      from_email: string;
+      secret_email: string;
     };
     db: {
       host: string;

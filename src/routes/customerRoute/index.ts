@@ -1,6 +1,6 @@
 'use strict'
 import { Router, Request, Response } from 'express';
-import { handleRegister, handleLogin, handleLogout } from '../controller/customers';
+import { handleRegister, handleLogin, handleLogout } from '../../controller/customers';
 
 export const customerRoute = Router();
 

@@ -3,18 +3,6 @@ import { Request, Response, NextFunction } from 'express';
 import accessService from '../../services/access.service';
 import { UserData } from '../../databases/interface/userInterface';
 class AccessController {
-    // signUp = async (req: Request, res: Response, next: NextFunction)=>{
-    //     try{
-    //         const { email, password } = req.body;
-    //         console.log(`[P]::signUp::`, req.body);
-    //         if (!email || !password) {
-    //             return res.status(400).json({ message: 'Email and password are required' });
-    //         }
-    //         return res.status(200).json( await accessService.signUp(email, password ))
-    //     } catch(error){
-    //         next(error)
-    //     }
-    // }
     // register
     handleRegister = async (req: Request, res: Response, next: NextFunction)=>{
         try{
@@ -27,7 +15,7 @@ class AccessController {
                   message: 'Missing inputs value'
                 });
               }      
-            const userData: UserData = await accessService.userRegister(fullName, address, email, password, gender);
+            const userData: UserData = await accessService.userRegister(fullName, address, email, password.toString().trim(), gender);
         
             return res.status(userData.status).json({
                 errCode: userData.errCode,
@@ -65,8 +53,8 @@ class AccessController {
             next(error)
         }
     }
-    // // log out
-    handlelogOut = async (req: Request, res: Response, next: NextFunction)=>{
+    // log out
+    handleLogOut = async (req: Request, res: Response, next: NextFunction)=>{
         try{
 
             const { id} = req.body;
@@ -83,7 +71,7 @@ class AccessController {
             next(error)
         }
     }
-    // // forgot Pass
+    // forgot Pass
     handleForgotPassword = async (req: Request, res: Response, next: NextFunction)=>{
         try{
             const { email} = req.body;

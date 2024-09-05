@@ -5,7 +5,6 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import database from './databases/connectDatabase';
 import { routes } from './routes';
-import checkToken from './auth'
 
 import currentConfig from './config';
 

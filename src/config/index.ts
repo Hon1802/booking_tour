@@ -9,7 +9,9 @@ const config: Config = {
     app:{
         port: process.env.PORT || 3001,
         salt_rounds : process.env.SALT_ROUNDS || 'can not get salt rounds',
-        jwt_secret : process.env.JWT_SECRET || 'can not get jwt serect'
+        jwt_secret : process.env.JWT_SECRET || 'can not get jwt secret',
+        from_email: process.env.EMAIL || '123@gmail.com',
+        secret_email: process.env.SECRET_EMAIL || '1111111'
     },
     db:{
         host: 'localhost',
@@ -23,7 +25,9 @@ const config: Config = {
     app: {
       port: process.env.PORT || 8080,
        salt_rounds : process.env.SALT_ROUNDS || 'can not get salt rounds',
-        jwt_secret : process.env.JWT_SECRET || 'can not get jwt serect'
+        jwt_secret : process.env.JWT_SECRET || 'can not get jwt secret',
+        from_email: process.env.EMAIL || '123@gmail.com',
+        secret_email: process.env.SECRET_EMAIL || '1111111'
     },
     db:{
         host: 'localhost',
@@ -37,7 +41,9 @@ const config: Config = {
     app: {
       port: process.env.PORT || 5000,
       salt_rounds : process.env.SALT_ROUNDS || 'can not get salt rounds',
-        jwt_secret : process.env.JWT_SECRET || 'can not get jwt serect'
+      jwt_secret : process.env.JWT_SECRET || 'can not get jwt secret',
+      from_email: process.env.EMAIL || '123@gmail.com',
+      secret_email: process.env.SECRET_EMAIL || '1111111'
     },
     db:{
         host: 'localhost',
