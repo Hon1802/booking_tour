@@ -1,10 +1,15 @@
 API OF PROJECT
-1) Get tour by id: 
-Method: GET
-Param: tourId
-127.0.0.1:8080/v1/api/get-tour-by-id
-Sample: 127.0.0.1:8080/v1/api/get-tour-by-id/?tourId=66dd9d7edea32a959e16f014
-Response:
+## 1. Get Tour by ID
+
+**Method**: GET  
+
+**Endpoint**: `/v1/api/get-tour-by-id`  
+
+**Param**: tourId
+
+**Example**: 127.0.0.1:8080/v1/api/get-tour-by-id/?tourId=66dd9d7edea32a959e16f014
+
+**Response**:
 {
     "errCode": 200,
     "message": "Get tours successfully.",
@@ -37,12 +42,19 @@ Response:
         "phone": "100000"
     }
 }
-3) Get tour by number: 
-Method: GET
-127.0.0.1:8080/v1/api/get-tour-by-number/
-Param: count
+**/next**
+
+**2) Get tour by number**: 
+
+**Method**: GET
+
+**127.0.0.1:8080/v1/api/get-tour-by-number/**
+
+**Param**: count
+
 count if null, count = 30
-Response:
+
+**Response:**
 {
     "errCode": 200,
     "message": "Get tours successfully.",
@@ -127,13 +139,20 @@ Response:
         }
     }
 }
-3) Add new tour: 
-Method: POST
-127.0.0.1:8080/v1/api/admin/new-tour
-Param: count
-![image](https://github.com/user-attachments/assets/b4aa2f7d-1a85-42d7-8992-18375c74164d)
+**next**
 
-Response:
+
+**3) Add new tour**: 
+
+**Method**: POST
+
+**127.0.0.1:8080/v1/api/admin/new-tour**
+
+**Param**: count
+
+**![image](https://github.com/user-attachments/assets/b4aa2f7d-1a85-42d7-8992-18375c74164d)**
+
+**Response:**
 {
     "errCode": 200,
     "message": "Tour registered successfully."
