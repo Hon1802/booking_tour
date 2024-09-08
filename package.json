@@ -22,8 +22,10 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.6",
+    "@types/multer": "^1.4.12",
     "@types/node": "^20.11.16",
     "@types/nodemailer": "^6.4.15",
+    "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
     "cors": "^2.8.5",
@@ -45,8 +47,11 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
     "crypto": "^1.0.1",
+    "firebase": "^10.13.1",
+    "firebase-admin": "^12.4.0",
     "joi": "^17.13.3",
     "mongoose": "^8.5.4",
-    "nodemailer": "^6.9.14"
+    "nodemailer": "^6.9.14",
+    "uuid": "^10.0.0"
   }
 }

@@ -91,7 +91,8 @@ class AccessService {
               email: user.email,
               avatar: 'no_image',
               gender: user.gender,
-              id: user.id
+              id: user.id,
+              role: 'user'
             },
             publicKey: tokens?.accessToken,
             refreshToken: tokens?.refreshToken

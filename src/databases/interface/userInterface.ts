@@ -22,6 +22,16 @@ export interface Config {
       from_email: string;
       secret_email: string;
     };
+    firebase?: {
+      apiKey?: string,
+      authDomain?: string,
+      databaseURL?: string,
+      projectId?: string,
+      storageBucket?: string,
+      messagingSenderId?: string,
+      appId?: string,
+      measurementId?: string,
+    };
     db: {
       host: string;
       port: string;
