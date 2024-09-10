@@ -7,6 +7,7 @@ import database from './databases/connectDatabase';
 import { routes } from './routes';
 
 import currentConfig from './config';
+import checkToken from './auth';
 
 const port = currentConfig.app.port;
 
@@ -46,7 +47,7 @@ app.use(cors(allowedOrigins));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // check token
-// app.use(checkToken)
+app.use(checkToken)
 //routes
 app.use('/', routes);
 
