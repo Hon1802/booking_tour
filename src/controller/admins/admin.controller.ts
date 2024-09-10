@@ -27,7 +27,26 @@ class AdminController {
     }
 
     // update tour by id, public
-
+    // status
+    handlUpdateStatusTour = async(req: Request, res: Response, next: NextFunction)=>{
+        try{
+            const {status, idTour} = req.body;
+            if(!idTour){
+                return res.status(400).json({
+                    errCode: 400,
+                    message: 'Missing inputs value'
+                  });
+            }
+            const userData: TourData = await tourService.statusTour(status, idTour);
+           
+            return res.status(userData.status).json({
+                errCode: userData.errCode,
+                message: userData.errMessage,
+                });
+        } catch(error){
+            next(error)
+        }
+    }
     // support function, private
 
 }

@@ -85,7 +85,7 @@ export class Tour {
   @Transform(({ value }) => value || null)
   public endDay!: Date;
 
-  @Column({ type: 'tinyint', name: 'del_flg' })
+  @Column({ type: 'tinyint', name: 'delFlg' })
   @IsInt()
   @Min(0)
   @Max(1)

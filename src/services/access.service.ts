@@ -15,7 +15,8 @@ import { sentMail } from '../helpers/sentEmail';
 import { ObjectId } from 'mongodb';
 import { generatePassword } from '../helpers/common';
 // some const
-const jwt_secret = currentConfig.app.jwt_secret;
+const privateKey = currentConfig.app.privateKey;
+const publicKey = currentConfig.app.publicKey
 const salt_rounds = currentConfig.app.salt_rounds;
 const from_email = currentConfig.app.from_email;
 const secret_email = currentConfig.app.secret_email;
@@ -42,22 +43,21 @@ class AccessService {
         return userData;
       } else {
         const user = new User();
-        // create private key and public key
-        const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
-          modulusLength: 4096,
-          publicKeyEncoding: {
-            type: 'pkcs1',
-            format: 'pem'
-          },
-          privateKeyEncoding: {
-            type: 'pkcs1',
-            format: 'pem'
-          }
-        });
+        // // create private key and public key
+        // const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
+        //   modulusLength: 4096,
+        //   publicKeyEncoding: {
+        //     type: 'pkcs1',
+        //     format: 'pem'
+        //   },
+        //   privateKeyEncoding: {
+        //     type: 'pkcs1',
+        //     format: 'pem'
+        //   }
+        // });
 
         // create token pair
         const tokens = await createTokenPair({ userId: user.id?.toString(), email }, publicKey.toString(), privateKey);
-        // console.log('Created token Success:: ', tokens);
         // update infor
         user.name = fullName;
         user.address = address;
@@ -65,6 +65,8 @@ class AccessService {
         user.password = password;
         // user.password = await bcrypt.hash(password, parseInt(salt_rounds));
         user.gender = gender;
+        user.delFlg = 0;
+        user.userFlg = 1;
 
         // Kiểm tra validation của user
         const errors = await validate(user);
@@ -94,7 +96,7 @@ class AccessService {
               id: user.id,
               role: 'user'
             },
-            publicKey: tokens?.accessToken,
+            accessToken: tokens?.accessToken,
             refreshToken: tokens?.refreshToken
           };
         }
@@ -124,20 +126,21 @@ class AccessService {
         if (!!isMatch) {
           // create private key and public key
 
-          const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
-            modulusLength: 4096,
-            publicKeyEncoding: {
-              type: 'pkcs1',
-              format: 'pem'
-            },
-            privateKeyEncoding: {
-              type: 'pkcs1',
-              format: 'pem'
-            }
-          });
+          // const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
+          //   modulusLength: 4096,
+          //   publicKeyEncoding: {
+          //     type: 'pkcs1',
+          //     format: 'pem'
+          //   },
+          //   privateKeyEncoding: {
+          //     type: 'pkcs1',
+          //     format: 'pem'
+          //   }
+          // });
 
           // create token pair
           const roles = holderStore.userFlg?.toString().trim() === '1' ? 'user' : 'admin';
+          console.log(roles, 'l',holderStore )
           const tokens = await createTokenPair(
             { userId: holderStore.id?.toString(), role: roles, email },
             publicKey.toString(),
@@ -164,11 +167,11 @@ class AccessService {
               avatar: holderStore?.avatar,
               id: holderStore?.id
             },
-            publicKey: tokens?.accessToken,
+            accessToken: tokens?.accessToken,
             refreshToken: tokens?.refreshToken
           };
           if (holderStore.id) {
-            saveToken(holderStore?.id, tokens.refreshToken.toString(), tokens?.accessToken.toString());
+            saveToken(holderStore?.id, tokens.refreshToken.toString(), tokens.accessToken.toString());
           }
           return userData;
         } else {
@@ -209,7 +212,7 @@ class AccessService {
         // Set publicKey and refresh Token
         {
           $set: {
-            publicKey: '',
+            accessToken: '',
             refreshToken: ''
           }
         }

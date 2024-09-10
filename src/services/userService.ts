@@ -94,7 +94,7 @@ export const handleUserRegister = async (
               avata: 'no_image',
               id: user.id
             },
-            publicKey: accessToken,
+            accessToken: accessToken,
             refreshToken: refreshToken
           };
         } catch (error) {
@@ -152,10 +152,10 @@ export const handleUserLogin = async (email: string, password: string): Promise<
                 name: isExist?.name,
                 role: isExist.userFlg == 1 ? 'user' : 'admin',
                 email: isExist?.email,
-                avata: isExist?.avatar,
+                avatar: isExist?.avatar,
                 id: isExist?.id
             },
-        publicKey: accessToken,
+        accessToken: accessToken,
         refreshToken: refreshToken
         };
         // if(isExist.id)
@@ -232,17 +232,17 @@ export const handleUserId = async (id: string): Promise<UserData> => {
 export const checkTokenExist = async (token: string): Promise<boolean> => {
   // Implement your token existence check logic here
   // This is a placeholder, replace it with actual implementation
-  let isExist = await managerUser.findOne(User, { where: { access_token : token } });
+  let isExist = await managerUser.findOne(User, { where: { accessToken : token } });
   return !isExist;
 };
 // 
-export const saveToken = async (userId: ObjectId, refreshToken: string, publicKey: string): Promise<boolean> => {
+export const saveToken = async (userId: ObjectId, refreshToken: string, accessToken: string): Promise<boolean> => {
     const user = await managerUser.getMongoRepository(User).findOneAndUpdate(
         // Điều kiện tìm kiếm
         { _id: userId },
         // Cập nhật dữ liệu
         { $set: { 
-            publicKey: publicKey,
+            accessToken: accessToken,
             refreshToken: refreshToken
         } }
       );

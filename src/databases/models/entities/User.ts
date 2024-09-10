@@ -29,11 +29,11 @@ export class User {
   @MaxLength(50, { message: 'Name cannot be longer than 50 characters' })
   public name!: string;
 
-  @Column({ type: 'tinyint', name: 'user_flg' })
+  @Column({ type: 'tinyint', name: 'userFlg', default: 1 })
   @IsInt()
   @Min(0)
   @Max(2)
-  public userFlg: number = 1;
+  public userFlg!: number;
 
   @Column({ type: 'date', nullable: true, name: 'date_of_birth' })
   @IsDate()
@@ -55,11 +55,11 @@ export class User {
   @IsOptional()
   public urlAvatar!: string;
 
-  @Column({ type: 'tinyint', name: 'del_flg' })
+  @Column({ type: 'tinyint', name: 'delFlg', default: 0 })
   @IsInt()
   @Min(0)
   @Max(1)
-  public delFlg: number = 0;
+  public delFlg!: number;
 
   @Column({ type: 'string', nullable: true, name: 'gender' })
   @IsString()
@@ -74,7 +74,7 @@ export class User {
   @Column({ type: 'string', nullable: true, name: 'public_key' })
   @IsString()
   @IsOptional()
-  public publicKey!: string;
+  public accessToken!: string;
 
   @Column({ type: 'string', nullable: true, name: 'avatar' })
   @IsString()

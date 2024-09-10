@@ -11,6 +11,7 @@ import { logger } from '../log';
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
 import { storageData } from '../databases/firebase/firebase.init';
 import { validate } from 'class-validator';
+import { number } from 'joi';
 class ToursService {
 
     // upload image to firebase
@@ -61,10 +62,10 @@ class ToursService {
             }
 
             // Calculate the duration in days between startDay and endDay
-            const startDate = new Date(dataTour?.departureTime);
-            const endDate = new Date(dataTour?.returnTime);
-            const timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
-            const durationInDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+            // const startDate = new Date(dataTour?.departureTime);
+            // const endDate = new Date(dataTour?.returnTime);
+            // const timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
+            // const durationInDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
             if(dataTour.images)
             {
@@ -95,9 +96,9 @@ class ToursService {
             tour.phone = dataTour?.phoneContact;
             tour.priceAdult = dataTour?.priceAdult;
             tour.priceChild = dataTour?.priceChild;
-            tour.startDay = startDate;
-            tour.endDay = endDate;
-            tour.duration= durationInDays.toString();
+            // tour.startDay = startDate;
+            // tour.endDay = endDate;
+            tour.duration= dataTour?.durations;
             
             const errors = await validate(tour);
             if (errors.length > 0) {
@@ -208,5 +209,48 @@ class ToursService {
 
     // add image to tour
 
+    // update status tour
+
+    statusTour = async (status:string, id: string) : Promise<TourData> =>{
+        try{
+            let tourData : TourData;
+            const numericStatus = Number(status) || 0;
+            const tour = await managerTour.getMongoRepository(Tour).findOneAndUpdate(
+                // Điều kiện tìm kiếm
+                { _id: new ObjectId(id) },
+                // Cập nhật dữ liệu
+                { $set: { 
+                    delFlg: numericStatus
+                } }
+              );
+            if(tour)
+            {
+                tourData = {
+                    status: 200,
+                    errCode: 200,
+                    errMessage: `Get tours successfully with status ${numericStatus}.`,
+                    tourInfor: tour || {}
+                  };
+            }else{
+                tourData = {
+                    status: 400,
+                    errCode: 400,
+                    errMessage: `Not found`,
+                    tourInfor: tour || {}
+                  };
+            }
+            return tourData;
+        }catch (error)
+        {
+            const tourData = {
+                status: 500,
+                errCode: 500,
+                errMessage: 'Internal error'
+            };
+            console.log(error)
+            return tourData;
+        }
+
+    }
 }
 export default new ToursService();

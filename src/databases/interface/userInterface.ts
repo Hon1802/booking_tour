@@ -4,7 +4,7 @@ export interface UserData {
   errCode: number;
   errMessage: string | object;
   userInfor?: object; // optional property
-  publicKey?: string;
+  accessToken?: string;
   refreshToken?: string;
   gender?:string
 }
@@ -21,6 +21,8 @@ export interface Config {
       jwt_secret: string;
       from_email: string;
       secret_email: string;
+      privateKey: string;
+      publicKey: string
     };
     firebase?: {
       apiKey?: string,

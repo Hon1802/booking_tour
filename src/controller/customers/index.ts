@@ -24,7 +24,7 @@ export const handleRegister = async (req: Request, res: Response) => {
     errCode: userData.errCode,
     message: userData.errMessage,
     ...(userData.userInfor && { userInfo: userData.userInfor }),
-    ...(userData.publicKey && { accessToken: userData.publicKey }),
+    ...(userData.accessToken && { accessToken: userData.accessToken }),
     ...(userData.refreshToken && { refreshToken: userData.refreshToken })
   });
 };
