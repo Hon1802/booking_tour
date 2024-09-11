@@ -35,7 +35,10 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
   const adminUrls = [
     '/v1/api/admin/new-tour',
     '/v1/api/admin/get-tour-by-id/:tourid',
-    '/v1/api/admin/update-tour-status/'
+    '/v1/api/admin/update-tour-status/',
+    '/v1/api/admin/get-tour-by-number/:count',
+    '/v1/api/admin/get-tour-by-number/'
+
     ].map((url) => url.toLowerCase().trim());
 
      // List of URLs for admin access
