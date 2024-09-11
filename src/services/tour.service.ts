@@ -178,16 +178,16 @@ class ToursService {
                 take: count
             })
             // Chuyển đổi mảng tours thành đối tượng với id làm khóa
-            const toursObject = tours.reduce((acc, tour) => {
-                if(tour.id)
-                acc[tour.id.toString()] = tour;
-                return acc;
-            }, {} as { [key: string]: typeof tours[0] });
+            // const toursObject = tours.reduce((acc, tour) => {
+            //     if(tour.id)
+            //     acc[tour.id.toString()] = tour;
+            //     return acc;
+            // }, {} as { [key: string]: typeof tours[0] });
             tourData = {
                 status: 200,
                 errCode: 200,
                 errMessage: `Get tours successfully.`,
-                tourInfor: toursObject
+                tourInfor: tours
               };
             return tourData;
         }catch (error)
