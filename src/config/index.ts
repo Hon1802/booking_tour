@@ -20,6 +20,7 @@ const config: Config = {
         salt_rounds : process.env.SALT_ROUNDS || 'can not get salt rounds',
         jwt_secret : process.env.JWT_SECRET || 'can not get jwt secret',
         from_email: process.env.EMAIL || '123@gmail.com',
+        pass_app_email: process.env.PASS_MAIL_AUTH,
         secret_email: process.env.SECRET_EMAIL || '1111111',
         privateKey: privateKey, 
         publicKey: publicKey

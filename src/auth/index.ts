@@ -37,7 +37,8 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
     '/v1/api/admin/get-tour-by-id/:tourid',
     '/v1/api/admin/update-tour-status/',
     '/v1/api/admin/get-tour-by-number/:count',
-    '/v1/api/admin/get-tour-by-number/'
+    '/v1/api/admin/get-tour-by-number/',
+    '/v1/api/admin/update-tour-image'
 
     ].map((url) => url.toLowerCase().trim());
 
@@ -46,6 +47,9 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
   const userUrl = [
     '/v1/api/get-tour-by-number/', 
     '/v1/api/get-tour-by-id/:id',
+    '/v1/api/upload-avatar',
+    '/v1/api/delete-account'
+
     ].map((url) => url.toLowerCase().trim());
 
   // Check if URL is in bypass list

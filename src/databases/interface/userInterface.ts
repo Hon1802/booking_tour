@@ -1,8 +1,10 @@
 'use strict'
 export interface UserData {
   status: number;
-  errCode: number;
-  errMessage: string | object;
+  code?: number;
+  errCode?: number;
+  errMessage?: string | object;
+  message?: string | object;
   userInfor?: object; // optional property
   accessToken?: string;
   refreshToken?: string;
@@ -21,6 +23,7 @@ export interface Config {
       jwt_secret: string;
       from_email: string;
       secret_email: string;
+      pass_app_email?: string;
       privateKey: string;
       publicKey: string
     };

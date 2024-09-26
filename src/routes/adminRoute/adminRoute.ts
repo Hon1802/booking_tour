@@ -10,5 +10,8 @@ adminRoute.get('/get-tour-by-number', tourController.handleGetTourByNumber);
 
 adminRoute.get('/get-tour-by-id', tourController.handleGetTourById);
 
-adminRoute.post('/update-tour-status', adminController.handlUpdateStatusTour);
+adminRoute.post('/update-tour-status', adminController.handleUpdateStatusTour);
+
+adminRoute.patch('/update-tour-image', adminController.handleUpdateImageTour);
+
 
