@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+import currentConfig from '../config';
 
 export const sentMail = async (from: string, toMail: string, pass: string, content: string,subject:string ) => {
   // Create a transporter object using your email service
@@ -6,7 +7,7 @@ export const sentMail = async (from: string, toMail: string, pass: string, conte
     service: 'gmail', // or another service like 'smtp', 'yahoo', etc.
     auth: {
       user: from,
-      pass: 'fizr jlnv zkmo mudb'
+      pass: currentConfig.app.pass_app_email
     }
   });
 

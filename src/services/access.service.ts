@@ -119,8 +119,9 @@ class AccessService {
       // step 1: check email exist ??
       let userData: UserData;
       let holderStore = await managerUser.findOne(User, { where: { email } });
+      console.log(holderStore?.delFlg)
       // if exist return, not exist, continue to next step
-      if (holderStore) {
+      if (holderStore && holderStore.delFlg != -1) {
         let isMatch = await bcrypt.compare(password, holderStore.password);
 
         if (!!isMatch) {
@@ -164,7 +165,7 @@ class AccessService {
               name: holderStore?.name,
               role: holderStore.userFlg == 1 ? 'user' : 'admin',
               email: holderStore?.email,
-              avatar: holderStore?.avatar,
+              avatar: holderStore?.urlAvatar,
               id: holderStore?.id
             },
             accessToken: tokens?.accessToken,
@@ -247,6 +248,7 @@ class AccessService {
 
       // generate new password
       const newPass = generatePassword();
+      console.log(newPass)
 
       const passBcrypt = await bcrypt.hash(newPass, parseInt(salt_rounds));
       // sent
@@ -272,7 +274,7 @@ class AccessService {
       userData = {
         status: 200,
         errCode: 200,
-        errMessage: 'Log out success'
+        errMessage: `Password sender to ${email} `
       };
       return userData;
     } catch (error) {

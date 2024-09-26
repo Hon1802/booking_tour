@@ -1,7 +1,9 @@
 import currentConfig from "../../config";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getStorage, FirebaseStorage } from "firebase/storage";
+import { getStorage, FirebaseStorage, ref, uploadBytes, getDownloadURL, UploadMetadata, deleteObject } from "firebase/storage";
+import { v4 as uuidv4 } from "uuid";
+import { logger } from "../../log";
 const firebaseConfig = {
   apiKey: currentConfig.firebase?.apiKey,
   authDomain: currentConfig.firebase?.authDomain,
@@ -12,6 +14,7 @@ const firebaseConfig = {
   appId: currentConfig.firebase?.appId,
   measurementId: currentConfig.firebase?.measurementId,
 };
+
 
 class Database {
   // Declare the static instance property
@@ -50,6 +53,50 @@ class Database {
   public getStorageInstance(): FirebaseStorage {
     return this.storageData;
   }
+
+  public async uploadImage(file: Express.Multer.File): Promise<string> {
+    try {
+      const storageRef = ref(this.storageData, `images/users/${uuidv4()}-${file.originalname}`);
+      if (!file.buffer || file.buffer.length === 0) {
+        throw new Error("Tệp trống hoặc không hợp lệ");
+      }
+      const metadata = {
+        contentType: file.mimetype,  // Use file.mimetype to set the content type
+      }as UploadMetadata;
+      await uploadBytes(storageRef, file.buffer, { contentType: metadata.contentType });
+      const downloadURL = await getDownloadURL(storageRef);
+      logger.log("File available at:", downloadURL);
+      return downloadURL; // Return the public URL of the uploaded image
+    } catch (err) {
+      if (err instanceof Error) {
+        logger.error("Error uploading image:", err.message);
+      } else {
+        logger.error("Unknown error during image upload");
+      }
+      throw new Error("Image upload failed");
+    }
+  }
+  //delete
+  public async deleteImage(urlImage: string): Promise<boolean | string> {
+    try {
+      if (!urlImage) {
+        throw new Error("Link trống hoặc không hợp lệ");
+      }
+      const imageRef = ref(storageData, urlImage);
+      
+      await deleteObject(imageRef);
+
+      return true; // Return the public URL of the uploaded image
+    } catch (err) {
+      if (err instanceof Error) {
+        logger.error("Error uploading image:", err.message);
+      } else {
+        logger.error("Unknown error during image upload");
+      }
+      throw new Error("Image upload failed");
+    }
+  }
+
 }
 
 // Singleton instance of the Database class
