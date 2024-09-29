@@ -4,10 +4,14 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import database from './databases/connectDatabase';
+
+// redis
+
 import { routes } from './routes';
 
 import currentConfig from './config';
 import checkToken from './auth';
+import RedisConnection from './databases/redis/redis.init';
 
 const port = currentConfig.app.port;
 
@@ -31,8 +35,9 @@ const allowedOrigins = {
 async function startApp() {
   try {
     await database;
-    // Start your application logic
     console.log('Database initialized, starting application...');
+    const redis = RedisConnection.getInstance();
+    await redis.init(); 
   } catch (error) {
     console.error('Failed to initialize the database:', error);
     process.exit(1); // Exit if the database fails to initialize

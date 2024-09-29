@@ -2,7 +2,7 @@
 export interface UserData {
   status: number;
   code?: number;
-  errCode?: number;
+  errCode?: string | number;
   errMessage?: string | object;
   message?: string | object;
   userInfor?: object; // optional property

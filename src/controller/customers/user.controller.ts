@@ -82,6 +82,28 @@ class UserController {
 
     // get user by id
 
+    handleGetUserById= async(req: Request, res: Response, next: NextFunction)=>{
+      try{
+          const id = req.query.id as string;
+          console.log(`[P]::get uer with id ::`, id);
+          if(!id ){
+              return res.status(400).json({
+                  errCode: 400,
+                  message: 'Missing inputs value'
+                });
+          }
+          const userData: UserData = await userService.getUserById(id);
+        
+          return res.status(userData.status).json({
+              errCode: userData.errCode,
+              message: userData.errMessage,
+              ...(userData.userInfor && { userInfo: userData.userInfor }),
+              });
+      } catch(error){
+          next(error)
+      }
+    }
+
     //remove account 
     handleUpdateStatusUser = async(req: Request, res: Response, next: NextFunction)=>{
       try{
@@ -97,6 +119,29 @@ class UserController {
           return res.status(userData.status).json({
               errCode: userData.errCode,
               message: userData.errMessage,
+              });
+      } catch(error){
+          next(error)
+      }
+    }
+    // update user by id
+
+    handleUpdateUserById = async(req: Request, res: Response, next: NextFunction)=>{
+      try{
+          const id = req.query.id as string;
+          console.log(`[P]::update user with id ::`, id);
+          if(!id ){
+              return res.status(400).json({
+                  errCode: 400,
+                  message: 'Missing inputs value'
+                });
+          }
+          const userData: UserData = await userService.getUserById(id);
+        
+          return res.status(userData.status).json({
+              errCode: userData.errCode,
+              message: userData.errMessage,
+              ...(userData.userInfor && { userInfo: userData.userInfor }),
               });
       } catch(error){
           next(error)
