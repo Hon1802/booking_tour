@@ -1,5 +1,8 @@
 'use strict'
 
+// lodash
+import _ from 'lodash';
+
 import { AppDataSource } from '../databases/connectDatabase';
 const managerUser = AppDataSource.mongoManager;
 import { User } from '../databases/models/entities/User';
@@ -13,7 +16,56 @@ import { validate } from 'class-validator';
 import { number } from 'joi';
 import { UserData } from '../databases/interface/userInterface';
 import bcrypt from 'bcrypt';
+import errorCodes from '../common/errorCode/errorCodes';
 class UsersService {
+    getUserById = async (id: string) : Promise<UserData> => {
+        try {
+            let userData : UserData;
+
+            if(!ObjectId.isValid(id)){
+                userData = {
+                    status: 400,
+                    errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
+                    errMessage: errorCodes.RESPONSE.ID_NOT_SUPPORT.message
+                };
+                logger.error('error id')
+                return userData;
+            }
+            let holderStore = await managerUser.findOne(User, { where: { _id: new ObjectId(id) } });
+            if(holderStore)
+            {
+                if(holderStore.userFlg && holderStore.userFlg === 1)
+                {
+                    _.set(holderStore, 'role', 'user');
+                }
+
+                // Xóa trường 'password' trong holderStore
+                const holderStoreWithoutPassword = _.omit(holderStore, ['password', 'delFlg', 'gender','userFlg']);
+                
+                userData = {
+                    status: 200,
+                    errCode: 200,
+                    errMessage: 'Find user',
+                    userInfor: holderStoreWithoutPassword || holderStore,
+                };
+            } else{
+                userData = {
+                    status: 400,
+                    errCode: 400,
+                    errMessage: `Not found user had id is ${id}`,
+                };
+            }
+            return userData;
+        } catch (error)
+        {
+            const userData = {
+                status: 500,
+                errCode: 500,
+                errMessage: 'Internal error'
+            };
+            return userData;
+        }
+    }
 
     // upload image by id
     updateImage = async (urlAvatar:string, id: string) : Promise<UserData> =>{
@@ -158,6 +210,21 @@ class UsersService {
                 errMessage: 'Internal error'
             };
             return userData;
+        }
+    }
+
+    checkEmailExist = async (email: string) : Promise<boolean> => {
+        try {            
+            let holderStore = await managerUser.findOne(User, { where: { email} });
+            if(holderStore)
+            {
+                return true;
+            } else{                
+                return false;
+            }
+        } catch (error)
+        {
+            return false;
         }
     }
 }

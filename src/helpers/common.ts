@@ -21,3 +21,4 @@ export function generatePassword(length: number = 12): string {
     // return password;
     return password.split('').sort(() => Math.random() - 0.5).join('');
 }
+
