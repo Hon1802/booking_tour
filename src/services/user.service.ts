@@ -123,7 +123,7 @@ class UsersService {
         }
 
         // Xóa trường 'password' trong holderStore
-        const holderStoreWithoutPassword = _.omit(holderStore, ['password', 'delFlg', 'gender', 'userFlg']);
+        const holderStoreWithoutPassword = _.omit(holderStore, ['password', 'delFlg', 'userFlg']);
 
         userData = {
           status: 200,
