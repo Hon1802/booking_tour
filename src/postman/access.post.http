@@ -1,0 +1,25 @@
+@Url_dev = 127.0.0.1:3001/api
+POST {{Url_dev}}/customer/register HTTP/1.1
+Content-Type: application/json
+{
+    "fullName": "Nguyen Van A",
+    "address": "123 le loi",
+    "email": "test123@gmail.com",
+    "password": "12345"
+}
+
+# response
+{
+    "errCode": 200,
+    "message": "User registered successfully.",
+    "userInfo": {
+        "name": "NguyenVanA",
+        "address": "123 le loi",
+        "email": "test123@gmail.com",
+        "avata": "no_image",
+        "id": "66ca0dcc8f201b2de69fc641"
+    },
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjY2Y2EwZGNjOGYyMDFiMmRlNjlmYzY0MSIsIm5hbWUiOiJOZ3V5ZW5WYW5BIiwiZW1haWwiOiIzMjIzMjRAZ21haWwuY29tIiwicm9sZSI6InVzZXIifSwiaWF0IjoxNzI0NTE3ODM2LCJleHAiOjE3MjQ1MjE0MzZ9.xqFxjheM39rICWsNkVUCL51tClB4dCX43jpihBfp-Fg",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJOZ3V5ZW5WYW5BIiwiZW1haWwiOiIzMjIzMjRAZ21haWwuY29tIiwicm9sZSI6InVzZXIifSwiaWF0IjoxNzI0NTE3ODM2LCJleHAiOjE3MjcxMDk4MzZ9.QOx6rtnlXW1lmVfH-cUC3TIhIVKDvPRebIT924ZlzCg"
+}
+###
