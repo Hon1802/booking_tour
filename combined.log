@@ -1,0 +1,313 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T09:42:45.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T09:42:46.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T09:42:54.541Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T09:42:55.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:42:57.099Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:42:57.155Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:42:59.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T09:43:24.678Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:44:26.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:44:26.573Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:44:28.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:44:51.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:44:51.590Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:44:52.637Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-10-07T09:45:18.007Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T09:45:38.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T09:45:39.307Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:45:40.831Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:45:40.898Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:46:15.151Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T09:46:16.224Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:46:27.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:46:27.906Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:48:36.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T09:48:58.905Z"}
+{"email":"test111.tk4@gmail.com","exp":1728467347,"iat":1728294547,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T09:49:07.692Z","userId":"66fd665a21bfc7cf66a524ed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:50:16.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:50:16.746Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:53:20.830Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T09:53:49.088Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T09:53:49.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:53:52.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:53:52.473Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:53:53.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T09:54:19.225Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-10-07T09:55:04.050Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T09:55:20.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T09:55:21.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:55:23.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:55:23.983Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:55:25.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T09:55:51.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T09:56:44.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T09:56:45.335Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:56:46.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:56:46.950Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:56:48.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T09:57:14.627Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T09:58:51.180Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T09:58:51.747Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T09:59:24.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T09:59:24.902Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T09:59:25.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T09:59:26.051Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:59:27.436Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T09:59:54.627Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:00:49.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:00:49.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:00:52.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:00:52.271Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:00:53.638Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:01:19.303Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:05:40.299Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:05:40.904Z"}
+{"level":"\u001b[31minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:06:04.216Z"}
+{"level":"\u001b[31minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:06:04.959Z"}
+{"level":"\u001b[33minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:06:15.145Z"}
+{"level":"\u001b[33minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:06:15.786Z"}
+{"level":"\u001b[35minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:06:25.802Z"}
+{"level":"\u001b[35minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:06:26.291Z"}
+{"level":"\u001b[36minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:06:35.059Z"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:06:35.635Z"}
+{"level":"\u001b[34minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:06:45.343Z"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:06:45.797Z"}
+{"level":"\u001b[90minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:06:56.130Z"}
+{"level":"\u001b[90minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:06:56.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:07:10.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:07:17.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:07:18.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:07:23.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:07:23.140Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:07:24.370Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:07:47.885Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:09:16.545Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:09:17.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:09:40.871Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:09:41.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:09:45.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:09:45.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"File available at:","timestamp":"2024-10-07T10:09:46.894Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:10:11.047Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:10:49.605Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:10:49.659Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"File available at:","timestamp":"2024-10-07T10:10:50.720Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:12:22.120Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:12:22.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:12:30.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:12:30.962Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:12:38.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:12:38.882Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-10-07T10:12:38.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:12:39.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:12:43.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:12:44.055Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"File available at:","timestamp":"2024-10-07T10:12:45.035Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:13:08.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:14:30.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:14:31.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:15:00.656Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:15:17.206Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:15:17.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:15:18.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:15:18.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"File available at:","timestamp":"2024-10-07T10:15:19.669Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:15:19.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:15:47.345Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:16:21.039Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:16:21.744Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:16:30.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:16:30.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"File available at:","timestamp":"2024-10-07T10:16:31.051Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:16:31.336Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:16:51.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:17:59.997Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:18:00.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:18:02.237Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:18:02.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"File available at:","timestamp":"2024-10-07T10:18:03.282Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:18:30.137Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:23:07.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:23:08.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:23:37.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:23:53.035Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:23:53.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:24:23.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:24:33.625Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:24:34.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:25:03.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:26:19.670Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:26:20.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:26:27.963Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:26:28.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:26:57.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:26:57.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:27:36.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:27:37.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-up","timestamp":"2024-10-07T10:27:57.162Z"}
+{"email":"test123.tk4@gmail.com","exp":1728469677,"iat":1728296877,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","timestamp":"2024-10-07T10:27:57.240Z"}
+{"accessToken":null,"address":"123 le loi","avatar":null,"createdAt":"2024-10-07T10:27:57.308Z","createdBy":null,"dateOfBirth":null,"delFlg":0,"deletedAt":null,"deletedBy":null,"email":"test123.tk4@gmail.com","gender":null,"id":"6703b7ad531f319988c50949","level":"\u001b[32minfo\u001b[39m","message":"User saved:","name":"Admin Web","password":"$2b$10$cL4ZMa5Virr9gnLjgyKM2up2JnGO.mUQzKe/DgHLY06CTl92aFu96","phone":null,"refreshToken":null,"timestamp":"2024-10-07T10:27:57.370Z","updatedAt":"2024-10-07T10:27:57.308Z","updatedBy":null,"urlAvatar":null,"userFlg":1}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:28:06.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:30:04.132Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:30:05.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:30:28.777Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:30:29.231Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:30:56.211Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:30:56.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-up","timestamp":"2024-10-07T10:30:58.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-up","timestamp":"2024-10-07T10:30:59.569Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-up","timestamp":"2024-10-07T10:31:03.344Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:31:42.762Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/common/verification-email-exist","timestamp":"2024-10-07T10:31:48.579Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::request Otp exist:: email : ","timestamp":"2024-10-07T10:31:48.581Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:31:48.980Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:32:19.362Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:32:51.778Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:32:52.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/common/verification-email-exist","timestamp":"2024-10-07T10:32:54.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::request Otp exist:: email : ","timestamp":"2024-10-07T10:32:54.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/common/confirm-otp-email","timestamp":"2024-10-07T10:33:17.228Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::confirm Otp:: email : ","timestamp":"2024-10-07T10:33:17.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:33:24.557Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:33:48.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:33:49.074Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/common/confirm-otp-email","timestamp":"2024-10-07T10:33:49.090Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::confirm Otp:: email : ","timestamp":"2024-10-07T10:33:49.094Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-up","timestamp":"2024-10-07T10:33:59.454Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728470039,"iat":1728297239,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","timestamp":"2024-10-07T10:33:59.726Z"}
+{"accessToken":null,"address":"123 le loi","avatar":null,"createdAt":"2024-10-07T10:33:59.803Z","createdBy":null,"dateOfBirth":null,"delFlg":0,"deletedAt":null,"deletedBy":null,"email":"test1233.tk4@gmail.com","gender":null,"id":"6703b917fca03ec00464b6c2","level":"\u001b[32minfo\u001b[39m","message":"User saved:","name":"Admin Web","password":"$2b$10$jYm1bl5FMXoDYrHrQCHz1.C4AV2E7QZQvDk21THF2BFj7XgxB.54i","phone":null,"refreshToken":null,"timestamp":"2024-10-07T10:33:59.871Z","updatedAt":"2024-10-07T10:33:59.803Z","updatedBy":null,"urlAvatar":null,"userFlg":1}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-up","timestamp":"2024-10-07T10:34:03.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:34:23.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:34:24.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T10:34:29.104Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728470069,"iat":1728297269,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T10:34:29.249Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:34:29.620Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:34:38.290Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:34:38.587Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:34:46.589Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:34:46.639Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"File available at:","timestamp":"2024-10-07T10:34:47.997Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:34:48.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:34:53.985Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:36:01.399Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:36:02.276Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:36:20.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:36:21.683Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:36:31.568Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:36:31.844Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:36:31.898Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:36:33.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:37:42.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:37:43.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:37:56.174Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:37:56.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:37:59.894Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:38:00.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:38:07.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:38:07.314Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:38:08.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:38:12.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:39:44.822Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:39:45.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:39:51.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:39:51.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:39:56.778Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:39:57.078Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:40:00.545Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:40:00.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:40:03.438Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:40:03.743Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:40:12.310Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:40:12.360Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:40:14.969Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T10:40:52.965Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728470453,"iat":1728297653,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T10:40:53.101Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:41:30.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:41:30.739Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error delete image:","timestamp":"2024-10-07T10:41:32.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:41:56.271Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:41:56.963Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:42:07.105Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id","timestamp":"2024-10-07T10:42:07.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:42:13.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:42:13.082Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error delete image:","timestamp":"2024-10-07T10:42:14.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:42:26.436Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T10:42:29.491Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728470549,"iat":1728297749,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T10:42:29.615Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:42:29.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:42:34.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:42:34.582Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:43:05.007Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:43:05.055Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error delete image:","timestamp":"2024-10-07T10:43:06.429Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:43:57.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:43:58.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:43:59.359Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:43:59.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:44:06.659Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:44:06.707Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:44:14.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:44:14.700Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:44:27.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:44:44.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T10:44:48.669Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728470688,"iat":1728297888,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T10:44:48.802Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:45:25.957Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T10:45:32.433Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728470732,"iat":1728297932,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T10:45:32.561Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:45:32.902Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:45:38.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:45:39.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/upload-avatar","timestamp":"2024-10-07T10:47:56.108Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::update avatar::","timestamp":"2024-10-07T10:47:56.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:48:12.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:48:12.979Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/log-out","timestamp":"2024-10-07T10:50:40.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T10:50:44.610Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728471044,"iat":1728298244,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T10:50:44.733Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:50:44.763Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:50:51.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:50:52.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T10:54:44.262Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728471284,"iat":1728298484,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T10:54:44.389Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=66fd665a21bfc7cf66a524ed","timestamp":"2024-10-07T10:54:54.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:56:08.428Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T10:56:09.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=66fd665a21bfc7cf66a524ed","timestamp":"2024-10-07T10:56:10.342Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:56:38.567Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:56:54.342Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T10:56:58.417Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728471418,"iat":1728298618,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T10:56:58.553Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:56:58.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:57:02.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:57:03.225Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/update-user-by-id","timestamp":"2024-10-07T10:57:32.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T10:57:33.498Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:57:33.794Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T10:57:50.315Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728471470,"iat":1728298670,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T10:57:50.444Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T10:58:03.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=66fd665a21bfc7cf66a524ed","timestamp":"2024-10-07T10:58:06.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=66fd665a21bfc7cf66a524ed","timestamp":"2024-10-07T10:58:30.085Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=66fd665a21bfc7cf66a524ed","timestamp":"2024-10-07T10:58:58.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T10:59:49.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T11:00:54.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-07T11:00:55.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:01:07.056Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id","timestamp":"2024-10-07T11:01:07.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-07T11:01:13.970Z"}
+{"email":"test1233.tk4@gmail.com","exp":1728471674,"iat":1728298874,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-10-07T11:01:14.102Z","userId":"6703b917fca03ec00464b6c2"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:01:14.445Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:01:16.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:01:21.444Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:01:21.746Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:01:24.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T11:01:25.119Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/update-user-by-id","timestamp":"2024-10-07T11:01:37.895Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-07T11:01:38.190Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:01:38.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-07T11:02:08.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:02:23.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:04:10.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-10-07T11:08:33.108Z"}

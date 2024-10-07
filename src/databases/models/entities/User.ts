@@ -35,7 +35,7 @@ export class User {
   @Max(2)
   public userFlg!: number;
 
-  @Column({ type: 'date', nullable: true, name: 'date_of_birth' })
+  @Column({ type: 'date', nullable: true, name: 'dateOfBirth' })
   @IsDate()
   @IsOptional()
   public dateOfBirth!: Date;

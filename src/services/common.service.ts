@@ -17,7 +17,7 @@ class CommonService{
           // step 1: check email exist ??
           let responseData: ResponseData;
           let redis_name = 'OTP' + email;
-          let can_edit_email = 'EDIT'+email;
+          // let can_edit_email = 'EDIT'+email;
 
           const emailExists = await userService.checkEmailExist(email); 
 
@@ -44,7 +44,6 @@ class CommonService{
             return responseData;
           }
           await redis.setValue(redis_name, newOTP , ttl);
-          await redis.setValue(can_edit_email, email, ttl);
           // sent
           sentOTPMail(
             from_email,
@@ -75,7 +74,7 @@ class CommonService{
           // step 1: check email exist ??
           let responseData: ResponseData;
           let redis_name = 'OTP' + email;
-          let can_edit_email = 'EDIT'+email;
+          // let can_edit_email = 'EDIT'+email;
           const emailExists = await userService.checkEmailExist(email); 
 
           if (emailExists) {
@@ -101,7 +100,7 @@ class CommonService{
             return responseData;
           }
           await redis.setValue(redis_name, newOTP , ttl);
-          await redis.setValue(can_edit_email, email, ttl);
+          // await redis.setValue(can_edit_email, email, ttl);
           // sent
           sentOTPMail(
             from_email,
@@ -132,16 +131,17 @@ class CommonService{
           // step 1: check email exist ??
           let responseData: ResponseData;
           let redis_name = 'OTP' + email;
-          const emailExists = await userService.checkEmailExist(email); 
+          let can_edit_email = 'EDIT'+email;
+          // const emailExists = await userService.checkEmailExist(email); 
 
-            if (!emailExists) {
-                responseData = {
-                    status: 400,
-                    errCode: 400,
-                    errMessage: `${email} is not exist `
-                  };
-                  return responseData;
-            }
+          // if (!emailExists) {
+          //     responseData = {
+          //         status: 400,
+          //         errCode: 400,
+          //         errMessage: `${email} is not exist `
+          //       };
+          //       return responseData;
+          // }
 
           // generate new OTP
           const redis = RedisConnection.getInstance();
@@ -155,9 +155,12 @@ class CommonService{
               };
             return responseData;
           }
-          const confirmOTP = checkRedis?.value?.toString().trim() === code.toString().trim();
+          const confirmOTP = checkRedis?.value?.toString().trim() === code.toString().trim(); 
           if(confirmOTP){
-                await redis.deleteValue(redis_name)
+              await redis.deleteValue(redis_name)
+              const ttl: number = 5*60
+              await redis.setValue(can_edit_email, email, ttl);
+
               responseData = {
                 status: 200,
                 errCode: 200,

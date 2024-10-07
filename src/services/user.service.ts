@@ -66,9 +66,9 @@ class UsersService {
           }
         } else {
           userData = {
-            status: 401,
-            errCode: 401,
-            errMessage: 'Unauthorized - Incorrect old password'
+            status: 400,
+            errCode: 400,
+            errMessage: 'Bad request - Incorrect old password'
           };
           return userData;
         }
@@ -117,6 +117,7 @@ class UsersService {
         return userData;
       }
       let holderStore = await managerUser.findOne(User, { where: { _id: new ObjectId(id) } });
+      console.log(holderStore)
       if (holderStore) {
         if (holderStore.userFlg && holderStore.userFlg === 1) {
           _.set(holderStore, 'role', 'user');
@@ -167,7 +168,7 @@ class UsersService {
       });
       const count = users.length;
       console.log(count)
-      if(count > 0) {
+      if(count > 1) {
         userData = {
           status: 409,
           errCode: 409,
@@ -244,7 +245,7 @@ class UsersService {
   updateImage = async (urlAvatar: string, id: string): Promise<UserData> => {
     try {
       let userData: UserData;
-
+      console.log(urlAvatar)
       if (!ObjectId.isValid(id)) {
         const userData = {
           status: 500,
@@ -263,14 +264,11 @@ class UsersService {
             urlAvatar: urlAvatar
           }
         },
-        { returnDocument: 'after' }
+        // { returnDocument: 'after' }
       );
-      console.log('32');
 
       if (user && user.value) {
-        console.log(user);
         const imageUrl = await instanceStorageFireball.deleteImage(user.value?.urlAvatar);
-
         userData = {
           status: 200,
           code: 200,
@@ -288,8 +286,7 @@ class UsersService {
         return userData;
       } else {
         const imageUrl = await instanceStorageFireball.deleteImage(urlAvatar);
-        console.log(imageUrl);
-        // logger.info(`Remove image in link ${urlAvatar}`)
+
         userData = {
           status: 400,
           errCode: 400,

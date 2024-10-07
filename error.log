@@ -1,0 +1,21 @@
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:42:59.162Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:44:28.392Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:44:52.637Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:46:15.151Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:48:36.175Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:53:20.830Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:53:53.807Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:55:25.164Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:56:48.278Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T09:59:27.436Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:00:53.638Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:07:24.370Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-10-07T10:12:38.918Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:15:19.941Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:16:31.336Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:34:48.051Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:36:33.511Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error uploading image:","timestamp":"2024-10-07T10:38:08.533Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error delete image:","timestamp":"2024-10-07T10:41:32.156Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error delete image:","timestamp":"2024-10-07T10:42:14.528Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error delete image:","timestamp":"2024-10-07T10:43:06.429Z"}

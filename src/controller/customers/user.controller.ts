@@ -51,14 +51,13 @@ class UserController {
                     const imageUrl = await instanceStorageFireball.uploadImage(file);
                     imageUrls.push(imageUrl);
                   } catch (uploadErr) {
-                    console.error('Error uploading image to Firebase:', uploadErr);
+                    console.log('Error uploading image to Firebase:', uploadErr);
                     return res.status(500).json({
                       errCode: 500,
                       message: 'Error uploading image to Firebase.',
                     });
                   }
                 }
-                console.log('1')
                 const userData: UserData = await userService.updateImage(imageUrls[0],id);
         
                 return res.status(userData.status).json({

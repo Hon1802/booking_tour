@@ -65,15 +65,15 @@ class Database {
       }as UploadMetadata;
       await uploadBytes(storageRef, file.buffer, { contentType: metadata.contentType });
       const downloadURL = await getDownloadURL(storageRef);
-      logger.log("File available at:", downloadURL);
       return downloadURL; // Return the public URL of the uploaded image
     } catch (err) {
       if (err instanceof Error) {
-        logger.error("Error uploading image:", err.message);
+        logger.error("Error uploading image:", err.message);        
       } else {
-        logger.error("Unknown error during image upload");
+        logger.error("Unknown error during image upload",);
       }
-      throw new Error("Image upload failed");
+      return '';
+      // throw new Error("Image upload failed");
     }
   }
   //delete
@@ -88,12 +88,10 @@ class Database {
 
       return true; // Return the public URL of the uploaded image
     } catch (err) {
-      if (err instanceof Error) {
-        logger.error("Error uploading image:", err.message);
-      } else {
-        logger.error("Unknown error during image upload");
-      }
-      throw new Error("Image upload failed");
+      
+      logger.error("Error delete image:", err);
+      
+      return '';
     }
   }
 
