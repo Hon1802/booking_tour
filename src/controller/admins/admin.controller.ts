@@ -3,6 +3,7 @@ import { Request, Response, NextFunction } from 'express';
 import { TourData } from '../../databases/interface/tourInterface';
 import tourService from '../../services/tour.service';
 import { multerFile, upload } from '../../helpers/image';
+import { StatusTourEnum } from '../../databases/interface/common';
 // import { File } from 'multer';
 interface MulterRequest extends Request {
     file?: Express.Multer.File;  // Nếu chỉ upload 1 file
@@ -16,19 +17,39 @@ class AdminController {
         try{
             const data = req.body;
            
-            const userData: TourData = await tourService.tourNew(data);
+            const tourData: TourData = await tourService.tourNew(data);
            
-            return res.status(userData.status).json({
-                errCode: userData.errCode,
-                message: userData.errMessage,
+            return res.status(tourData.status).json({
+                errCode: tourData.errCode,
+                message: tourData.errMessage,
+                data: tourData.tourInfor || 'null',
                 });
         } catch(error){
             next(error)
         }
     }
 
-    // update tour by id, public
-
+    // update tour by id
+    handleUpdateTourById = async(req: Request, res: Response, next: NextFunction)=>{
+        try{
+            const data = req.body;
+            if(!data.idTour){
+                return res.status(400).json({
+                    errCode: 400,
+                    message: 'Missing inputs value'
+                  });
+            }
+            const tourData: TourData = await tourService.updateTourId(data);
+           
+            return res.status(tourData.status).json({
+                errCode: tourData.errCode,
+                message: tourData.errMessage,
+                data: tourData.tourInfor
+                });
+        } catch(error){
+            next(error)
+        }
+    }
     // image
     handleUpdateImageTour = async(req: Request, res: Response, next: NextFunction)=>{
         try{
@@ -68,6 +89,9 @@ class AdminController {
     handleUpdateStatusTour = async(req: Request, res: Response, next: NextFunction)=>{
         try{
             const {status, idTour} = req.body;
+            if (![StatusTourEnum.ACTIVE.toString(), StatusTourEnum.INACTIVE.toString()].includes(status)) {
+                return res.status(400).json({ error: 'Invalid status value' });
+            }
             if(!idTour){
                 return res.status(400).json({
                     errCode: 400,
