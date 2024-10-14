@@ -12,6 +12,9 @@ import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
 import { storageData } from '../databases/firebase/firebase.init';
 import { validate } from 'class-validator';
 import { number } from 'joi';
+
+// lodash
+import _ from 'lodash';
 class ToursService {
 
     // upload image to firebase
@@ -47,6 +50,21 @@ class ToursService {
             let tourData : TourData;
             const tour = new Tour();
 
+            if(!dataTour.name)
+            {
+                tourData = {
+                    status: 400,
+                    errCode: 400,
+                    errMessage: {
+                        "property": "Name",
+                        "constraints": {
+                            "Unknown": "Name of tour is required"
+                        }
+                    }
+                  };
+                return tourData;
+            }
+
             if (isNaN(Number(dataTour.priceAdult)) || isNaN(Number(dataTour.priceChild))) {
                 tourData = {
                     status: 400,
@@ -67,20 +85,27 @@ class ToursService {
             // const timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
             // const durationInDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
-            if(dataTour.images)
-            {
-                const uploadedImages = dataTour?.images.map( async (item:any) => {
-                    const urlImage = await this.handleUploadImg(item);
-                    console.log(urlImage)
-                    return urlImage;
-                });
-                uploadedImages();
-            }
+            // if(dataTour.images)
+            // {
+            //     const uploadedImages = dataTour?.images.map( async (item:any) => {
+            //         const urlImage = await this.handleUploadImg(item);
+            //         console.log(urlImage)
+            //         return urlImage;
+            //     });
+            //     uploadedImages();
+            // }
             tour.name = dataTour?.name;
             tour.description = dataTour?.description;
             tour.location = dataTour?.location;
-            tour.regulation = dataTour?.regulation;
             tour.address = dataTour?.address;
+            tour.phone = dataTour?.phone;
+            tour.duration= dataTour?.duration;
+            tour.regulation = dataTour?.regulation || 'null';
+            tour.plan = dataTour?.plan || '';
+            tour.priceAdult = dataTour?.priceAdult;
+            tour.priceChild = dataTour?.priceChild;
+            tour.delFlg = 0;
+            tour.buySlot = 0;
             tour.images = [
                 {
                     urlImage : 'https://achautravel.com/upload/images/1689131743.jpeg'
@@ -88,18 +113,7 @@ class ToursService {
                     urlImage : 'https://asiaholiday.com.vn/pic/Tour/Tour%20Du%20lich%20Ha%20Long%20(5)_2261_HasThumb.jpg'
                 }
             ];
-            tour.plan = [{
-                day: '',
-                time: '',
-                description: ''
-            }];
-            tour.phone = dataTour?.phoneContact;
-            tour.priceAdult = dataTour?.priceAdult;
-            tour.priceChild = dataTour?.priceChild;
-            // tour.startDay = startDate;
-            // tour.endDay = endDate;
-            tour.duration= dataTour?.durations;
-            
+
             const errors = await validate(tour);
             if (errors.length > 0) {
                 tourData = {
@@ -111,12 +125,23 @@ class ToursService {
                   }))
                 };
               } else {
-                await managerTour.save(tour);
+                const newTour = await managerTour.save(tour);
                 logger.info('Tour saved:');
+                const formatTour = _.omit(newTour, [
+                    'createdAt', 
+                    'updatedAt', 
+                    'startDay', 
+                    'endDay', 
+                    'createdBy', 
+                    'updatedBy', 
+                    'deletedBy', 
+                    'deletedAt'
+                ]);
                 tourData = {
                     status: 200,
                     errCode: 200,
                     errMessage: 'Tour registered successfully.',
+                    tourInfor: formatTour
                   };
               }
             return tourData;
@@ -136,7 +161,10 @@ class ToursService {
         try{
             let tourData : TourData;
             const tour = await managerTour.getMongoRepository(Tour).findOne({
-                where: { _id: new ObjectId(id) }
+                where: { 
+                    _id: new ObjectId(id),
+                    delFlg: 0
+                 }
               });
             if(tour)
             {
@@ -209,6 +237,157 @@ class ToursService {
 
     // add image to tour
 
+    // update tour by id
+    updateTourId = async (
+        dataTour: any
+    ): Promise<TourData> =>{
+        try{
+            let tourData : TourData;
+
+            // check tour
+            const tourHolder = await managerTour.getMongoRepository(Tour).findOne({
+                where: { 
+                    _id: new ObjectId(dataTour.idTour),
+                    delFlg: 0
+                 }
+              });
+            if(!tourHolder){
+                tourData = {
+                    status: 400,
+                    errCode: 400,
+                    errMessage: {
+                        "property": "id",
+                        "constraints": {
+                            "isNotEmpty": `No tour with id ${dataTour.idTour} `
+                        }
+                    }
+                  };
+                return tourData;
+            }
+            // 
+            
+            const tour = new Tour();
+            if(dataTour.priceAdult){
+                if (isNaN(Number(dataTour.priceAdult))) {
+                    tourData = {
+                        status: 400,
+                        errCode: 400,
+                        errMessage: {
+                            "property": "price Adult and price Child",
+                            "constraints": {
+                                "isNotEmpty": "Price adult is contain [0,1,2,3,4,6,7,8,9]"
+                            }
+                        }
+                      };
+                    return tourData;
+                }
+            }
+            if(dataTour.priceChild){
+                if (isNaN(Number(dataTour.priceChild))) {
+                    tourData = {
+                        status: 400,
+                        errCode: 400,
+                        errMessage: {
+                            "property": "price Adult and price Child",
+                            "constraints": {
+                                "isNotEmpty": "Price adult is contain [0,1,2,3,4,6,7,8,9]"
+                            }
+                        }
+                      };
+                    return tourData;
+                }
+            }
+
+            tour.name = dataTour?.name || tourHolder.name;
+            tour.description = dataTour?.description || tourHolder.description;
+            tour.location = dataTour?.location || tourHolder.location;
+            tour.address = dataTour?.address || tourHolder.address;
+            tour.phone = dataTour?.phone || tourHolder.phone;
+            tour.duration= dataTour?.duration || tourHolder.duration;
+            tour.regulation = dataTour?.regulation || tourHolder.regulation || 'null';
+            tour.plan = dataTour?.plan || tourHolder.plan || '';
+            tour.priceAdult = dataTour?.priceAdult || tourHolder.priceAdult;
+            tour.priceChild = dataTour?.priceChild || tourHolder.priceChild;
+            tour.delFlg = 0;
+            tour.buySlot = tourHolder.buySlot || 0;
+            tour.images = tourHolder.images || [
+                {
+                    urlImage : 'https://achautravel.com/upload/images/1689131743.jpeg'
+                },{
+                    urlImage : 'https://asiaholiday.com.vn/pic/Tour/Tour%20Du%20lich%20Ha%20Long%20(5)_2261_HasThumb.jpg'
+                }
+            ];
+
+            const errors = await validate(tour);
+            if (errors.length > 0) {
+                tourData = {
+                  status: 400,
+                  errCode: 400,
+                  errMessage: errors.map((err) => ({
+                    property: err.property,
+                    constraints: err.constraints
+                  }))
+                };
+              } else {
+                const updateTour = await managerTour.getMongoRepository(Tour).findOneAndUpdate(
+                    // Điều kiện tìm kiếm
+                    { _id: new ObjectId(dataTour.idTour) },
+                    // Cập nhật dữ liệu
+                    { $set: { 
+                        ...tourHolder, 
+                        name: dataTour?.name || tourHolder.name,
+                        description: dataTour?.description || tourHolder.description,
+                        location: dataTour?.location || tourHolder.location,
+                        address: dataTour?.address || tourHolder.address,
+                        phone: dataTour?.phone || tourHolder.phone,
+                        duration: dataTour?.duration || tourHolder.duration,
+                        regulation: dataTour?.regulation || tourHolder.regulation || 'null',
+                        plan: dataTour?.plan || tourHolder.plan || '',
+                        priceAdult: dataTour?.priceAdult || tourHolder.priceAdult,
+                        priceChild: dataTour?.priceChild || tourHolder.priceChild,
+                        delFlg: 0,
+                        buySlot: tourHolder.buySlot || 0,
+                        images: dataTour?.images || tourHolder.images || [
+                            {
+                                urlImage: 'https://achautravel.com/upload/images/1689131743.jpeg'
+                            },
+                            {
+                                urlImage: 'https://asiaholiday.com.vn/pic/Tour/Tour%20Du%20lich%20Ha%20Long%20(5)_2261_HasThumb.jpg'
+                            }
+                        ]
+                    } },
+                    { returnDocument: "after" }
+                  );
+                logger.info(`Tour update:: id ${dataTour.idTour}`);
+                const formatTour = _.omit(updateTour?.value, [
+                    'createdAt', 
+                    'updatedAt', 
+                    'startDay', 
+                    'endDay', 
+                    'createdBy', 
+                    'updatedBy', 
+                    'deletedBy', 
+                    'deletedAt'
+                ]);
+                tourData = {
+                    status: 200,
+                    errCode: 200,
+                    errMessage: 'Tour update successfully.',
+                    tourInfor: formatTour
+                  };
+              }
+            return tourData;
+        }catch (error){
+            const tourData = {
+                status: 400,
+                errCode: 400,
+                errMessage: 'Can not update tour'
+            };
+            console.log(error)
+            return tourData;
+        }
+    }
+
     // update status tour
 
     statusTour = async (status:string, id: string) : Promise<TourData> =>{
@@ -228,7 +407,7 @@ class ToursService {
                 tourData = {
                     status: 200,
                     errCode: 200,
-                    errMessage: `Get tours successfully with status ${numericStatus}.`,
+                    errMessage: `Update tours successfully with status ${numericStatus}.`,
                     tourInfor: tour || {}
                   };
             }else{

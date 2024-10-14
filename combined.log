@@ -311,3 +311,808 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:02:23.218Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=6703b917fca03ec00464b6c2","timestamp":"2024-10-07T11:04:10.227Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-10-07T11:08:33.108Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:18:17.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:18:18.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-13T10:18:18.714Z"}
+{"email":"admin123@gmail.com","exp":1728987498,"iat":1728814698,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"admin","timestamp":"2024-10-13T10:18:18.850Z","userId":"66dff8fd1d00c35eb270d579"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:18:47.717Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:23:21.623Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify jwt malformed","name":"JsonWebTokenError","stack":"JsonWebTokenError: jwt malformed\n    at Object.module.exports [as verify] (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:70:17)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:57:9\n    at Generator.next (<anonymous>)\n    at fulfilled (F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-10-13T10:23:21.677Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:23:25.748Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify jwt malformed","name":"JsonWebTokenError","stack":"JsonWebTokenError: jwt malformed\n    at Object.module.exports [as verify] (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:70:17)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:57:9\n    at Generator.next (<anonymous>)\n    at fulfilled (F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-10-13T10:23:25.796Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:23:55.994Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify jwt malformed","name":"JsonWebTokenError","stack":"JsonWebTokenError: jwt malformed\n    at Object.module.exports [as verify] (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:70:17)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:57:9\n    at Generator.next (<anonymous>)\n    at fulfilled (F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-10-13T10:23:56.044Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:24:45.984Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour saved:","timestamp":"2024-10-13T10:24:46.107Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:26:15.415Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:26:16.194Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:26:17.540Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour saved:","timestamp":"2024-10-13T10:26:17.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:26:45.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:27:06.555Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:27:07.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:27:24.659Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:27:25.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:27:26.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour saved:","timestamp":"2024-10-13T10:27:26.746Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:27:54.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:28:53.732Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:28:54.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:29:15.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:29:16.547Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:29:37.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:29:38.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:29:40.081Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour saved:","timestamp":"2024-10-13T10:29:40.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:30:07.673Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:30:54.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:30:55.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:31:24.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:33:07.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:33:08.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:33:23.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:33:24.180Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:33:38.605Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:33:39.213Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:33:40.211Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:33:58.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour saved:","timestamp":"2024-10-13T10:33:59.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:34:08.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:34:44.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:34:44.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:39:27.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:39:28.101Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:39:57.471Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:40:04.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour saved:","timestamp":"2024-10-13T10:40:04.366Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:42:49.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:42:50.517Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:43:01.926Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:43:02.625Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:43:32.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:47:34.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:47:35.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:48:05.011Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:48:26.846Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:48:27.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:48:41.637Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:48:41.983Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-10-13T10:48:42.029Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:48:42.436Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:48:49.149Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour saved:","timestamp":"2024-10-13T10:48:49.299Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:49:02.249Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:49:02.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/new-tour","timestamp":"2024-10-13T10:49:02.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour saved:","timestamp":"2024-10-13T10:49:03.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:49:32.397Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=66dff1661981c10425334e0f","timestamp":"2024-10-13T10:52:51.049Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=66dff1661981c10425334e0f","timestamp":"2024-10-13T10:53:06.708Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=66dff1661981c10425334e0f","timestamp":"2024-10-13T10:53:18.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:54:18.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:56:52.304Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:56:53.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:57:03.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:57:05.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:57:13.181Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:57:24.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:57:24.439Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-10-13T10:57:24.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:57:25.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:57:25.627Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T10:57:48.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T10:57:49.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:57:50.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T10:58:08.779Z"}
+{"expiredAt":"2024-09-12T09:06:37.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:57:9\n    at Generator.next (<anonymous>)\n    at fulfilled (F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-10-13T10:58:08.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T10:58:10.411Z"}
+{"expiredAt":"2024-09-12T09:06:37.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:57:9\n    at Generator.next (<anonymous>)\n    at fulfilled (F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-10-13T10:58:10.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T10:58:18.927Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T10:58:27.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:58:31.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T10:59:02.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:59:07.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:59:18.701Z"}
+{"expiredAt":"2024-09-12T09:06:37.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:57:9\n    at Generator.next (<anonymous>)\n    at fulfilled (F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-10-13T10:59:18.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:59:20.323Z"}
+{"expiredAt":"2024-09-12T09:06:37.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (F:\\Doan\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:57:9\n    at Generator.next (<anonymous>)\n    at fulfilled (F:\\Doan\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-10-13T10:59:20.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:59:28.089Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-13T10:59:33.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:02:16.783Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:02:17.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:02:23.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:02:28.114Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T11:02:46.865Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:02:59.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:03:35.549Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:03:36.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:04:06.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:04:06.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T11:04:36.271Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:05:26.058Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:05:26.965Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:05:37.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:05:37.901Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:05:47.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:05:47.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T11:06:17.223Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:07:53.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:07:53.393Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-10-13T11:07:53.404Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:07:53.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:07:56.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:08:02.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:08:06.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:08:08.427Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:08:12.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:08:18.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T11:08:23.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:08:57.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:08:58.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:08:59.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:09:05.950Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:09:10.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:09:31.076Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:09:31.726Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:09:31.743Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:09:33.715Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:09:38.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T11:10:01.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:11:29.479Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:11:30.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T11:11:59.562Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:12:29.497Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:12:30.229Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:13:15.211Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:13:16.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:13:19.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-13T11:13:21.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T11:13:45.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:14:05.905Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:14:06.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:14:45.391Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:14:46.122Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-13T11:15:15.466Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-13T11:18:39.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-13T11:18:40.623Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: read ECONNRESET","timestamp":"2024-10-13T11:33:46.591Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:08.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:08.410Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:08.412Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:08.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:08.470Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:08.578Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:08.580Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:08.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:08.738Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T16:07:08.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:08.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:08.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:09.205Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:09.207Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:09.518Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:09.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:09.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:09.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:10.285Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:10.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:10.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:10.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:11.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:11.267Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:11.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:11.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:12.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:12.303Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:12.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:12.830Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:13.338Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:13.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:13.848Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:13.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:14.363Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:14.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:14.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:14.879Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:15.391Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:15.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:15.902Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:15.903Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:16.412Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:16.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:16.925Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:16.931Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:17.435Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:17.437Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:17.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:17.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:18.478Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:18.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:18.992Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:18.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:19.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:19.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:20.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:20.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:20.529Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:20.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:21.039Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:21.040Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:21.551Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:21.554Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:22.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:22.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:22.570Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:22.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:23.083Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:23.108Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:23.623Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:23.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:24.137Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:24.139Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:24.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:24.653Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:25.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:25.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:25.674Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:25.676Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:26.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:26.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:26.697Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:26.701Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:27.206Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:27.213Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:27.716Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:27.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:28.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:28.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:28.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:28.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:29.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:29.271Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:29.782Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:29.783Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:30.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:30.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:30.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:30.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:31.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:31.327Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:31.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:31.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:32.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:32.361Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:32.866Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:32.967Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:33.475Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:33.477Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:33.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:33.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:34.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:34.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:35.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:35.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:35.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:35.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:36.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:36.045Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:36.559Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:36.561Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:37.072Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:37.074Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:37.582Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:37.589Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:38.094Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:38.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:38.638Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:38.639Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:39.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:39.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:39.665Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:39.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:40.181Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:40.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:40.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:40.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:41.206Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:41.207Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:41.720Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:41.721Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:42.232Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:42.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:42.744Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:46.820Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:47.330Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:47.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:47.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:47.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:48.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:48.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:48.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:48.866Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:49.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:49.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:49.885Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:49.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:50.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:50.403Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:50.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:50.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:51.424Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:51.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:51.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:53.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:53.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:53.540Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:54.047Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:54.049Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:54.560Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:54.561Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:55.072Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:55.074Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:55.584Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:55.585Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:56.098Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:56.100Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:56.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:56.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:57.125Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:57.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:57.635Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:57.673Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:58.176Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:58.178Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:58.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:58.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:59.200Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:59.205Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:07:59.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:07:59.715Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:00.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:00.219Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:00.729Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:00.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:01.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:01.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:01.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:01.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:02.266Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:02.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:02.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:02.802Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:03.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:03.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:03.818Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:03.820Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:04.335Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:04.337Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:04.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:04.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:05.364Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:05.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:05.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:05.879Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:06.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:06.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:06.897Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:06.901Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:07.412Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:07.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:07.926Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:07.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:08.468Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:08.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:08.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:08.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:09.498Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:09.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:10.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:10.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:10.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:10.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:11.038Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:11.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:11.554Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:11.557Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:12.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:12.069Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:12.577Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:12.583Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:13.091Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:13.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:13.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:13.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:14.148Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:14.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:14.662Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:14.668Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:15.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:15.181Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:15.685Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:15.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:16.189Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:16.191Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:16.703Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:16.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:17.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:17.219Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:17.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:17.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:18.273Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:18.276Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:18.787Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:18.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:19.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:19.304Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:19.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:19.822Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:20.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:20.337Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:20.845Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:20.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:21.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:21.359Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:21.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:21.875Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:22.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:22.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:22.895Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: Connection timeout","timestamp":"2024-10-14T16:08:27.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:28.448Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:32.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:33.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:33.454Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:33.963Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:33.965Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:34.476Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:34.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:34.985Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:34.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:35.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:35.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:36.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:36.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:36.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:36.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:37.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:37.037Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:37.546Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:37.552Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:38.058Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:38.086Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:38.588Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:38.593Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:39.101Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:39.106Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:39.609Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:39.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:40.122Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:40.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:40.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:40.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:41.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:41.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:41.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:41.674Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:42.177Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:42.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:42.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:42.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:43.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:43.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:43.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:43.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:44.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:44.245Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:44.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:44.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:45.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:45.271Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:45.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:45.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:46.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:46.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:46.803Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:46.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:47.317Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:47.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:47.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:47.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:48.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:48.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:48.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:48.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:49.398Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:49.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:49.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:49.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:50.425Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:50.427Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:50.942Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:50.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:51.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:51.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:51.966Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:51.969Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:52.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:52.486Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:52.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:53.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:53.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:53.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:54.044Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:54.047Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:54.559Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:54.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:55.073Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:55.075Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:55.585Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:55.593Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:56.098Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:56.100Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:56.609Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:56.611Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:57.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:57.129Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:57.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:57.666Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:58.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:58.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:58.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:58.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:59.207Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:59.209Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:08:59.720Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:08:59.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:00.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:00.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:00.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:00.762Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:01.274Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:01.279Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:01.785Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:01.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:02.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:02.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:02.806Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:02.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:03.346Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:03.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:03.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:03.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:04.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:04.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:04.887Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:04.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:05.403Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:05.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:05.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:05.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:06.433Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:06.436Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:06.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:06.950Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:07.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:07.467Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:07.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:08.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:08.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:08.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:09.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:09.029Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:09.542Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:09.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:10.053Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:10.056Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:10.565Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:10.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:11.076Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:11.090Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:11.605Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:11.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:12.116Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:12.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:12.630Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:12.654Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:13.160Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:13.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:13.674Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:13.680Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:14.189Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:14.196Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:14.703Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:14.705Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:15.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:15.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:15.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:15.724Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:16.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:16.237Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:16.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:16.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:17.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:17.267Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:17.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:17.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:18.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:18.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:18.827Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:18.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:19.338Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:19.344Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:19.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:19.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:20.363Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:20.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:20.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:20.875Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:21.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:21.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:21.898Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:21.903Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:22.411Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:22.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:22.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:22.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:23.467Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:23.471Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:23.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:23.984Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:24.498Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:24.500Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:25.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:25.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:25.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:25.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:26.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:26.037Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:26.547Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:26.550Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:27.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:27.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:27.569Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:27.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:28.072Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:28.095Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:28.604Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:28.611Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:29.114Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:29.116Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:29.629Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:29.635Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:30.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:30.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:30.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:30.654Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:31.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:31.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:31.675Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:31.680Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:32.185Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:32.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:32.698Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:32.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:33.228Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:33.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:33.742Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:33.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:34.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:34.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:34.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:34.776Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:35.284Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:35.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:35.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:35.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:36.310Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:36.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:36.820Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:36.823Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:37.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with Error: getaddrinfo EAI_AGAIN redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com","timestamp":"2024-10-14T16:09:37.333Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-10-14T16:09:37.845Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T16:09:37.899Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T16:10:07.983Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T16:47:02.635Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T16:47:03.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T16:47:32.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T16:48:06.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T16:48:07.624Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T16:48:37.011Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T16:50:40.397Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T16:50:41.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T16:51:10.475Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T16:55:01.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T16:55:01.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T16:55:31.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:04:19.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:04:20.622Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:04:49.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:07:05.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:07:06.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:07:35.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:08:26.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:08:26.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:08:56.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:09:14.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:09:14.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-10-14T17:09:18.070Z"}
+{"email":"admin123@gmail.com","exp":1729098558,"iat":1728925758,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"admin","timestamp":"2024-10-14T17:09:18.209Z","userId":"66dff8fd1d00c35eb270d579"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:09:44.224Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:12:35.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:12:39.403Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:12:48.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:13:13.699Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:14:26.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:14:52.986Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-14T17:14:59.039Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:15:29.083Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:15:34.049Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:15:41.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:15:43.039Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:15:51.828Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:16:16.583Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-status/","timestamp":"2024-10-14T17:16:34.942Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:16:41.050Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:16:48.305Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:17:03.072Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:17:37.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:17:38.151Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:17:45.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:17:46.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:17:49.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour update:: id 670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:17:49.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:17:57.635Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:18:16.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:18:51.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:18:51.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:18:52.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:19:21.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:19:52.551Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour update:: id 670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:19:52.699Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:20:01.057Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:20:40.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:20:41.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:20:42.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour update:: id 670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:20:42.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:20:47.044Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:21:10.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:21:14.581Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:21:56.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:21:57.392Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (F:\\Doan\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (F:\\Doan\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-10-14T17:21:57.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:21:57.662Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:21:59.424Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:22:01.674Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:22:30.546Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:22:31.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:22:32.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:22:33.285Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:22:36.080Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:23:00.637Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-10-14T17:23:01.037Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:23:23.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:23:24.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:23:26.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:23:34.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:23:53.587Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:25:14.070Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:25:14.973Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:25:17.185Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour update:: id 670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:25:33.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:25:40.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:25:44.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:26:33.070Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:26:33.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:26:36.705Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour update:: id 670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:26:36.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:26:52.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour update:: id 670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:26:52.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:27:03.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:27:29.122Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:27:29.796Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-10-14T17:27:56.984Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-14T17:27:57.733Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-10-14T17:28:00.539Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour update:: id 670ba59f8c9dc4d4643bbf80","timestamp":"2024-10-14T17:28:00.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-14T17:28:27.061Z"}

@@ -40,6 +40,10 @@ export class Tour {
   @MaxLength(250, { message: 'Regulation cannot be longer than 250 characters' })
   public regulation!: string;
 
+  // 
+  @Column({ type: 'number', length: 250, name: 'buySlot' })
+  public buySlot!: number;
+
   // exactly address
   @Column({ type: 'varchar', length: 250, name: 'address' })
   @IsNotEmpty({ message: 'Address is required' })

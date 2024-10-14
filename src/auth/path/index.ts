@@ -14,15 +14,21 @@ export const bypassUrls = [
 ].map((url) => url.toLowerCase().trim());
 
 // List of URLs for admin access
+const adminBaseUrl = '/v1/api/admin/';
 
 export const adminUrls = [
-  '/v1/api/admin/new-tour',
-  '/v1/api/admin/get-tour-by-id/:tourid',
-  '/v1/api/admin/update-tour-status/',
-  '/v1/api/admin/get-tour-by-number/:count',
-  '/v1/api/admin/get-tour-by-number/',
-  '/v1/api/admin/update-tour-image'
-].map((url) => url.toLowerCase().trim());
+  // get
+  'hot-tour',
+  'get-tour-by-number/',
+  'get-tour-by-id/:tourid',
+  'get-tour-by-number/:count',
+  // another
+  'update-tour-status/',
+  'update-tour-by-id',
+  'update-tour-image',
+  'new-tour',
+// ].map((url) => url.toLowerCase().trim());
+].map((endpoint) => (adminBaseUrl + endpoint).toLowerCase().trim());
 
 // List of URLs for admin access
 
