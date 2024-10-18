@@ -64,8 +64,7 @@ class UserController {
                     errCode: userData.errCode,
                     message: userData.errMessage,
                     ...(userData.userInfor && { userInfo: userData.userInfor }),
-                  });
-               
+                  });               
             }); 
         } catch(error){
             // next(error)

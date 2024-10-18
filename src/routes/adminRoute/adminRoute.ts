@@ -14,6 +14,7 @@ adminRoute.patch('/update-tour-status', adminController.handleUpdateStatusTour);
 
 adminRoute.patch('/update-tour-by-id', adminController.handleUpdateTourById);
 
-adminRoute.patch('/update-tour-image', adminController.handleUpdateImageTour);
+adminRoute.patch('/upload-image', adminController.handleUpdateImageTour);
 
+adminRoute.patch('/upload-image-remove', adminController.handleUpdateImageTour);
 

@@ -16,12 +16,12 @@ const firebaseConfig = {
 };
 
 
-class Database {
+export class Database {
   // Declare the static instance property
   private static instance: Database;
   private storageData!: FirebaseStorage;
 
-  private constructor() {
+  protected constructor() {
     this.initializeConnection();
   }
 
