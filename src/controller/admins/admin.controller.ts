@@ -2,8 +2,11 @@
 import { Request, Response, NextFunction } from 'express';
 import { TourData } from '../../databases/interface/tourInterface';
 import tourService from '../../services/tour.service';
-import { multerFile, upload } from '../../helpers/image';
+import { multerFile, updateAvatar, upload } from '../../helpers/image';
 import { StatusTourEnum } from '../../databases/interface/common';
+import { logger } from '../../log';
+import instanceStorageFireball from '../../databases/firebase/firebase.init';
+import { UploadImage } from '../../databases/firebase/firebase.uploadImage';
 // import { File } from 'multer';
 interface MulterRequest extends Request {
     file?: Express.Multer.File;  // Nếu chỉ upload 1 file
@@ -53,8 +56,9 @@ class AdminController {
     // image
     handleUpdateImageTour = async(req: Request, res: Response, next: NextFunction)=>{
         try{
+            logger.info(`[P]::add image tour::`);
             // files = req.files;
-            upload.array('image')(req, res, async function (err) {
+            updateAvatar.array('image')(req, res, async function (err) {
                 const {id} = req.body;
                 if(!id){
                     return res.status(400).json({
@@ -63,14 +67,42 @@ class AdminController {
                       });
                 }
                 const files= req.files as Express.Multer.File[];
+                if (!files || files.length === 0) {
+                    return res.status(400).json({
+                        errCode: 400,
+                        message: 'No files uploaded.',
+                    });
+                }
+                
                 if (err) {
                     return res.status(400).json({
                         errCode: 400,
                         message: "Error uploading image.",
                     });
                 }
-                let paths = files.map(file => 'src/public/imageTour/' + file.filename);
-                console.log(paths)
+                const imageUrls: string[] = [];
+                for (const file of files) {
+                    try {
+                      // Upload each image to Firebase
+                      const uploadImageService = new UploadImage();
+                      const imageUrl = await uploadImageService.uploadImageTour(file);
+                      imageUrls.push(imageUrl);
+                    } catch (uploadErr) {
+                        console.log('Error uploading image to Firebase:', uploadErr);
+                        return res.status(500).json({
+                            errCode: 500,
+                            message: 'Error uploading image to Firebase.',
+                        });
+                    }
+                }
+                const tourData: TourData = await tourService.updateImageTour('add',id,imageUrls)
+         
+                return res.status(tourData.status).json({
+                    errCode: tourData.errCode,
+                    message: tourData.errMessage,
+                    tourInfor: tourData
+                    });               
+                
                 
             }); 
 

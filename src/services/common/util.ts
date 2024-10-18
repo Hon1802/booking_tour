@@ -8,3 +8,24 @@ export function generateOTP(length: number = 6): string {
   
     return otp;
 }
+
+// 
+export function generateUrlImage(images: string | '') {
+  if(!images)
+  {
+    return
+  }
+  return images.split(",").map((url: string) => ({
+    urlImage: url.trim()
+  }));
+}
+export function generateUrlArrayImage(images: string[] | '') {
+  if(!images)
+  {
+    return
+  }
+  // console.log(images)
+  return images.map((url: string) => ({
+    urlImage: url.trim()
+  }));
+}

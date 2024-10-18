@@ -4,7 +4,7 @@ import { Tour } from "../models/entities/Tour";
 
 export interface TourData {
     status: number;
-    errCode: number;
+    errCode: number | string;
     errMessage: string | object;
     tourInfor?: object; // optional property
     tourArray?: Array<Tour>; 

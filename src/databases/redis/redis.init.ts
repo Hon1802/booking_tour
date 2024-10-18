@@ -59,6 +59,17 @@ class RedisConnection {
         }
     }
 
+    public async pushValueArray(key: string, value: string): Promise<void> {
+        await this.checkConnection(); // Kiểm tra và kết nối lại nếu cần
+        try {
+            await this.redisClient.rPush(key, value);
+            this.resetIdleTimeout(); // Đặt lại thời gian không hoạt động
+        } catch (error) {
+            console.error(`Error push value for array "${key}":`, error);
+            throw error;
+        }
+    }
+
     public async getValue(key: string): Promise<{ value: string | null; ttl: number }> {
         await this.checkConnection(); // Kiểm tra và kết nối lại nếu cần
         try {

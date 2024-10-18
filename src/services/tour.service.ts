@@ -15,6 +15,8 @@ import { number } from 'joi';
 
 // lodash
 import _ from 'lodash';
+import { generateUrlArrayImage, generateUrlImage } from './common/util';
+import errorCodes from '../common/errorCode/errorCodes';
 class ToursService {
 
     // upload image to firebase
@@ -106,14 +108,13 @@ class ToursService {
             tour.priceChild = dataTour?.priceChild;
             tour.delFlg = 0;
             tour.buySlot = 0;
-            tour.images = [
+            tour.images =  generateUrlImage(dataTour?.images) || [
                 {
                     urlImage : 'https://achautravel.com/upload/images/1689131743.jpeg'
                 },{
                     urlImage : 'https://asiaholiday.com.vn/pic/Tour/Tour%20Du%20lich%20Ha%20Long%20(5)_2261_HasThumb.jpg'
                 }
             ];
-
             const errors = await validate(tour);
             if (errors.length > 0) {
                 tourData = {
@@ -310,7 +311,7 @@ class ToursService {
             tour.priceChild = dataTour?.priceChild || tourHolder.priceChild;
             tour.delFlg = 0;
             tour.buySlot = tourHolder.buySlot || 0;
-            tour.images = tourHolder.images || [
+            tour.images = generateUrlImage(dataTour?.images) || tourHolder.images || [
                 {
                     urlImage : 'https://achautravel.com/upload/images/1689131743.jpeg'
                 },{
@@ -347,7 +348,7 @@ class ToursService {
                         priceChild: dataTour?.priceChild || tourHolder.priceChild,
                         delFlg: 0,
                         buySlot: tourHolder.buySlot || 0,
-                        images: dataTour?.images || tourHolder.images || [
+                        images: generateUrlImage(dataTour?.images) || tourHolder.images || [
                             {
                                 urlImage: 'https://achautravel.com/upload/images/1689131743.jpeg'
                             },
@@ -386,6 +387,73 @@ class ToursService {
             console.log(error)
             return tourData;
         }
+    }
+
+    // update status tour
+    // type: add, remove
+    updateImageTour = async (type:string, id: string, imageUrls: string[]) : Promise<TourData> =>{
+        try{
+            let tourData : TourData;
+
+            if (!ObjectId.isValid(id)) {
+                tourData = {
+                  status: 400,
+                  errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
+                  errMessage: errorCodes.RESPONSE.ID_NOT_SUPPORT.message
+                };
+                logger.error('error id');
+                return tourData;
+              }
+            let holderStore = await managerTour.findOne(Tour, { where: { _id: new ObjectId(id) } });
+            let tourImage = holderStore?.images;
+            if(type === 'add')
+            {
+                const updateList = generateUrlArrayImage(imageUrls) || []
+                if(!tourImage){
+                    tourImage = updateList;
+                }else{
+                    const mergedArray = tourImage.concat(updateList);
+                    tourImage = mergedArray;
+                }
+            }
+
+            const tour = await managerTour.getMongoRepository(Tour).findOneAndUpdate(
+                // Điều kiện tìm kiếm
+                { _id: new ObjectId(id) },
+                // Cập nhật dữ liệu
+                { $set: { 
+                    images : tourImage
+                }}
+              );
+            if(tour)
+            {
+                tourData = {
+                    status: 200,
+                    errCode: 200,
+                    errMessage: `Update tours successfully.`,
+                    tourInfor: tour.value || tour || {}
+                  };
+            }else
+            {
+                tourData = {
+                    status: 400,
+                    errCode: 400,
+                    errMessage: `Not found`,
+                    tourInfor: tour || {}
+                  };
+            }
+            return tourData;
+        }catch (error)
+        {
+            const tourData = {
+                status: 500,
+                errCode: 500,
+                errMessage: 'Internal error'
+            };
+            console.log(error)
+            return tourData;
+        }
+
     }
 
     // update status tour
