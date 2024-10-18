@@ -22,10 +22,13 @@ export const adminUrls = [
   'get-tour-by-number/',
   'get-tour-by-id/:tourid',
   'get-tour-by-number/:count',
+  'tours/filter',
+  'tours/filter/:perPage?/:currentPage?/:keyword?/:status?',
+
   // another
   'update-tour-status/',
-  'update-tour-by-id',
   'upload-image-remove',
+  'update-tour-by-id',
   'upload-image',
   'new-tour',
 // ].map((url) => url.toLowerCase().trim());
