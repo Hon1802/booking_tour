@@ -9,7 +9,7 @@ import { ObjectId } from 'mongodb';
 import { v4 as uuidv4 } from "uuid";
 import { logger } from '../log';
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
-import { storageData } from '../databases/firebase/firebase.init';
+import instanceStorageFireball, { storageData } from '../databases/firebase/firebase.init';
 import { validate } from 'class-validator';
 import { number } from 'joi';
 
@@ -391,7 +391,7 @@ class ToursService {
 
     // update status tour
     // type: add, remove
-    updateImageTour = async (type:string, id: string, imageUrls: string[]) : Promise<TourData> =>{
+    updateImageTour = async (type:string, id: string, imageUrls: string[] | string, ) : Promise<TourData> =>{
         try{
             let tourData : TourData;
 
@@ -405,8 +405,8 @@ class ToursService {
                 return tourData;
               }
             let holderStore = await managerTour.findOne(Tour, { where: { _id: new ObjectId(id) } });
-            let tourImage = holderStore?.images;
-            if(type === 'add')
+            let tourImage = holderStore?.images || [];
+            if(type === 'add' &&  Array.isArray(imageUrls) )
             {
                 const updateList = generateUrlArrayImage(imageUrls) || []
                 if(!tourImage){
@@ -415,15 +415,31 @@ class ToursService {
                     const mergedArray = tourImage.concat(updateList);
                     tourImage = mergedArray;
                 }
-            }
+            } else {
+                if(typeof imageUrls === 'string')
+                {
+                    const updateList = generateUrlImage(imageUrls) || [];
+                    if (tourImage && Array.isArray(tourImage) && updateList.length > 0) {
+                        tourImage = tourImage.filter(tourItem => 
+                            !updateList.some(updateItem => updateItem.urlImage === tourItem.urlImage)
+                          );
+                      }
 
+                      imageUrls.split(",").map(async(url: string) => (
+                        await instanceStorageFireball.deleteImage(url.trim())
+                      ));
+                    console.log('Remove from firebase')
+                }
+            }
+            // console.log('tets', tourImage)
             const tour = await managerTour.getMongoRepository(Tour).findOneAndUpdate(
                 // Điều kiện tìm kiếm
                 { _id: new ObjectId(id) },
                 // Cập nhật dữ liệu
                 { $set: { 
                     images : tourImage
-                }}
+                }},
+                { returnDocument: "after" }
               );
             if(tour)
             {
@@ -431,7 +447,7 @@ class ToursService {
                     status: 200,
                     errCode: 200,
                     errMessage: `Update tours successfully.`,
-                    tourInfor: tour.value || tour || {}
+                    tourInfor: tour.value.images || tour.value || tour || {}
                   };
             }else
             {
@@ -468,7 +484,8 @@ class ToursService {
                 // Cập nhật dữ liệu
                 { $set: { 
                     delFlg: numericStatus
-                } }
+                } },
+                { returnDocument: "after" }
               );
             if(tour)
             {

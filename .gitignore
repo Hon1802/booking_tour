@@ -15,3 +15,6 @@ vercel.json
 .prettierrc
 customer-error.log
 customer.log
+error.log
+*.log
+/*.log

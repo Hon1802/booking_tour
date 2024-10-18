@@ -53,7 +53,7 @@ class AdminController {
             next(error)
         }
     }
-    // image
+    // image -- add
     handleUpdateImageTour = async(req: Request, res: Response, next: NextFunction)=>{
         try{
             logger.info(`[P]::add image tour::`);
@@ -116,7 +116,22 @@ class AdminController {
             next(error)
         }
     }
-
+    // image -- remove
+    handleRemoveImageTour = async(req: Request, res: Response, next: NextFunction)=>{
+        try{
+            logger.info(`[P]::remove image tour::`);
+            const {id, urlImages} = req.body;
+            const tourData: TourData = await tourService.updateImageTour('remove', id, urlImages);
+        
+            return res.status(tourData.status).json({
+                errCode: tourData.errCode,
+                message: tourData.errMessage,
+                data: tourData.tourInfor
+                });
+        } catch(error){
+            next(error)
+        }
+    }
     // status
     handleUpdateStatusTour = async(req: Request, res: Response, next: NextFunction)=>{
         try{
@@ -140,6 +155,34 @@ class AdminController {
             next(error)
         }
     }
+
+    // filter
+    handleFilterStatusTour = async(req: Request, res: Response, next: NextFunction)=>{
+        try{
+            
+            // Lấy các tham số truy vấn và ép kiểu
+            const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage, 10) : 10;
+            const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
+            const keyword = typeof req.query.keyword === 'string' ? req.query.keyword : '';
+            const status = typeof req.query.status === 'string' ? req.query.status : 'active';
+         
+            // const userData: TourData = await tourService.statusTour(status, idTour);
+           console.log('tes', perPage);
+           console.log('tes', currentPage);
+
+           console.log('tes', keyword);
+
+           console.log('tes', status);
+
+            return res.status(200).json({
+                errCode: '200',
+                message: 'test',
+                });
+        } catch(error){
+            next(error)
+        }
+    }
+
     // support function, private
 
 }
