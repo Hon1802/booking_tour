@@ -390,6 +390,8 @@ class ToursService {
     }
 
     // update status tour
+
+
     // type: add, remove
     updateImageTour = async (type:string, id: string, imageUrls: string[] | string, ) : Promise<TourData> =>{
         try{

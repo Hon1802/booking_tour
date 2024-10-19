@@ -53,6 +53,64 @@ class AdminController {
             next(error)
         }
     }
+
+    // image -- add
+    handleNewImageTour = async(req: Request, res: Response, next: NextFunction)=>{
+        try{
+            logger.info(`[P]::new image tour::`);
+            // files = req.files;
+            updateAvatar.array('image')(req, res, async function (err) {
+                const files= req.files as Express.Multer.File[];
+                if (!files || files.length === 0) {
+                    return res.status(400).json({
+                        errCode: 400,
+                        message: 'No files uploaded.',
+                    });
+                }
+                
+                if (err) {
+                    return res.status(400).json({
+                        errCode: 400,
+                        message: "Error uploading image.",
+                    });
+                }
+                const imageUrls: string[] = [];
+                for (const file of files) {
+                    try {
+                      // Upload each image to Firebase
+                      const uploadImageService = new UploadImage();
+                      const imageUrl = await uploadImageService.uploadImageTour(file);
+                      imageUrls.push(imageUrl);
+                    } catch (uploadErr) {
+                        console.log('Error uploading image to Firebase:', uploadErr);
+                        return res.status(500).json({
+                            errCode: 500,
+                            message: 'Error uploading image to Firebase.',
+                        });
+                    }
+                }
+    
+         
+                return res.status(200).json({
+                    errCode: '200',
+                    message: 'success',
+                    data: imageUrls
+                    });               
+                
+                
+            }); 
+
+            // const userData: TourData = await tourService.statusTour(status, idTour);
+           
+            // return res.status(userData.status).json({
+            //     errCode: userData.errCode,
+            //     message: userData.errMessage,
+            //     });
+        } catch(error){
+            next(error)
+        }
+    }
+
     // image -- add
     handleUpdateImageTour = async(req: Request, res: Response, next: NextFunction)=>{
         try{

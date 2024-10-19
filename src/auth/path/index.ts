@@ -30,6 +30,7 @@ export const adminUrls = [
   'upload-image-remove',
   'update-tour-by-id',
   'upload-image',
+  'new-image',
   'new-tour',
 // ].map((url) => url.toLowerCase().trim());
 ].map((endpoint) => (adminBaseUrl + endpoint).toLowerCase().trim());
