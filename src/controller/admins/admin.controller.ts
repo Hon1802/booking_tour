@@ -35,6 +35,7 @@ class AdminController {
     // update tour by id
     handleUpdateTourById = async(req: Request, res: Response, next: NextFunction)=>{
         try{
+            console.log('Update tour by id')
             const data = req.body;
             if(!data.idTour){
                 return res.status(400).json({
