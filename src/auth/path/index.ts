@@ -29,6 +29,7 @@ export const adminUrls = [
   'update-tour-status/',
   'upload-image-remove',
   'update-tour-by-id',
+  'update-tour-by-id/',
   'upload-image',
   'new-image',
   'new-tour',
