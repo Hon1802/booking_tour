@@ -15,3 +15,9 @@ export interface DataUserUpdate {
     email: string,
     urlAvatar?:string
 }
+
+export interface FindOptions {
+    limit?: number;
+    skip?: number;
+    // Có thể thêm các tùy chọn khác nếu cần
+}

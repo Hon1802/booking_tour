@@ -87,11 +87,13 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
               if (pathUrlUser.includes(URL_REQUEST)) {
                 return next();
               } else {
+                const pathFromRequest = URL_REQUEST.split('?')[0];
+                console.log(pathFromRequest)
                 const isUserUrl = pathUrlUser.some((useUrl ) => {
                   const regex = pathToRegexp(useUrl);
-                  return regex.test(URL_REQUEST);
+                  // return regex.test(URL_REQUEST);
+                  return regex.test(pathFromRequest);
                 });
-                console.log('is url', isUserUrl)
                 if (isUserUrl) {
                   return next(); // URL hợp lệ, tiếp tục xử lý
                 } else {

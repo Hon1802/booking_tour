@@ -17,6 +17,8 @@ import { number } from 'joi';
 import _ from 'lodash';
 import { generateUrlArrayImage, generateUrlImage } from './common/util';
 import errorCodes from '../common/errorCode/errorCodes';
+import { FindOptions } from './common/interface';
+import { FilterQuery } from 'mongoose';
 class ToursService {
 
     // upload image to firebase
@@ -518,5 +520,84 @@ class ToursService {
         }
 
     }
+
+    // get tour follow page
+  
+    filterTour = async (
+        perPage: number | null = null,
+        currentPage: number = 1, 
+        keyword: string | null = null,
+        status: number = 2
+    ) : Promise<{ 
+        data: Tour[]; 
+        total: number; 
+        currentPage: number; 
+        perPage: number }
+        > =>{
+        try{
+            // const query: Partial<Tour> = {};
+            const query: FilterQuery<Tour> = {}; 
+            // if (keyword) {
+            //     query.name = { $regex: new RegExp(keyword, 'i') } as any;
+            // }
+
+            if (keyword) {
+                const regex = new RegExp(keyword, 'i'); // Biểu thức chính quy không phân biệt hoa thường
+                query.$or = [ // Sử dụng $or để tìm kiếm trong nhiều trường
+                    { name: { $regex: regex } },
+                    { description: { $regex: regex } },
+                    { address: { $regex: regex } },
+                    {location:{ $regex: regex }}
+                ];
+            }
+
+            if(status!= 2)
+            {
+                query.delFlg = status;
+            }
+            const options: FindOptions = {};
+            if (perPage) {
+                options.limit = perPage;
+                options.skip = (currentPage - 1) * perPage; 
+            }
+             
+            const skip = (currentPage - 1) * (perPage || Number.MAX_SAFE_INTEGER);
+            
+            try {
+                const total = await managerTour.getMongoRepository(Tour).count(query); 
+                const tours = await managerTour.getMongoRepository(Tour).find({
+                    where: query,
+                    take: perPage || total, // Nếu perPage không có thì lấy tất cả
+                    skip: skip // Bỏ qua số bản ghi đã tính toán
+                });
+                return {
+                    data: tours,
+                    total,
+                    currentPage,
+                    perPage: perPage || total // Trả về số bảng ghi lấy được
+                };
+            } catch (error) {
+                console.error("Error fetching tours:");
+                throw error;
+            }
+
+        }catch (error)
+        {
+            const tourData = {
+                status: 500,
+                errCode: 500,
+                errMessage: 'Internal error'
+            };
+            console.log(error)
+            return {
+                data: [],
+                total: 0,
+                currentPage,
+                perPage: 0 // Trả về số bảng ghi lấy được
+            };
+        }
+
+    }
+
 }
 export default new ToursService();
