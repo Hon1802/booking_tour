@@ -220,22 +220,20 @@ class AdminController {
         try{
             
             // Lấy các tham số truy vấn và ép kiểu
-            const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage, 10) : 10;
+            const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : null;
             const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
             const keyword = typeof req.query.keyword === 'string' ? req.query.keyword : '';
-            const status = typeof req.query.status === 'string' ? req.query.status : 'active';
-         
-            // const userData: TourData = await tourService.statusTour(status, idTour);
-           console.log('tes', perPage);
-           console.log('tes', currentPage);
-
-           console.log('tes', keyword);
-
-           console.log('tes', status);
+            // const status = typeof req.query.status === 'string' ? req.query.status : 'active';
+            const status = 
+                typeof req.query.status === 'string' 
+                    ? (req.query.status === 'active' ? 0 : req.query.status === 'inactive' ? 1 : 2) 
+                    : 2;
+            const tourData: any = await tourService.filterTour(perPage, currentPage, keyword, status);
 
             return res.status(200).json({
                 errCode: '200',
-                message: 'test',
+                message: 'Get success',
+                tourData
                 });
         } catch(error){
             next(error)
