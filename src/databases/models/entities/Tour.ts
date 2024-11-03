@@ -57,9 +57,9 @@ export class Tour {
   public priceAdult!: string;
 
   // price child
-  @Column({ type: 'string', name: 'priceChild' })
+  @Column({ type: 'double', name: 'priceChild' })
   @IsNotEmpty({ message: 'Price children is required' })
-  public priceChild!: string;
+  public priceChild!: number;
 
   // Add the images field (array of objects with urlImage as a string)
   @Column({ type: 'json', name: 'images' })

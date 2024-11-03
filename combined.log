@@ -1933,3 +1933,1416 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-10-28T17:12:49.819Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/tours/filter?keyword=ho%20chi%20minh","timestamp":"2024-10-28T17:13:12.235Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-10-28T17:13:19.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T08:15:06.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T08:15:06.957Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T08:15:37.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-03T08:16:57.807Z"}
+{"email":"admin123@gmail.com","exp":1730794617,"iat":1730621817,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"admin","timestamp":"2024-11-03T08:16:57.928Z","userId":"66dff8fd1d00c35eb270d579"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-11-03T08:17:19.650Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: Unexpected ? at 35, expected END: https://git.new/pathToRegexpError","stack":"TypeError: Unexpected ? at 35, expected END: https://git.new/pathToRegexpError\n    at Iter.consume (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\path-to-regexp\\src\\index.ts:225:11)\n    at parse (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\path-to-regexp\\src\\index.ts:321:8)\n    at pathToSource (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\path-to-regexp\\src\\index.ts:576:51)\n    at pathToRegexp (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\path-to-regexp\\src\\index.ts:702:18)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:93:45\n    at Array.some (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:92:47\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:261:12\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)","timestamp":"2024-11-03T08:17:19.708Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T08:18:02.158Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-11-03T08:18:02.643Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-03T08:18:02.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T08:18:02.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-11-03T08:18:03.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T08:18:32.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-03T08:20:31.884Z"}
+{"email":"admin123@gmail.com","exp":1730794831,"iat":1730622031,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"admin","timestamp":"2024-11-03T08:20:32.001Z","userId":"66dff8fd1d00c35eb270d579"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-11-03T08:20:47.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-11-03T08:20:53.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/upload-image","timestamp":"2024-11-03T08:21:12.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[P]::add image tour::","timestamp":"2024-11-03T08:21:12.208Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-11-03T08:21:23.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-11-03T08:21:40.588Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-11-03T08:22:23.338Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-11-03T08:22:43.929Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-11-03T08:23:22.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-11-03T08:23:35.826Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-11-03T08:24:14.778Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/update-tour-by-id","timestamp":"2024-11-03T08:24:44.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Tour update:: id 670ba59f8c9dc4d4643bbf80","timestamp":"2024-11-03T08:24:44.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=670ba59f8c9dc4d4643bbf80","timestamp":"2024-11-03T08:24:54.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/user/get-user-by-id","timestamp":"2024-11-03T08:26:07.664Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify invalid algorithm","name":"JsonWebTokenError","stack":"JsonWebTokenError: invalid algorithm\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:145:19\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:57:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-03T08:26:07.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-03T08:26:26.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-03T08:26:57.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-03T08:27:09.174Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-03T09:03:57.299Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-03T09:07:12.219Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-03T09:07:57.598Z"}
+{"email":"test1234@gmail.com","exp":1730797677,"iat":1730624877,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-11-03T09:07:57.847Z","userId":"66e003e57e6fb12f1c145aa0"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/user/get-user-by-id","timestamp":"2024-11-03T09:08:13.438Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/user/get-user-by-id","timestamp":"2024-11-03T09:08:34.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/user/get-user-by-id","timestamp":"2024-11-03T09:08:46.702Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T09:09:58.968Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T09:09:59.364Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T09:10:18.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/user/get-user-by-id","timestamp":"2024-11-03T09:10:19.243Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-03T09:10:19.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T09:10:19.359Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/user/get-user-by-id","timestamp":"2024-11-03T09:10:22.275Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T09:10:48.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T09:10:57.554Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T09:10:58.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/user/get-user-by-id","timestamp":"2024-11-03T09:11:00.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/get-user-by-id","timestamp":"2024-11-03T09:11:25.029Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T09:11:27.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id","timestamp":"2024-11-03T09:11:38.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id","timestamp":"2024-11-03T09:11:40.276Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=66e003e57e6fb12f1c145aa0","timestamp":"2024-11-03T09:12:36.205Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T09:20:03.195Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T09:20:04.040Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T09:20:37.333Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T09:20:37.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T09:20:56.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T09:20:57.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T09:21:05.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T09:21:06.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T09:21:18.552Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T09:21:19.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T09:21:48.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T09:22:32.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T09:22:33.046Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T09:23:02.541Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:25:16.095Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:25:16.717Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:25:23.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:25:24.134Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:25:32.031Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:25:32.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:26:02.122Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:26:42.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:26:43.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:26:48.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:26:49.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:27:07.259Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:27:07.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:27:19.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:27:19.846Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:27:27.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:27:27.654Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:27:32.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:27:32.823Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:28:02.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:28:08.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:28:09.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:28:40.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:28:41.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:29:03.547Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:29:04.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:29:51.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:29:51.628Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:30:21.091Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:30:32.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:30:32.909Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:31:02.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=5&currentpage=4&status=inactive&keyword=ho%20chi%20minh","timestamp":"2024-11-03T10:32:08.413Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:32:23.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:32:24.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=5&currentpage=4&status=inactive&keyword=ho%20chi%20minh","timestamp":"2024-11-03T10:32:26.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:35:41.280Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:35:41.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=5&currentpage=4&status=inactive&keyword=ho%20chi%20minh","timestamp":"2024-11-03T10:35:42.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:36:47.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:36:47.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=5&currentpage=4&status=inactive&keyword=ho%20chi%20minh","timestamp":"2024-11-03T10:36:51.787Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter","timestamp":"2024-11-03T10:37:05.565Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:37:17.224Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?status=inactive","timestamp":"2024-11-03T10:37:23.129Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=5&currentpage=4","timestamp":"2024-11-03T10:37:42.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=12&currentpage=4","timestamp":"2024-11-03T10:37:58.282Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=5&currentpage=8","timestamp":"2024-11-03T10:38:18.665Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=5&currentpage=5","timestamp":"2024-11-03T10:38:23.744Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=5&currentpage=5&keyword=ho%20chi%20minh","timestamp":"2024-11-03T10:38:42.180Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?perpage=5&currentpage=1&keyword=ho%20chi%20minh","timestamp":"2024-11-03T10:38:47.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter?keyword=ho%20chi%20minh","timestamp":"2024-11-03T10:39:22.277Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter","timestamp":"2024-11-03T10:39:33.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:41:20.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:41:20.885Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:41:38.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:41:38.908Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter","timestamp":"2024-11-03T10:41:39.137Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:42:08.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:42:15.985Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:42:16.708Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.823Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.826Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.826Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.826Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.827Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.827Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.827Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.828Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.828Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:16.828Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.125Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.125Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.125Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api//tours/filter","timestamp":"2024-11-03T10:42:21.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.828Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.830Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.830Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.831Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.831Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:42:28.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:42:46.069Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:44:33.290Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:44:33.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.865Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.866Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.871Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.871Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:44:33.871Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:45:03.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:45:37.306Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:50:37.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:50:37.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:50:39.106Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:50:49.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:50:49.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:50:50.328Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:51:47.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:51:47.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.818Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.818Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.818Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.819Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.819Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:51:49.819Z"}
+{"expiredAt":"2024-10-30T16:17:09.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:59:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-03T10:51:49.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.518Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.519Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.519Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:03.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.065Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.069Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.069Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.070Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.070Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:16.071Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:52:16.088Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:52:16.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.950Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.950Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.952Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.952Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.954Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:52:30.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:52:39.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:52:46.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:53:08.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:53:08.830Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:53:23.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.928Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.929Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.930Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.931Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.931Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.931Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:23.936Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-03T10:53:23.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:53:24.280Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.000Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/tours/filter","timestamp":"2024-11-03T10:53:25.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T10:53:34.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T10:53:57.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T10:53:57.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T10:54:27.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:27:55.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:27:56.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:28:25.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:39:08.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:39:09.344Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:39:38.519Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:41:11.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:41:11.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:41:30.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:41:30.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.560Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.561Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.562Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.562Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.565Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.565Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.565Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.566Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:37.566Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.746Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.747Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.747Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.747Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:41:56.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:42:00.367Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5","timestamp":"2024-11-03T16:42:01.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.954Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.956Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.956Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.956Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.957Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.957Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.957Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:01.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1","timestamp":"2024-11-03T16:42:04.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.573Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.573Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.573Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.573Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.574Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.574Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.575Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.575Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.575Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:42:04.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:43:08.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1","timestamp":"2024-11-03T16:43:08.745Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.746Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.747Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.747Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:08.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"test","timestamp":"2024-11-03T16:43:08.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:43:08.959Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1","timestamp":"2024-11-03T16:43:11.910Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.910Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:43:11.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"test","timestamp":"2024-11-03T16:43:11.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:43:38.404Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:44:42.591Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:44:43.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1","timestamp":"2024-11-03T16:44:44.310Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:44:44.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:44:44.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:45:12.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1","timestamp":"2024-11-03T16:45:14.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.992Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.992Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.992Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.994Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.994Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:14.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:45:14.996Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:45:35.189Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:45:35.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.721Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.724Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.724Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.725Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.725Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.725Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.726Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.726Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.726Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:36.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:45:36.729Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.507Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.507Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.507Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:45:38.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:45:38.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:46:05.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:46:12.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.537Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.537Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.539Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.539Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.540Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.540Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.541Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.541Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:13.541Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:46:13.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:46:13.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.517Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:14.517Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:46:14.517Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:46:23.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.942Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:23.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:46:23.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:46:24.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.050Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.053Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.053Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:46:25.053Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:46:25.054Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:46:53.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:46:59.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:47:00.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.172Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.172Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.174Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.176Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.176Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.176Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.177Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.178Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:02.178Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:47:02.179Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:47:29.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.169Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.170Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.170Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.171Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.171Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.172Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.172Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.174Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.174Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:47:57.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:47:57.176Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:47:57.190Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:47:57.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:00.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:48:00.776Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:48:27.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:48:28.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.415Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:48:28.419Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:48:28.419Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:48:57.781Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:49:55.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:49:55.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:50:02.604Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:50:03.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.120Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.122Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.122Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.125Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.125Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:04.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : null; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:50:04.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1","timestamp":"2024-11-03T16:50:14.419Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.420Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.421Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.421Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.421Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.423Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.423Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.424Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.424Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.425Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:14.425Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:50:14.426Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=3","timestamp":"2024-11-03T16:50:27.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.653Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.655Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.656Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.656Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.657Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.657Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.657Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.658Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.658Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.659Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.659Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:50:27.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 3; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:50:27.661Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:50:32.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:50:48.149Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:50:48.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=3&keyword=ho%20chi%20minh","timestamp":"2024-11-03T16:51:11.488Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:11.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 3; keyword : ho chi minh; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:51:11.496Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=3&keyword=name%20of%20tour%205","timestamp":"2024-11-03T16:51:16.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:16.645Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 3; keyword : name of tour 5; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:51:16.646Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:51:18.237Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T16:51:37.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T16:51:37.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=3&keyword=name%20of%20tour%205","timestamp":"2024-11-03T16:51:38.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.065Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.065Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.068Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:38.069Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 3; keyword : name of tour 5; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:51:38.069Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&keyword=name%20of%20tour%205","timestamp":"2024-11-03T16:51:44.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.223Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:51:44.223Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : name of tour 5; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:51:44.223Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&keyword=ha%20noi%202","timestamp":"2024-11-03T16:52:03.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.603Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:03.603Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ha noi 2; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:52:03.603Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T16:52:07.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&keyword=name%20of%20tour%203","timestamp":"2024-11-03T16:52:25.267Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.267Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:52:25.271Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : name of tour 3; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:52:25.271Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&keyword=name%20of%20tour%203&fromprice&toprice","timestamp":"2024-11-03T16:53:29.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:29.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : name of tour 3; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:53:29.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&keyword=name%20of%20tour%203&fromprice=250000&toprice","timestamp":"2024-11-03T16:53:40.309Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.309Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.309Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.310Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.310Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.310Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.310Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:40.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : name of tour 3; fromPrice : 250000; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:53:40.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=250000&toprice","timestamp":"2024-11-03T16:53:43.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:43.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 250000; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:53:43.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=25000&toprice","timestamp":"2024-11-03T16:53:47.412Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.412Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.413Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.413Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.415Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.415Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T16:53:47.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 25000; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T16:53:47.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:00:21.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=25000&toprice","timestamp":"2024-11-03T17:00:21.114Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.116Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.117Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.117Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.117Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.118Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.118Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.119Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.119Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.120Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.120Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:21.122Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 25000; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:00:21.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:00:21.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=23335000&toprice","timestamp":"2024-11-03T17:00:30.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:30.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 23335000; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:00:30.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=0&toprice","timestamp":"2024-11-03T17:00:37.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.356Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.356Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.356Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.356Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:00:37.358Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 0; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:00:37.358Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:00:51.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:01:03.245Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:01:03.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=0&toprice","timestamp":"2024-11-03T17:01:03.846Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.848Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.848Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:01:03.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 0; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:01:03.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:01:33.335Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:03:16.557Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:03:17.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:03:46.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=0&toprice=3000","timestamp":"2024-11-03T17:04:21.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.011Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.020Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.022Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.029Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.031Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:21.032Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 0; toPrice : 3000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:04:21.037Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=0&toprice=30000","timestamp":"2024-11-03T17:04:23.802Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.803Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.804Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.806Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.808Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.811Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:23.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 0; toPrice : 30000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:04:23.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=0&toprice=300000","timestamp":"2024-11-03T17:04:26.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:26.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 0; toPrice : 300000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:04:26.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=0&toprice=300000o","timestamp":"2024-11-03T17:04:30.306Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.307Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.307Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.307Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.308Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.308Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.308Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.308Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.308Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.309Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.309Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.309Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.309Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:30.309Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 0; toPrice : 300000o;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:04:30.310Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&fromprice=0&toprice=3000000","timestamp":"2024-11-03T17:04:38.446Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.446Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.447Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.447Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.447Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.448Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.448Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.448Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:04:38.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : 0; toPrice : 3000000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:04:38.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&toprice=3000000","timestamp":"2024-11-03T17:05:27.391Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:27.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : ; toPrice : 3000000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:05:27.396Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:05:48.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:05:49.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&toprice=3000000","timestamp":"2024-11-03T17:05:51.468Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.469Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.470Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.471Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.471Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.472Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.472Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:05:51.475Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : ; toPrice : 3000000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:05:51.476Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:06:18.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&toprice=3000000&location=northern+vietnam","timestamp":"2024-11-03T17:06:57.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:06:57.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : ; toPrice : 3000000;; location : Northern Vietnam;; sortBy : ;","timestamp":"2024-11-03T17:06:57.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&toprice=3000000&location=northern","timestamp":"2024-11-03T17:07:06.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:06.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : ; toPrice : 3000000;; location : Northern;; sortBy : ;","timestamp":"2024-11-03T17:07:06.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&toprice=3000000&location=northern&sortby=best-selling","timestamp":"2024-11-03T17:07:41.822Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.822Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.823Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.823Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.823Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:41.826Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : ; toPrice : 3000000;; location : Northern;; sortBy : best-selling;","timestamp":"2024-11-03T17:07:41.827Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&toprice=3000000&sortby=best-selling","timestamp":"2024-11-03T17:07:44.860Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.862Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.862Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.862Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:07:44.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : ; toPrice : 3000000;; location : ;; sortBy : best-selling;","timestamp":"2024-11-03T17:07:44.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&toprice=3000000&sortby=cheapest","timestamp":"2024-11-03T17:08:05.327Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.327Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.328Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.328Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.330Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.330Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.330Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:08:05.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : ; toPrice : 3000000;; location : ;; sortBy : cheapest;","timestamp":"2024-11-03T17:08:05.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:09:33.726Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:09:34.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=10&currentpage=1&toprice=3000000&sortby=cheapest","timestamp":"2024-11-03T17:09:34.541Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.542Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.545Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.545Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.545Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.546Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.546Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.546Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:09:34.547Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; currentPage : 1; keyword : ; fromPrice : ; toPrice : 3000000;; location : ;; sortBy : cheapest;","timestamp":"2024-11-03T17:09:34.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:10:03.819Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&toprice=3000000&sortby=cheapest","timestamp":"2024-11-03T17:10:06.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.808Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.811Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.811Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:10:06.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : ; toPrice : 3000000;; location : ;; sortBy : cheapest;","timestamp":"2024-11-03T17:10:06.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:12:49.432Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:12:50.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:12:58.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:12:59.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:13:28.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:17:32.925Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:17:33.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1","timestamp":"2024-11-03T17:17:38.107Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.108Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.109Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.109Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.110Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.110Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.112Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.112Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.112Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:38.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:17:38.114Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=0","timestamp":"2024-11-03T17:17:44.289Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:44.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 0; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:17:44.299Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=100000","timestamp":"2024-11-03T17:17:53.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.976Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.976Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.976Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.976Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:17:53.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 100000; toPrice : ;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:17:53.978Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:18:03.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=100000&toprice=300000","timestamp":"2024-11-03T17:18:07.684Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.685Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.685Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.685Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.689Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:07.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 100000; toPrice : 300000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:18:07.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=350000&toprice=400000","timestamp":"2024-11-03T17:18:36.777Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.778Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.778Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.781Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.781Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.782Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.783Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.783Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:36.784Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 350000; toPrice : 400000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:18:36.784Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=350000&toprice=500000","timestamp":"2024-11-03T17:18:44.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.697Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.697Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.697Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.697Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.698Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.698Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.699Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.699Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.699Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:44.699Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 350000; toPrice : 500000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:18:44.699Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=350000&toprice=800000","timestamp":"2024-11-03T17:18:49.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:49.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 350000; toPrice : 800000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:18:49.653Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=350000&toprice=1000000","timestamp":"2024-11-03T17:18:56.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.259Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.259Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:56.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 350000; toPrice : 1000000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:18:56.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=350000&toprice=10000000","timestamp":"2024-11-03T17:18:59.133Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.133Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.133Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.133Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.134Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.134Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.134Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.134Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.134Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:18:59.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 350000; toPrice : 10000000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:18:59.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:19:58.039Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:19:58.784Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:20:28.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:24:05.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:24:05.999Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=350000&toprice=10000000","timestamp":"2024-11-03T17:24:10.022Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:10.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 350000; toPrice : 10000000;; location : ;; sortBy : ;","timestamp":"2024-11-03T17:24:10.029Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=350000&sortby=cheapest","timestamp":"2024-11-03T17:24:16.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.249Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.249Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.249Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.249Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:16.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 350000; toPrice : ;; location : ;; sortBy : cheapest;","timestamp":"2024-11-03T17:24:16.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=350000&location=northern&sortby=cheapest","timestamp":"2024-11-03T17:24:19.085Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.086Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.086Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.086Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.087Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.087Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.088Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.088Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.089Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.089Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.090Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.090Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.090Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:19.091Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 350000; toPrice : ;; location : Northern;; sortBy : cheapest;","timestamp":"2024-11-03T17:24:19.091Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&fromprice=350000&sortby=cheapest","timestamp":"2024-11-03T17:24:21.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:21.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : 350000; toPrice : ;; location : ;; sortBy : cheapest;","timestamp":"2024-11-03T17:24:21.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:24:35.342Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&sortby=cheapest","timestamp":"2024-11-03T17:24:38.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:24:38.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : cheapest;","timestamp":"2024-11-03T17:24:38.253Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&sortby=cheapest","timestamp":"2024-11-03T17:25:38.559Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.561Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.562Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.562Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:25:38.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : cheapest;","timestamp":"2024-11-03T17:25:38.565Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:26:00.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:26:01.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:26:30.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&sortby=cheapest","timestamp":"2024-11-03T17:29:50.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:29:50.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : cheapest;","timestamp":"2024-11-03T17:29:50.169Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:30:32.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:30:33.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-03T17:31:02.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-03T17:31:54.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-03T17:31:55.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=5&currentpage=1&sortby=cheapest","timestamp":"2024-11-03T17:31:57.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.754Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-11-03T17:31:57.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 5; currentPage : 1; keyword : ; fromPrice : ; toPrice : ;; location : ;; sortBy : cheapest;","timestamp":"2024-11-03T17:31:57.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-03T17:32:05.825Z"}
