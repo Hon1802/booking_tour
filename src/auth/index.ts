@@ -29,8 +29,10 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
   // Check if URL is in bypass list without token
 
   const isPassUrl = bypassUrls.some((passUrl) => {
+    const pathFromRequest = URL_REQUEST.split('?')[0];
+    logger.info(`transform: ${pathFromRequest}`)
     const regex = pathToRegexp(passUrl);
-    return regex.test(URL_REQUEST);
+    return regex.test(pathFromRequest);
   });
 
   if (isPassUrl) {
@@ -83,6 +85,7 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
             const roleUser = jwtObject?.role;
             const pathUrlUser = roleUser ==='admin' ? adminUrls : userUrl; 
             // Check for admin role
+            console.log(pathUrlUser)
             if (roleUser) {
               if (pathUrlUser.includes(URL_REQUEST)) {
                 return next();

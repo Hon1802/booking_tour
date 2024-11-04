@@ -8,6 +8,9 @@ export const customerRoute = Router();
 customerRoute.get('/get-tour-by-number', tourController.handleGetTourByNumber);
 customerRoute.get('/get-tour-by-id', tourController.handleGetTourById);
 
+customerRoute.get('/hot-tours', tourController.handleGetTourById);
+customerRoute.get('/latest-tours', tourController.handleGetTourById);
+customerRoute.get('/tours/filter', tourController.handleFilterTour);
 // User routes
 // get by id
 customerRoute.get('/get-user-by-id', userController.handleGetUserById);
