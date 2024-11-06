@@ -136,9 +136,6 @@ class UserController {
                   message: 'id, name, email is required to update'
                 });
           }
-
-
-
           let birthDate: Date | null = null;
           if (birthday) {
             const [day, month, year] = birthday.split('-').map(Number);
@@ -173,8 +170,6 @@ class UserController {
               });
             }
           }
-            
-          console.log(birthDate);
           const DataUpdate: DataUserUpdate ={
             id: id,
             fullName: fullName,

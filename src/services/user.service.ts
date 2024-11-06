@@ -167,7 +167,6 @@ class UsersService {
         where: { email: UpdateData.email },
       });
       const count = users.length;
-      console.log(count)
       if(count > 1) {
         userData = {
           status: 409,
@@ -179,12 +178,25 @@ class UsersService {
 
       let holderStore = await managerUser.findOne(User, { where: { _id: new ObjectId(UpdateData.id) } });
       if (holderStore && holderStore.delFlg != -1) {
-        let can_edit_email = 'EDIT'+UpdateData.email;
-        const redis = RedisConnection.getInstance();
+        let checkValueRedis = false;
+        if(!!UpdateData.email){
+          console.log('exist')
+          let can_edit_email = 'EDIT'+UpdateData.email;
+          const redis = RedisConnection.getInstance();
+  
+          const checkRedis = await redis.getValue(can_edit_email)
 
-        const checkRedis = await redis.getValue(can_edit_email)
-        await redis.deleteValue(can_edit_email);
-        if(!(checkRedis.value) &&  UpdateData.email !== holderStore.email){
+          if (checkRedis && checkRedis.value) {
+            await redis.deleteValue(can_edit_email);
+            checkValueRedis = false;
+          } else{
+            checkValueRedis = true;
+          }
+          console.log('exist', checkValueRedis)
+
+        }
+        
+        if( (checkValueRedis) &&  (UpdateData.email !== holderStore.email)){
           userData = {
               status: 400,
               errCode: 400,
@@ -201,7 +213,7 @@ class UsersService {
               $set: {
                 name : UpdateData.fullName,
                 phone: UpdateData.phone || holderStore.phone || '',
-                email : UpdateData.email, 
+                email : UpdateData.email || holderStore.email, 
                 gender : UpdateData.gender || holderStore.gender || '',
                 dateOfBirth: UpdateData.birthday || holderStore.dateOfBirth ,
                 avatar: UpdateData.urlAvatar || holderStore.avatar,
@@ -216,10 +228,10 @@ class UsersService {
               name: UpdateData.fullName || holderStore.name,
               phone: UpdateData.phone || holderStore.phone,
               birthday: UpdateData.birthday || holderStore.dateOfBirth,
-              email: UpdateData.email,
+              email: UpdateData.email || holderStore.email,
               avatar: UpdateData.urlAvatar || holderStore.avatar,
               gender: UpdateData.gender || holderStore.gender,
-              id: UpdateData.id,
+              id: UpdateData.id || holderStore.id,
               role: 'user'
             }            
           };
