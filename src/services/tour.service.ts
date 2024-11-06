@@ -607,6 +607,7 @@ class ToursService {
         keyword: string | null = null,
         fromPrice: string | null = null,
         toPrice: string | null = null,
+        priceRanges: string[] | null ,
         location: string | null=null,
         sortBy: string | null = null,
         status: number = 2
@@ -627,23 +628,73 @@ class ToursService {
                     { address: { $regex: regex } },
                 ];
             }
+
+            if (Array.isArray(priceRanges) && priceRanges.length > 0) {
+                console.log(priceRanges);  // In ra giá trị của priceRanges nếu không phải mảng trống
+              }
             // Tìm kiếm theo giá
-            if (fromPrice && toPrice) { // Kiểm tra cả hai giá trị có tồn tại và không rỗng                
-                // query.priceAdult = { $gte: parseFloat(fromPrice), $lte: parseFloat(toPrice) };
+            // Tìm kiếm theo giá
+            if (Array.isArray(priceRanges) && priceRanges.length > 0) {
+                console.log(priceRanges);  // In ra giá trị của priceRanges nếu không phải mảng trống
+
+                // Kiểm tra và xử lý từng khoảng giá trong priceRanges
+                query.$expr = {
+                    $or: priceRanges.map((range: string) => {
+                        const [from, to] = range.split('-').map((value) => parseFloat(value));
+
+                        if (from && to) {
+                            return {
+                                $and: [
+                                    { $gte: [{ $toDouble: "$priceAdult" }, from] },
+                                    { $lte: [{ $toDouble: "$priceAdult" }, to] }
+                                ]
+                            };
+                        } else if (from) {
+                            return { $gte: [{ $toDouble: "$priceAdult" }, from] };
+                        } else if (to) {
+                            return { $lte: [{ $toDouble: "$priceAdult" }, to] };
+                        }
+
+                        // Trả về điều kiện mặc định nếu không có giá trị hợp lệ
+                        return null;
+                    }).filter(Boolean) // Loại bỏ các giá trị không hợp lệ
+                };
+            } else if (fromPrice && toPrice) { 
+                // Tìm kiếm theo khoảng giá cụ thể nếu không có priceRanges
                 query.$expr = {
                     $and: [
                         { $gte: [{ $toDouble: "$priceAdult" }, parseFloat(fromPrice)] },
                         { $lte: [{ $toDouble: "$priceAdult" }, parseFloat(toPrice)] }
                     ]
                 };
-            } else if (fromPrice) { // Kiểm tra chỉ `fromPrice` tồn tại và không rỗng
-                // query.priceAdult = { $gte: parseFloat(fromPrice) };
-                console.log('t2')
+            } else if (fromPrice) { 
+                // Tìm kiếm theo giá từ
                 query.$expr = {
                     $gte: [{ $toDouble: "$priceAdult" }, parseFloat(fromPrice)]
                 };
-
+            } else if (toPrice) {
+                // Tìm kiếm theo giá đến
+                query.$expr = {
+                    $lte: [{ $toDouble: "$priceAdult" }, parseFloat(toPrice)]
+                };
             }
+
+            // if (fromPrice && toPrice) { // Kiểm tra cả hai giá trị có tồn tại và không rỗng                
+            //     // query.priceAdult = { $gte: parseFloat(fromPrice), $lte: parseFloat(toPrice) };
+            //     query.$expr = {
+            //         $and: [
+            //             { $gte: [{ $toDouble: "$priceAdult" }, parseFloat(fromPrice)] },
+            //             { $lte: [{ $toDouble: "$priceAdult" }, parseFloat(toPrice)] }
+            //         ]
+            //     };
+            // } else if (fromPrice) { // Kiểm tra chỉ `fromPrice` tồn tại và không rỗng
+            //     // query.priceAdult = { $gte: parseFloat(fromPrice) };
+            //     console.log('t2')
+            //     query.$expr = {
+            //         $gte: [{ $toDouble: "$priceAdult" }, parseFloat(fromPrice)]
+            //     };
+
+            // }
 
             // Tìm kiếm theo địa điểm
             if (location) {
@@ -714,5 +765,153 @@ class ToursService {
 
     }
 
+    // for customer
+    latestTourCustomer = async (
+        perPage: number | null = null,
+        currentPage: number = 1, 
+        status: number = 2
+    ) : Promise<{ 
+        data: Tour[]; 
+        total: number; 
+        currentPage: number; 
+        perPage: number }
+        > =>{
+        try{
+            const query: FilterQuery<Tour> = {}; 
+
+            // Lọc theo trạng thái
+            if (status !== 2) {
+                query.delFlg = status;
+            }
+
+            // Thiết lập sắp xếp
+            const sort: { [key: string]: 1 | -1 } = {};
+            sort.createdAt = -1; // Sắp xếp tăng dần theo giá
+
+            
+            // Cấu hình phân trang
+            const options: FindOptions = {};
+            if (perPage) {
+                options.limit = perPage;
+                options.skip = (currentPage - 1) * perPage; 
+            }
+             
+            const skip = (currentPage - 1) * (perPage || Number.MAX_SAFE_INTEGER);
+            
+            try {
+                // Đếm tổng số kết quả
+                const total = await managerTour.getMongoRepository(Tour).count(query); 
+                // Truy vấn lấy dữ liệu
+                console.log('query : ',query)
+                console.log('soft : ',sort)
+
+                const tours = await managerTour.getMongoRepository(Tour).find({
+                    where: query,
+                    order: sort,
+                    take: perPage || total, // Nếu perPage không có thì lấy tất cả
+                    skip: skip // Bỏ qua số bản ghi đã tính toán
+                });
+                return {
+                    data: tours,
+                    total,
+                    currentPage,
+                    perPage: perPage || total // Trả về số bảng ghi lấy được
+                };
+            } catch (error) {
+                console.error("Error fetching tours:");
+                throw error;
+            }
+
+        }catch (error)
+        {
+            const tourData = {
+                status: 500,
+                errCode: 500,
+                errMessage: 'Internal error'
+            };
+            console.log(error)
+            return {
+                data: [],
+                total: 0,
+                currentPage,
+                perPage: 0 // Trả về số bảng ghi lấy được
+            };
+        }
+
+    }
+     // for customer
+    HotTourCustomer = async (
+        perPage: number | null = null,
+        currentPage: number = 1, 
+        status: number = 2
+    ) : Promise<{ 
+        data: Tour[]; 
+        total: number; 
+        currentPage: number; 
+        perPage: number }
+        > =>{
+        try{
+            const query: FilterQuery<Tour> = {}; 
+
+            // Lọc theo trạng thái
+            if (status !== 2) {
+                query.delFlg = status;
+            }
+
+            // Thiết lập sắp xếp
+            const sort: { [key: string]: 1 | -1 } = {};
+            sort.buySlot = -1;
+
+            
+            // Cấu hình phân trang
+            const options: FindOptions = {};
+            if (perPage) {
+                options.limit = perPage;
+                options.skip = (currentPage - 1) * perPage; 
+            }
+             
+            const skip = (currentPage - 1) * (perPage || Number.MAX_SAFE_INTEGER);
+            
+            try {
+                // Đếm tổng số kết quả
+                const total = await managerTour.getMongoRepository(Tour).count(query); 
+                // Truy vấn lấy dữ liệu
+                console.log('query : ',query)
+                console.log('soft : ',sort)
+
+                const tours = await managerTour.getMongoRepository(Tour).find({
+                    where: query,
+                    order: sort,
+                    take: perPage || total, // Nếu perPage không có thì lấy tất cả
+                    skip: skip // Bỏ qua số bản ghi đã tính toán
+                });
+                return {
+                    data: tours,
+                    total,
+                    currentPage,
+                    perPage: perPage || total // Trả về số bảng ghi lấy được
+                };
+            } catch (error) {
+                console.error("Error fetching tours:");
+                throw error;
+            }
+
+        }catch (error)
+        {
+            const tourData = {
+                status: 500,
+                errCode: 500,
+                errMessage: 'Internal error'
+            };
+            console.log(error)
+            return {
+                data: [],
+                total: 0,
+                currentPage,
+                perPage: 0 // Trả về số bảng ghi lấy được
+            };
+        }
+
+    }
 }
 export default new ToursService();
