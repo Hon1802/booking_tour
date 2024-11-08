@@ -5374,3 +5374,6 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-11-06T17:57:54.694Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-11-06T17:57:54.695Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-06T17:58:02.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-08T13:17:16.579Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-08T13:17:17.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-08T13:17:35.532Z"}
