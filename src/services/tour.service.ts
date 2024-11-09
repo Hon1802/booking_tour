@@ -110,6 +110,11 @@ class ToursService {
             tour.priceChild = dataTour?.priceChild;
             tour.delFlg = 0;
             tour.buySlot = 0;
+            tour.transportationId = dataTour?.transportationId;
+            tour.hotelId = dataTour?.hotelId;
+            tour.estimatedTime = dataTour?.estimatedTime ? new Date(dataTour.estimatedTime) : new Date();
+            tour.closeOrderTime = dataTour?.closeOrderTime ? new Date(dataTour.closeOrderTime) : new Date();
+            tour.limit = dataTour?.limit;
             tour.images =  generateUrlImage(dataTour?.images) || [
                 {
                     urlImage : 'https://achautravel.com/upload/images/1689131743.jpeg'
@@ -313,6 +318,11 @@ class ToursService {
             tour.priceChild = dataTour?.priceChild || tourHolder.priceChild;
             tour.delFlg = 0;
             tour.buySlot = tourHolder.buySlot || 0;
+            tour.transportationId = dataTour?.transportationId;
+            tour.hotelId = dataTour?.hotelId;
+            tour.estimatedTime = dataTour?.estimatedTime ? new Date(dataTour.estimatedTime) : new Date();
+            tour.closeOrderTime = dataTour?.closeOrderTime ? new Date(dataTour.closeOrderTime) : new Date();
+            tour.limit = dataTour?.limit;
             tour.images = generateUrlImage(dataTour?.images) || tourHolder.images || [
                 {
                     urlImage : 'https://achautravel.com/upload/images/1689131743.jpeg'
@@ -350,6 +360,15 @@ class ToursService {
                         priceChild: dataTour?.priceChild || tourHolder.priceChild,
                         delFlg: 0,
                         buySlot: tourHolder.buySlot || 0,
+                        transportationId : dataTour?.transportationId || tourHolder.transportationId,
+                        hotelId : dataTour?.hotelId || tourHolder.hotelId,
+                        estimatedTime : tour.estimatedTime = dataTour?.estimatedTime 
+                        ? new Date(dataTour.estimatedTime) 
+                        : (tourHolder.estimatedTime ? new Date(tourHolder.estimatedTime) : new Date()),
+                        closeOrderTime : tour.closeOrderTime = dataTour?.closeOrderTime 
+                        ? new Date(dataTour.closeOrderTime) 
+                        : (tourHolder.closeOrderTime ? new Date(tourHolder.closeOrderTime) : new Date()),
+                        limit : dataTour?.limit || tourHolder.buySlot,
                         images: generateUrlImage(dataTour?.images) || tourHolder.images || [
                             {
                                 urlImage: 'https://achautravel.com/upload/images/1689131743.jpeg'
