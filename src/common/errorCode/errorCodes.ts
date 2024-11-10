@@ -66,6 +66,10 @@ interface ErrorCode {
         code: 'ID_001',
         message: 'Internal server error - id incorrect format',
       },
+      TOUR_ACTIVE_OR_BOOKED:{
+        code: 'ERROR_TOUR_001',
+        errMessage:`Cannot delete the tour. The tour is active or has booked slots.`
+      }
     }
   };
   

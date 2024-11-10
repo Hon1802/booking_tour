@@ -23,4 +23,4 @@ adminRoute.patch('/upload-image-remove', adminController.handleRemoveImageTour);
 adminRoute.get('/tours/filter', adminController.handleFilterStatusTour);
 
 
-// adminRoute.delete('/tours/remove', adminController.handleFilterStatusTour);
+adminRoute.delete('/tours/remove', adminController.handleRemoveTour);

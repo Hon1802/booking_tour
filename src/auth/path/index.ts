@@ -42,8 +42,9 @@ export const adminUrls = [
   'get-tour-by-number/:count',
   'tours/filter',
   'tours/filter/',
-
+  
   // another
+  'tours/remove',
   'update-tour-status/',
   'upload-image-remove',
   'update-tour-by-id',

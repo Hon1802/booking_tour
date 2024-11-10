@@ -495,6 +495,8 @@ class ToursService {
 
     }
 
+
+
     // update status tour
 
     statusTour = async (status:string, id: string) : Promise<TourData> =>{
@@ -930,6 +932,67 @@ class ToursService {
                 perPage: 0 // Trả về số bảng ghi lấy được
             };
         }
+
+    }
+
+    // remove tour by id
+
+    removeTourById = async (id: string) : Promise<TourData> =>{
+    try{
+        let tourData : TourData;
+
+        if (!ObjectId.isValid(id)) {
+            tourData = {
+              status: 400,
+              errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
+              errMessage: errorCodes.RESPONSE.ID_NOT_SUPPORT.message
+            };
+            logger.error('error id');
+            return tourData;
+          }
+
+        const tour = await managerTour.getMongoRepository(Tour).findOne({
+            where: { 
+                _id: new ObjectId(id)
+                }
+            });
+        if(tour)
+        {
+            if (tour.delFlg === 1 || tour.buySlot === 0) {
+                await managerTour.getMongoRepository(Tour).remove(tour);
+                tourData = {
+                    status: 200,
+                    errCode: 200,
+                    errMessage: `Tour deleted successfully.`,
+                    tourInfor: tour
+                };
+            } else {
+                tourData = {
+                    status: 400,
+                    errCode: errorCodes.RESPONSE.TOUR_ACTIVE_OR_BOOKED.code,
+                    errMessage: `Cannot delete the tour. The tour is active or has booked slots.`,
+                    tourInfor: tour
+                };
+            }
+        }else{
+            tourData = {
+                status: 400,
+                errCode: 400,
+                errMessage: `Not found`,
+                tourInfor: tour || {}
+                };
+        }
+        return tourData;
+    }catch (error)
+    {
+        const tourData = {
+            status: 500,
+            errCode: 500,
+            errMessage: 'Internal error'
+        };
+        console.log(error)
+        return tourData;
+    }
 
     }
 }
