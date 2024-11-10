@@ -553,7 +553,8 @@ class ToursService {
         data: Tour[]; 
         total: number; 
         currentPage: number; 
-        perPage: number }
+        perPage: number 
+    }
         > =>{
         try{
             // const query: Partial<Tour> = {};

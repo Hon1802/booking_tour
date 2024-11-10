@@ -296,13 +296,19 @@ class AdminController {
         try{
 
             const location: string | null = typeof req.query.location === 'string' ? req.query.location : null;
+            
+            const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : 10;
+            const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
 
-            const hotelData: IHotelData = await hotelService.handleGetListHotel(location);
+            const hotelData: IHotelData = await hotelService.handleGetListHotel(location, perPage, currentPage);
            
             return res.status(hotelData.status).json({
                 errCode: hotelData.errCode,
                 message: hotelData.errMessage,
                 data: hotelData.hotelInfo || 'null',
+                total: hotelData.total || 0,
+                currentPage:hotelData.currentPage ||0,
+                perPage: hotelData.perPage || 0,
                 });
         } catch(error){
             next(error)
