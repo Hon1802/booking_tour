@@ -184,6 +184,53 @@ class hotelsService {
             return hotelData;
         }
     }
+    // get list hotel 
+
+    handleGetListHotel = async (location?: string | null) : Promise<IHotelData> =>{
+        try{
+            let hotelData : IHotelData;
+            
+            const hotels = location
+            ? await managerHotel.getMongoRepository(Hotels).find({
+                  where: {
+                      location: {
+                          $regex: location,  // Tìm kiếm với regex
+                          $options: 'i'      // Không phân biệt chữ hoa chữ thường
+                      }
+                  }
+              })
+            : await managerHotel.getMongoRepository(Hotels).find();
+            // Kiểm tra nếu có khách sạn trả về
+        if (hotels.length > 0) {
+            hotelData = {
+                status: 200,
+                errCode: 200,
+                errMessage: `Get hotels successfully.`,
+                hotelInfo: hotels // Trả về danh sách khách sạn
+            };
+        } else {
+            hotelData = {
+                status: 400,
+                errCode: 400,
+                errMessage: `Not found`,
+                hotelInfo: [] // Không tìm thấy khách sạn
+            };
+        }
+
+        return hotelData;
+          
+        }catch (error)
+        {
+            const hotelData = {
+                status: 500,
+                errCode: 500,
+                errMessage: 'Internal error'
+            };
+            console.log(error)
+            return hotelData;
+        }
+
+    }
 
     // get hotel by id
 

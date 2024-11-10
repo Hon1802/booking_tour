@@ -10292,3 +10292,382 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-bundle.js","timestamp":"2024-11-10T07:39:18.739Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-standalone-preset.js","timestamp":"2024-11-10T07:39:18.740Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-10T07:39:52.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-10T07:54:05.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-10T07:54:06.904Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-10T07:54:35.653Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.887Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.892Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.892Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.894Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.895Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.895Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.895Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.896Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.896Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.896Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.896Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:40.900Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.488Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:54:42.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.689Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:01.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-10T07:55:37.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-10T07:55:38.901Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.594Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.597Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.597Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.598Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.598Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:39.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=miami%20beach","timestamp":"2024-11-10T07:55:58.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.871Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.871Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:55:58.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-10T07:56:07.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:18.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=moudtain","timestamp":"2024-11-10T07:56:34.796Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.796Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.796Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:34.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=mountain","timestamp":"2024-11-10T07:56:42.000Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:42.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=mianma","timestamp":"2024-11-10T07:56:49.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:56:49.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-10T07:57:53.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=mianma","timestamp":"2024-11-10T07:57:55.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.370Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.371Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.371Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:55.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-10T07:57:55.614Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=mianma","timestamp":"2024-11-10T07:57:56.931Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.937Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.937Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.937Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:57:56.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=miama","timestamp":"2024-11-10T07:58:08.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.614Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.614Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.614Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.614Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:08.614Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=mi","timestamp":"2024-11-10T07:58:11.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:11.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=miami","timestamp":"2024-11-10T07:58:19.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:19.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-10T07:58:23.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=beach","timestamp":"2024-11-10T07:58:33.594Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.597Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.597Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.597Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.597Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:33.597Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=mountain","timestamp":"2024-11-10T07:58:39.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:39.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=","timestamp":"2024-11-10T07:58:44.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:44.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.351Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.351Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.351Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.351Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.351Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:48.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/hotel?location=miami","timestamp":"2024-11-10T07:58:56.733Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.733Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/hotel","timestamp":"2024-11-10T07:58:56.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-10T08:01:02.620Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui.css","timestamp":"2024-11-10T08:01:02.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-bundle.js","timestamp":"2024-11-10T08:01:02.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-standalone-preset.js","timestamp":"2024-11-10T08:01:02.634Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-10T08:01:02.635Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-10T08:01:02.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/favicon-32x32.png","timestamp":"2024-11-10T08:01:02.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-10T08:01:04.273Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-10T08:01:23.463Z"}
