@@ -52,6 +52,9 @@ export const adminUrls = [
   'upload-image',
   'new-image',
   'new-tour',
+  // hotel
+  'hotel',
+  'hotel/update',
 // ].map((url) => url.toLowerCase().trim());
 ].map((endpoint) => (adminBaseUrl + endpoint).toLowerCase().trim());
 
