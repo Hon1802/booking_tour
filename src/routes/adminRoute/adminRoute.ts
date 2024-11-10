@@ -474,3 +474,91 @@ adminRoute.post('/hotel', adminController.handleAddNewHotel);
  */
 
 adminRoute.put('/hotel/update', adminController.handleUpdateHotel);
+
+/**
+ * @openapi
+ * /v1/api/admin/hotels:
+ *   get:
+ *     description: Get a list of hotels, optionally filtered by location.
+ *     parameters:
+ *       - in: query
+ *         name: location
+ *         required: false
+ *         description: Location to filter hotels by.
+ *         schema:
+ *           type: string
+ *           example: "Miami"
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved the list of hotels.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 200
+ *                 errCode:
+ *                   type: integer
+ *                   example: 200
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Get hotels successfully."
+ *                 hotelInfo:
+ *                   type: array
+ *                   items:
+ *                     type: object
+ *                     properties:
+ *                       hotelName:
+ *                         type: string
+ *                         example: "Oceanview Hotel"
+ *                       address:
+ *                         type: string
+ *                         example: "123 Beach Road, Miami"
+ *                       location:
+ *                         type: string
+ *                         example: "Miami Beach"
+ *                       description:
+ *                         type: string
+ *                         example: "A luxury hotel with stunning ocean views."
+ *                       starRating:
+ *                         type: integer
+ *                         example: 5
+ *                       pricePerNight:
+ *                         type: number
+ *                         example: 250
+ *       400:
+ *         description: No hotels found matching the given location.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 400
+ *                 errCode:
+ *                   type: integer
+ *                   example: 400
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Not found"
+ *       500:
+ *         description: Internal server error while retrieving hotels.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 500
+ *                 errCode:
+ *                   type: integer
+ *                   example: 500
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Internal error"
+ */
+adminRoute.get('/hotel', adminController.handleGetListHotel);

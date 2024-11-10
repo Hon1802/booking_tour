@@ -290,6 +290,24 @@ class AdminController {
             next(error)
         }
     }
+
+    // handle get list Hotel
+    handleGetListHotel = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
+
+            const location: string | null = typeof req.query.location === 'string' ? req.query.location : null;
+
+            const hotelData: IHotelData = await hotelService.handleGetListHotel(location);
+           
+            return res.status(hotelData.status).json({
+                errCode: hotelData.errCode,
+                message: hotelData.errMessage,
+                data: hotelData.hotelInfo || 'null',
+                });
+        } catch(error){
+            next(error)
+        }
+    }
 }
 
 export default new AdminController();
