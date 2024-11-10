@@ -1,10 +1,12 @@
 'use strict'
 import bodyParser from 'body-parser';
-import express from 'express';
+import express, { Application, Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import database from './databases/connectDatabase';
-
+// wagger
+import swaggerUi from 'swagger-ui-express';
+import swaggerJsdoc from 'swagger-jsdoc';
 // redis
 
 import { routes } from './routes';
@@ -53,6 +55,25 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // check token
 app.use(checkToken)
+
+
+// wagger
+// Cấu hình Swagger
+const swaggerOptions = {
+  definition: {
+    openapi: '3.0.0',
+    info: {
+      title: 'API Documentation',
+      version: '1.0.0',
+      description: 'Documentation for my Express API written in TypeScript',
+    },
+  },
+  // apis: ['./src/routes/*.ts'], // Đường dẫn chứa các định nghĩa API
+  apis: ['./src/routes/**/*.ts'], 
+};
+
+const swaggerDocs = swaggerJsdoc(swaggerOptions);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 //routes
 app.use('/', routes);
 

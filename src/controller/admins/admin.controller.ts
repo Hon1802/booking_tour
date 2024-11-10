@@ -7,6 +7,8 @@ import { StatusTourEnum } from '../../databases/interface/common';
 import { logger } from '../../log';
 import instanceStorageFireball from '../../databases/firebase/firebase.init';
 import { UploadImage } from '../../databases/firebase/firebase.uploadImage';
+import hotelService from '../../services/hotel.service';
+import { IHotelData } from '../../databases/interface/hotelInterface';
 // import { File } from 'multer';
 interface MulterRequest extends Request {
     file?: Express.Multer.File;  // Nếu chỉ upload 1 file
@@ -256,7 +258,38 @@ class AdminController {
     }
 
     // support function, private
+    handleAddNewHotel = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
+            const data = req.body;
+           
+            const hotelData: IHotelData = await hotelService.hotelNew(data);
+           
+            return res.status(hotelData.status).json({
+                errCode: hotelData.errCode,
+                message: hotelData.errMessage,
+                data: hotelData.hotelInfo || 'null',
+                });
+        } catch(error){
+            next(error)
+        }
+    }
+    // handle Update Hotel
+    handleUpdateHotel = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
 
+            const data = req.body;
+           
+            const hotelData: IHotelData = await hotelService.handleUpdateHotel(data);
+           
+            return res.status(hotelData.status).json({
+                errCode: hotelData.errCode,
+                message: hotelData.errMessage,
+                data: hotelData.hotelInfo || 'null',
+                });
+        } catch(error){
+            next(error)
+        }
+    }
 }
 
 export default new AdminController();

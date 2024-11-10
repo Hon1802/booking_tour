@@ -27,7 +27,11 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
   logger.info(`url client: ${URL_REQUEST}`)
 
   // Check if URL is in bypass list without token
-
+  // Bỏ qua kiểm tra token cho đường dẫn `/api-docs`
+  if (URL_REQUEST.startsWith('/api-docs')) {
+    return next();
+  }
+  
   const isPassUrl = bypassUrls.some((passUrl) => {
     const pathFromRequest = URL_REQUEST.split('?')[0];
     logger.info(`transform: ${pathFromRequest}`)
@@ -35,6 +39,7 @@ const checkToken = async (req: Request, res: Response, next: NextFunction) => {
     return regex.test(pathFromRequest);
   });
 
+  console.log('check', isPassUrl)
   if (isPassUrl) {
     return next(); 
   }
