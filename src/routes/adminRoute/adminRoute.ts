@@ -562,3 +562,68 @@ adminRoute.put('/hotel/update', adminController.handleUpdateHotel);
  *                   example: "Internal error"
  */
 adminRoute.get('/hotel', adminController.handleGetListHotel);
+
+/**
+ * @openapi
+ * /v1/api/admin/hotels/{id}:
+ *   delete:
+ *     description: Remove a hotel by its ID.
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         description: The ID of the hotel to remove.
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Successfully removed the hotel.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 200
+ *                 errCode:
+ *                   type: integer
+ *                   example: 200
+ *                 errMessage:
+ *                   type: string
+ *                   example: "hotel deleted successfully."
+ *       400:
+ *         description: Invalid ID or hotel not found.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 400
+ *                 errCode:
+ *                   type: integer
+ *                   example: 400
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Not found"
+ *       500:
+ *         description: Internal server error while removing the hotel.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 500
+ *                 errCode:
+ *                   type: integer
+ *                   example: 500
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Internal error"
+ */
+
+adminRoute.delete('/hotel/remove-hotel', adminController.handleRemoveHotel);

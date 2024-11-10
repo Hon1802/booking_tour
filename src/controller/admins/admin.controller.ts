@@ -308,6 +308,24 @@ class AdminController {
             next(error)
         }
     }
+
+    // handle remove Hotel
+    handleRemoveHotel = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
+
+            const { idHotel } = req.body;
+
+            const hotelData: IHotelData = await hotelService.handleRemoveHotelById(idHotel);
+           
+            return res.status(hotelData.status).json({
+                errCode: hotelData.errCode,
+                message: hotelData.errMessage,
+                data: hotelData.hotelInfo || 'null',
+                });
+        } catch(error){
+            next(error)
+        }
+    }
 }
 
 export default new AdminController();

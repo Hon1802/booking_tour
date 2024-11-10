@@ -55,6 +55,7 @@ export const adminUrls = [
   // hotel
   'hotel',
   'hotel/update',
+  'hotel/remove-hotel',
 // ].map((url) => url.toLowerCase().trim());
 ].map((endpoint) => (adminBaseUrl + endpoint).toLowerCase().trim());
 

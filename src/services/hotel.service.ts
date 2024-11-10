@@ -232,6 +232,57 @@ class hotelsService {
 
     }
 
+    // remove hotel by id
+
+    handleRemoveHotelById = async (id: string): Promise<IHotelData> => {
+        try {
+            let hotelData: IHotelData;
+    
+            if (!ObjectId.isValid(id)) {
+                hotelData = {
+                    status: 400,
+                    errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
+                    errMessage: errorCodes.RESPONSE.ID_NOT_SUPPORT.message
+                };
+                logger.error('error id');
+                return hotelData;
+            }
+    
+            const hotel = await managerHotel.getMongoRepository(Hotels).findOne({
+                where: {
+                    _id: new ObjectId(id)
+                }
+            });
+    
+            if (hotel) {
+                await managerHotel.getMongoRepository(Hotels).remove(hotel);
+                hotelData = {
+                    status: 200,
+                    errCode: 200,
+                    errMessage: `hotel deleted successfully.`
+                };
+            } else {
+                hotelData = {
+                    status: 400,
+                    errCode: 400,
+                    errMessage: `Not found`
+                };
+            }
+    
+            // Trả về dữ liệu dù có tìm thấy hay không
+            return hotelData;
+    
+        } catch (error) {
+            const hotelData = {
+                status: 500,
+                errCode: 500,
+                errMessage: 'Internal error'
+            };
+            console.log(error);
+            return hotelData;
+        }
+    };
+
     // get hotel by id
 
     // gethotelById = async (id: string) : Promise<hotelData> =>{
@@ -596,65 +647,6 @@ class hotelsService {
 
     // }
 
-    // remove hotel by id
-
-    // removehotelById = async (id: string) : Promise<hotelData> =>{
-    // try{
-    //     let hotelData : hotelData;
-
-    //     if (!ObjectId.isValid(id)) {
-    //         hotelData = {
-    //           status: 400,
-    //           errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
-    //           errMessage: errorCodes.RESPONSE.ID_NOT_SUPPORT.message
-    //         };
-    //         logger.error('error id');
-    //         return hotelData;
-    //       }
-
-    //     const hotel = await managerhotel.getMongoRepository(hotel).findOne({
-    //         where: { 
-    //             _id: new ObjectId(id)
-    //             }
-    //         });
-    //     if(hotel)
-    //     {
-    //         if (hotel.delFlg === 1 || hotel.buySlot === 0) {
-    //             await managerhotel.getMongoRepository(hotel).remove(hotel);
-    //             hotelData = {
-    //                 status: 200,
-    //                 errCode: 200,
-    //                 errMessage: `hotel deleted successfully.`,
-    //                 hotelInfor: hotel
-    //             };
-    //         } else {
-    //             hotelData = {
-    //                 status: 400,
-    //                 errCode: errorCodes.RESPONSE.hotel_ACTIVE_OR_BOOKED.code,
-    //                 errMessage: `Cannot delete the hotel. The hotel is active or has booked slots.`,
-    //                 hotelInfor: hotel
-    //             };
-    //         }
-    //     }else{
-    //         hotelData = {
-    //             status: 400,
-    //             errCode: 400,
-    //             errMessage: `Not found`,
-    //             hotelInfor: hotel || {}
-    //             };
-    //     }
-    //     return hotelData;
-    // }catch (error)
-    // {
-    //     const hotelData = {
-    //         status: 500,
-    //         errCode: 500,
-    //         errMessage: 'Internal error'
-    //     };
-    //     console.log(error)
-    //     return hotelData;
-    // }
-
-    // }
+    
 }
 export default new hotelsService();
