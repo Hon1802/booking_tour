@@ -110,6 +110,11 @@ class ToursService {
             tour.priceChild = dataTour?.priceChild;
             tour.delFlg = 0;
             tour.buySlot = 0;
+            tour.transportationId = dataTour?.transportationId;
+            tour.hotelId = dataTour?.hotelId;
+            tour.estimatedTime = dataTour?.estimatedTime ? new Date(dataTour.estimatedTime) : new Date();
+            tour.closeOrderTime = dataTour?.closeOrderTime ? new Date(dataTour.closeOrderTime) : new Date();
+            tour.limit = dataTour?.limit;
             tour.images =  generateUrlImage(dataTour?.images) || [
                 {
                     urlImage : 'https://achautravel.com/upload/images/1689131743.jpeg'
@@ -313,6 +318,11 @@ class ToursService {
             tour.priceChild = dataTour?.priceChild || tourHolder.priceChild;
             tour.delFlg = 0;
             tour.buySlot = tourHolder.buySlot || 0;
+            tour.transportationId = dataTour?.transportationId;
+            tour.hotelId = dataTour?.hotelId;
+            tour.estimatedTime = dataTour?.estimatedTime ? new Date(dataTour.estimatedTime) : new Date();
+            tour.closeOrderTime = dataTour?.closeOrderTime ? new Date(dataTour.closeOrderTime) : new Date();
+            tour.limit = dataTour?.limit;
             tour.images = generateUrlImage(dataTour?.images) || tourHolder.images || [
                 {
                     urlImage : 'https://achautravel.com/upload/images/1689131743.jpeg'
@@ -350,6 +360,15 @@ class ToursService {
                         priceChild: dataTour?.priceChild || tourHolder.priceChild,
                         delFlg: 0,
                         buySlot: tourHolder.buySlot || 0,
+                        transportationId : dataTour?.transportationId || tourHolder.transportationId,
+                        hotelId : dataTour?.hotelId || tourHolder.hotelId,
+                        estimatedTime : tour.estimatedTime = dataTour?.estimatedTime 
+                        ? new Date(dataTour.estimatedTime) 
+                        : (tourHolder.estimatedTime ? new Date(tourHolder.estimatedTime) : new Date()),
+                        closeOrderTime : tour.closeOrderTime = dataTour?.closeOrderTime 
+                        ? new Date(dataTour.closeOrderTime) 
+                        : (tourHolder.closeOrderTime ? new Date(tourHolder.closeOrderTime) : new Date()),
+                        limit : dataTour?.limit || tourHolder.buySlot,
                         images: generateUrlImage(dataTour?.images) || tourHolder.images || [
                             {
                                 urlImage: 'https://achautravel.com/upload/images/1689131743.jpeg'
@@ -475,6 +494,8 @@ class ToursService {
         }
 
     }
+
+
 
     // update status tour
 
@@ -911,6 +932,67 @@ class ToursService {
                 perPage: 0 // Trả về số bảng ghi lấy được
             };
         }
+
+    }
+
+    // remove tour by id
+
+    removeTourById = async (id: string) : Promise<TourData> =>{
+    try{
+        let tourData : TourData;
+
+        if (!ObjectId.isValid(id)) {
+            tourData = {
+              status: 400,
+              errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
+              errMessage: errorCodes.RESPONSE.ID_NOT_SUPPORT.message
+            };
+            logger.error('error id');
+            return tourData;
+          }
+
+        const tour = await managerTour.getMongoRepository(Tour).findOne({
+            where: { 
+                _id: new ObjectId(id)
+                }
+            });
+        if(tour)
+        {
+            if (tour.delFlg === 1 || tour.buySlot === 0) {
+                await managerTour.getMongoRepository(Tour).remove(tour);
+                tourData = {
+                    status: 200,
+                    errCode: 200,
+                    errMessage: `Tour deleted successfully.`,
+                    tourInfor: tour
+                };
+            } else {
+                tourData = {
+                    status: 400,
+                    errCode: errorCodes.RESPONSE.TOUR_ACTIVE_OR_BOOKED.code,
+                    errMessage: `Cannot delete the tour. The tour is active or has booked slots.`,
+                    tourInfor: tour
+                };
+            }
+        }else{
+            tourData = {
+                status: 400,
+                errCode: 400,
+                errMessage: `Not found`,
+                tourInfor: tour || {}
+                };
+        }
+        return tourData;
+    }catch (error)
+    {
+        const tourData = {
+            status: 500,
+            errCode: 500,
+            errMessage: 'Internal error'
+        };
+        console.log(error)
+        return tourData;
+    }
 
     }
 }

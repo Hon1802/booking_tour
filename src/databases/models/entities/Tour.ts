@@ -43,13 +43,41 @@ export class Tour {
   // 
   @Column({ type: 'number' , name: 'buySlot' })
   public buySlot!: number;
-
+  
+  // limit
+  @Column({ type: 'number' , name: 'limit' })
+  public limit!: number;
+  
   // exactly address
   @Column({ type: 'varchar' , name: 'address' })
   @IsNotEmpty({ message: 'Address is required' })
+  
   // @MaxLength(250, { message: 'Address cannot be longer than 250 characters' })
   public address!: string;
+
+  // exactly transportationId
+  @Column({ type: 'varchar' , name: 'transportationId' })
+  // @MaxLength(250, { message: 'Address cannot be longer than 250 characters' })
+  public transportationId !: string;
   
+  // estimatedTime
+  @Column({ type: 'date',name: 'estimatedTime' })
+  @IsDate()
+  @IsOptional()
+  @Transform(({ value }) => value || null)
+  public estimatedTime!: Date;
+  
+  // closeOrderTime
+  @Column({ type: 'date',name: 'closeOrderTime' })
+  @IsDate()
+  @IsOptional()
+  @Transform(({ value }) => value || null)
+  public closeOrderTime!: Date;
+
+  // exactly hotelId
+  @Column({ type: 'varchar' , name: 'hotelId' })
+  // @MaxLength(250, { message: 'Address cannot be longer than 250 characters' })
+  public hotelId !: string;
     
   // price adult
   @Column({ type: 'string', name: 'priceAdult' })

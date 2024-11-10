@@ -238,6 +238,21 @@ class AdminController {
         } catch(error){
             next(error)
         }
+    } 
+    // remove
+    handleRemoveTour = async(req: Request, res: Response, next: NextFunction)=>{
+        try{
+            
+            const {tourId} = req.body;
+            console.log(tourId);
+            const dataResponse = await tourService.removeTourById(tourId);
+            return res.status(dataResponse.status).json({
+                errCode: dataResponse.errCode,
+                message: dataResponse.errMessage
+            });
+        } catch(error){
+            next(error)
+        }
     }
 
     // support function, private
