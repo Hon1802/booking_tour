@@ -627,3 +627,359 @@ adminRoute.get('/hotel', adminController.handleGetListHotel);
  */
 
 adminRoute.delete('/hotel/remove-hotel', adminController.handleRemoveHotel);
+/**
+ * @openapi
+ * /v1/api/admin/transport:
+ *   post:
+ *     description: Create a new transport entry.
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               transportName:
+ *                 type: string
+ *                 description: Name of the transport.
+ *                 example: "Luxury Bus"
+ *               company:
+ *                 type: string
+ *                 description: Transport company.
+ *                 example: "Express Travel"
+ *               type:
+ *                 type: string
+ *                 description: Type of transport (e.g., bus, train).
+ *                 example: "Bus"
+ *               departure:
+ *                 type: string
+ *                 description: Departure location.
+ *                 example: "Hanoi"
+ *               destination:
+ *                 type: string
+ *                 description: Destination location.
+ *                 example: "Ho Chi Minh City"
+ *               price:
+ *                 type: number
+ *                 description: Ticket price.
+ *                 example: 50.5
+ *     responses:
+ *       200:
+ *         description: Transport created successfully.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 200
+ *                 errCode:
+ *                   type: integer
+ *                   example: 200
+ *                 errMessage:
+ *                   type: string
+ *                   example: "transport registered successfully."
+ *       400:
+ *         description: Missing or invalid data.
+ *       500:
+ *         description: Internal server error.
+ */
+adminRoute.post('/transport', adminController.handleAddNewTransport);
+/**
+ * @openapi
+ * /v1/api/admin/transport:
+ *   get:
+ *     description: Retrieve a list of transports with optional filters for departure and destination, and pagination.
+ *     parameters:
+ *       - in: query
+ *         name: departure
+ *         required: false
+ *         schema:
+ *           type: string
+ *         description: Filter transports by departure location.
+ *         example: "Hanoi"
+ *       - in: query
+ *         name: destination
+ *         required: false
+ *         schema:
+ *           type: string
+ *         description: Filter transports by destination location.
+ *         example: "Ho Chi Minh City"
+ *       - in: query
+ *         name: perPage
+ *         required: false
+ *         schema:
+ *           type: integer
+ *           default: 10
+ *         description: Number of transport records per page.
+ *         example: 10
+ *       - in: query
+ *         name: currentPage
+ *         required: false
+ *         schema:
+ *           type: integer
+ *           default: 1
+ *         description: The current page number for pagination.
+ *         example: 2
+ *     responses:
+ *       200:
+ *         description: Transports retrieved successfully.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 200
+ *                 errCode:
+ *                   type: integer
+ *                   example: 200
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Get transports successfully."
+ *                 transportInfo:
+ *                   type: array
+ *                   items:
+ *                     type: object
+ *                     properties:
+ *                       id:
+ *                         type: string
+ *                         example: "646c5d1234abcd56789ef012"
+ *                       transportName:
+ *                         type: string
+ *                         example: "Luxury Bus"
+ *                       company:
+ *                         type: string
+ *                         example: "Express Travel"
+ *                       type:
+ *                         type: string
+ *                         example: "Bus"
+ *                       departure:
+ *                         type: string
+ *                         example: "Hanoi"
+ *                       destination:
+ *                         type: string
+ *                         example: "Ho Chi Minh City"
+ *                       price:
+ *                         type: number
+ *                         example: 50.5
+ *                 total:
+ *                   type: integer
+ *                   example: 50
+ *                 currentPage:
+ *                   type: integer
+ *                   example: 2
+ *                 perPage:
+ *                   type: integer
+ *                   example: 10
+ *       400:
+ *         description: No transport records found.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 400
+ *                 errCode:
+ *                   type: integer
+ *                   example: 400
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Not found"
+ *                 transportInfo:
+ *                   type: array
+ *                   items: {}
+ *       500:
+ *         description: Internal server error.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 500
+ *                 errCode:
+ *                   type: integer
+ *                   example: 500
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Internal error"
+ */
+adminRoute.get('/transport', adminController.handleGetListTransport);
+/**
+ * @openapi
+ * /v1/api/admin/transport/update:
+ *   put:
+ *     description: Update a transport by its unique ID.
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: The unique ID of the transport to be updated.
+ *         example: "646c5d1234abcd56789ef012"
+ *       - in: body
+ *         name: dataTransport
+ *         required: true
+ *         description: The updated transport data.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 company:
+ *                   type: string
+ *                   description: The company of the transport.
+ *                   example: "Transport Co."
+ *                 departure:
+ *                   type: string
+ *                   description: The departure location of the transport.
+ *                   example: "Hanoi"
+ *                 destination:
+ *                   type: string
+ *                   description: The destination of the transport.
+ *                   example: "Ho Chi Minh City"
+ *                 type:
+ *                   type: string
+ *                   description: The type of transport (e.g., bus, train).
+ *                   example: "Bus"
+ *                 price:
+ *                   type: number
+ *                   description: The price of the transport.
+ *                   example: 100.5
+ *     responses:
+ *       200:
+ *         description: Transport updated successfully.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 200
+ *                 errCode:
+ *                   type: integer
+ *                   example: 200
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Transport updated successfully."
+ *                 transportInfo:
+ *                   type: object
+ *                   description: The updated transport information.
+ *                   properties:
+ *                     company:
+ *                       type: string
+ *                     departure:
+ *                       type: string
+ *                     destination:
+ *                       type: string
+ *                     type:
+ *                       type: string
+ *                     price:
+ *                       type: number
+ *       400:
+ *         description: Invalid ID or transport not found, or validation errors.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 400
+ *                 errCode:
+ *                   type: integer
+ *                   example: 400
+ *                 errMessage:
+ *                   type: string
+ *                   example: "No transport with id {id}"
+ *       500:
+ *         description: Internal server error.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 500
+ *                 errCode:
+ *                   type: integer
+ *                   example: 500
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Internal error"
+ */
+adminRoute.put('/transport/update', adminController.handleUpdateTransport);
+/**
+ * @openapi
+ * /v1/api/admin/transport/remove-transport:
+ *   delete:
+ *     description: Delete a transport by its unique ID.
+ *     parameters:
+ *       - in: path
+ *         name: idTransport
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: The unique ID of the transport to be deleted.
+ *         example: "646c5d1234abcd56789ef012"
+ *     responses:
+ *       200:
+ *         description: Transport deleted successfully.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 200
+ *                 errCode:
+ *                   type: integer
+ *                   example: 200
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Transport deleted successfully."
+ *       400:
+ *         description: Invalid ID or transport not found.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 400
+ *                 errCode:
+ *                   type: integer
+ *                   example: 400
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Not found"
+ *       500:
+ *         description: Internal server error.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: integer
+ *                   example: 500
+ *                 errCode:
+ *                   type: integer
+ *                   example: 500
+ *                 errMessage:
+ *                   type: string
+ *                   example: "Internal error"
+ */
+adminRoute.delete('/transport/remove-transport', adminController.handleRemoveTransport);
+
