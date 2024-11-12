@@ -48,6 +48,10 @@ export class Tour {
   @Column({ type: 'number' , name: 'limit' })
   public limit!: number;
   
+  // limit
+  @Column({ type: 'tinyint' , name: 'isApprove' })
+  public isApprove!: number;
+
   // exactly address
   @Column({ type: 'varchar' , name: 'address' })
   @IsNotEmpty({ message: 'Address is required' })

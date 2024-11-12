@@ -1,6 +1,6 @@
 'use strict'
 import bodyParser from 'body-parser';
-import express, { Application, Request, Response } from 'express';
+import express, { Application, NextFunction, Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import database from './databases/connectDatabase';
@@ -76,6 +76,13 @@ const swaggerDocs = swaggerJsdoc(swaggerOptions);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 //routes
 app.use('/', routes);
+
+// middleware
+
+app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+  console.error(err.stack);
+  res.status(500).json({ message: err.message });
+});
 
 app.listen(port, () => {
   console.log('run on : ' + port);

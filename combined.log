@@ -284,3 +284,994 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:22:46.083Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:22:47.292Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:23:16.170Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:24:27.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:24:28.335Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:24:48.362Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:24:49.455Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:25:18.359Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:25:19.475Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:25:28.678Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:25:33.794Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:25:34.896Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:25:46.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:25:48.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:26:16.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:26:17.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:26:46.477Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:37:41.229Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.892Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.892Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.892Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.894Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.894Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:41.894Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-11T16:37:41.904Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:43.844Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-11T16:37:43.845Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:37:45.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:45.696Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-11T16:37:45.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:37:47.504Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-11T16:37:47.562Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.802Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.803Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.804Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.804Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.806Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.806Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.806Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.808Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.808Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.808Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:07.810Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-11T16:38:07.883Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.954Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.955Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.956Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.956Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.957Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.957Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.959Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.959Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.959Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.960Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.960Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:38:08.960Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-11T16:38:09.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:38:11.326Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:39:07.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.410Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.410Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.412Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.413Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.416Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.419Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.420Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.421Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.423Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.424Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.424Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.425Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:39:10.426Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:39:14.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:39:37.441Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:40:50.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:40:58.130Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:41:20.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:41:51.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:41:55.396Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:42:07.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:42:10.109Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:42:15.273Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:42:15.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:42:37.110Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:43:55.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:43:59.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:44:25.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:44:42.348Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:44:46.623Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:45:10.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:45:14.429Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:45:28.399Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:45:32.496Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:45:46.208Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:45:50.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:46:05.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:46:12.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:46:16.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:46:34.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:46:34.875Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:46:34.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:46:41.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:46:56.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:46:56.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:47:04.609Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:47:47.180Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.634Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.634Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.635Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.637Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.638Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.638Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.639Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.639Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:47.642Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-11T16:47:47.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.537Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:49.537Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-11T16:47:49.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:47:51.289Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.290Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.290Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours","timestamp":"2024-11-11T16:47:51.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:47:58.078Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:47:58.086Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:47:58.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:47:58.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:47:59.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:47:59.171Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:47:59.994Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:48:00.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:48:01.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:48:01.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:48:01.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:48:01.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:48:17.276Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:48:27.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:48:31.663Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:48:51.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:48:51.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-11T16:48:51.305Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-11T16:48:55.412Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/","timestamp":"2024-11-11T16:48:58.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api-docs/swagger-ui-init.js","timestamp":"2024-11-11T16:48:58.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-11T16:49:21.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:12:26.078Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:12:35.907Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:12:56.170Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:14:09.826Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:14:19.108Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:14:25.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:14:49.200Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:15:35.404Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:15:39.664Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:15:48.879Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:16:01.611Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:16:18.969Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:16:27.395Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:16:35.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:16:57.479Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:17:28.088Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:17:34.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:17:40.952Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:17:47.078Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:18:11.047Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:18:47.246Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:18:54.518Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:19:16.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:19:24.482Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:19:30.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:19:54.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:20:04.277Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:20:13.661Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:20:19.716Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:20:43.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:21:19.106Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:21:27.396Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:21:49.231Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:21:57.622Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:22:05.153Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:22:11.284Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:22:35.225Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:23:58.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:24:08.655Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:24:14.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:24:38.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:25:02.734Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:25:07.109Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:25:32.828Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:25:40.299Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:25:46.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:26:10.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:26:38.275Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:26:44.546Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:27:08.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:27:18.347Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:27:22.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:27:32.622Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:27:40.131Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:27:58.554Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:28:02.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:28:28.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:28:35.056Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:28:40.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:29:05.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:29:55.582Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:30:01.701Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:30:25.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:30:33.696Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:30:36.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:30:46.821Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:30:54.554Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:31:08.742Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:31:14.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:31:32.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:31:44.307Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:32:02.676Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:32:48.050Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-11-12T15:32:53.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:33:22.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:33:30.685Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:33:52.606Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:36:47.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:36:52.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:37:17.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:37:32.821Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:37:46.351Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:37:52.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:38:20.104Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:38:27.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:38:50.195Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:38:59.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:39:07.147Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:39:32.073Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:39:37.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:39:53.413Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:40:01.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:40:17.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:40:26.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:40:35.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:40:45.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:41:06.898Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:41:17.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:41:25.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:41:47.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:42:03.036Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:42:10.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:43:42.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:43:44.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:44:12.349Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:45:26.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:45:29.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:45:45.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:45:48.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:46:11.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:46:13.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:46:24.326Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:46:26.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:46:36.580Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:46:39.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:47:06.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:48:57.336Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:48:59.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:49:27.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.844Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.844Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.845Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.845Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.845Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.846Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.846Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.848Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.848Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:23.848Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:52:25.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-12T15:53:11.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-12T15:53:11.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-12T15:53:11.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-12T15:53:11.323Z"}
+{"email":"test939@gmail.com","exp":1731599591,"iat":1731426791,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-11-12T15:53:11.463Z","userId":"66e003e57e6fb12f1c145aa0"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.157Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:26.157Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:53:30.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:54:46.672Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:54:48.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:55:16.819Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T15:55:26.664Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.959Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.960Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.961Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.962Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.962Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.963Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.963Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.963Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.964Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.964Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.964Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.964Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.964Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.965Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.965Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.966Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.966Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.966Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:26.966Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-12T15:55:26.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T15:55:29.040Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.045Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.046Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.046Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.047Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.047Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.047Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.048Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.048Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.049Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.050Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.050Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.050Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.050Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T15:55:29.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T15:55:56.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.846Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:08.857Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-12T16:10:08.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:10:08.900Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:10:11.446Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.448Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.448Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.454Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:10:11.454Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:10:39.046Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:12:50.290Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:12:53.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:13:03.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:13:06.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:13:33.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:14:01.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:14:05.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:14:31.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:14:51.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:14:54.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:15:22.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:18:09.094Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:18:12.050Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:18:39.223Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:23:22.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:23:25.081Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:23:47.178Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.607Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.608Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.611Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.614Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.615Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.616Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.616Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.617Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.618Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.618Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.619Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.619Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.620Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:47.620Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-12T16:23:47.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:23:50.172Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.179Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.179Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.180Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.181Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.185Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.190Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.191Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.194Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.195Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.197Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.200Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:23:50.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:24:17.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:24:19.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:24:46.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:24:49.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:25:16.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.937Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.942Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.950Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.952Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:42.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.088Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.089Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.090Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.091Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.091Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.092Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.092Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.093Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.093Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.094Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.095Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.095Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.096Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.097Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.097Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.098Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.099Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.099Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:44.100Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.317Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.327Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.327Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:45.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.448Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.455Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.455Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.457Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.457Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:25:58.459Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:26:38.110Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:26:41.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:27:08.304Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:27:28.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.223Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.224Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.225Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.225Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.226Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.228Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.229Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.229Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.231Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.232Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.232Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:29.235Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-12T16:27:29.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:27:34.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.454Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.455Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.457Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.467Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.468Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.470Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.471Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.476Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.486Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:34.488Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.874Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.874Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.875Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.877Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.879Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.880Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.881Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.882Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.883Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.884Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.885Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:36.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.138Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.139Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.139Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.142Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.142Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:38.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.398Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.399Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.399Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.402Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.402Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.403Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.403Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.404Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.404Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.406Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.406Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:27:42.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:27:59.080Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:29:28.049Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:29:30.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:29:46.561Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:29:49.616Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:30:16.742Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:31:26.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.584Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.585Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.586Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.587Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.587Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.588Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.588Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.589Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.589Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.589Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.590Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.590Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.591Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.591Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.592Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.592Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.593Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.593Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:26.594Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-12T16:31:26.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:31:29.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.379Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.379Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.380Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.380Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-12T16:31:29.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:31:56.547Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:34:00.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:34:03.285Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:34:12.299Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:34:15.196Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:34:42.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:34:59.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:35:02.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:35:29.909Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:35:49.992Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:35:52.996Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:36:20.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:38:35.960Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:38:38.979Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:39:06.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:43:36.446Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:43:45.822Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:43:48.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:44:15.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:44:41.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:44:44.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:44:59.625Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:45:04.347Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:45:29.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:46:06.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:46:09.999Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.763Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.764Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.765Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.765Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.766Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.766Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.767Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.767Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.769Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.769Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:24.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:46:37.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.157Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.157Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.158Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.160Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.160Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/statuss","timestamp":"2024-11-12T16:46:38.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:47.996Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:47.997Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:47.997Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:47.998Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:47.998Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:47.999Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:47.999Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:47.999Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.000Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.000Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:48.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.467Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.468Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.469Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.469Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.470Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.470Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.471Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.471Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.472Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.472Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.475Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.476Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.476Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.477Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.478Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:51.478Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.197Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.197Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.200Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.200Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.202Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.202Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.204Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.204Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.204Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.205Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:46:53.205Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-12T16:47:31.191Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-12T16:47:34.158Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.147Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.149Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.151Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:48:01.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-12T16:48:03.456Z"}

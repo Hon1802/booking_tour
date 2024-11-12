@@ -2,7 +2,8 @@
 import { Router, Request, Response } from 'express';
 import tourController from '../../controller/tours/tour.controller';
 import userController from '../../controller/customers/user.controller';
-
+import { BookingController } from '../../controller/bookings/booking.controller';
+const bookingController = new BookingController();
 export const customerRoute = Router();
 // Tour routes
 customerRoute.get('/get-tour-by-number', tourController.handleGetTourByNumber);
@@ -26,3 +27,9 @@ customerRoute.delete('/delete-account', userController.handleUpdateStatusUser);
 
 // update password of user
 customerRoute.patch('/update-password', userController.handleUpdatePassword);
+
+
+// booking
+
+customerRoute.post('/bookings', bookingController.handleAddNewBooking);
+customerRoute.put('/bookings/status', bookingController.handleUpdateBooking);

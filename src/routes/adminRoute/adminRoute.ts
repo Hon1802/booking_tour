@@ -983,3 +983,4 @@ adminRoute.put('/transport/update', adminController.handleUpdateTransport);
  */
 adminRoute.delete('/transport/remove-transport', adminController.handleRemoveTransport);
 
+adminRoute.get('/incoming-tours', adminController.handleGetListTourIncoming);

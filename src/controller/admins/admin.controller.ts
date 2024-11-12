@@ -415,6 +415,29 @@ class AdminController {
             next(error)
         }
     }
+
+    // get list tour incoming
+
+    handleGetListTourIncoming = async (req: Request, res: Response, next: NextFunction)=>{
+        try{       
+
+            const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : 10;
+            const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
+
+            const tourData: TourData = await tourService.getListTourComing(perPage, currentPage);
+           
+            return res.status(tourData.status).json({
+                errCode: tourData.errCode,
+                message: tourData.errMessage,
+                data: tourData.tourInfor || 'null',
+                total: tourData.total || 0,
+                currentPage:tourData.currentPage ||0,
+                perPage: tourData.perPage || 0,
+                });
+        } catch(error){
+            next(error)
+        }
+    }
 }
 
 export default new AdminController();
