@@ -1,14 +1,15 @@
 'use strict'
-import { Request, Response, NextFunction } from 'express';
-import { TourData } from '../../databases/interface/tourInterface';
-import tourService from '../../services/tour.service';
-import { multerFile, updateAvatar, upload } from '../../helpers/image';
-import { StatusTourEnum } from '../../databases/interface/common';
-import { logger } from '../../log';
-import instanceStorageFireball from '../../databases/firebase/firebase.init';
+import { NextFunction, Request, Response } from 'express';
 import { UploadImage } from '../../databases/firebase/firebase.uploadImage';
-import hotelService from '../../services/hotel.service';
+import { StatusTourEnum } from '../../databases/interface/common';
 import { IHotelData } from '../../databases/interface/hotelInterface';
+import { TourData } from '../../databases/interface/tourInterface';
+import { ITransportData } from '../../databases/interface/transportInterface';
+import { updateAvatar } from '../../helpers/image';
+import { logger } from '../../log';
+import hotelService from '../../services/hotel.service';
+import tourService from '../../services/tour.service';
+import transportService from '../../services/transport.service';
 // import { File } from 'multer';
 interface MulterRequest extends Request {
     file?: Express.Multer.File;  // Nếu chỉ upload 1 file
@@ -258,6 +259,9 @@ class AdminController {
     }
 
     // support function, private
+
+    // hotel
+
     handleAddNewHotel = async (req: Request, res: Response, next: NextFunction)=>{
         try{
             const data = req.body;
@@ -296,13 +300,19 @@ class AdminController {
         try{
 
             const location: string | null = typeof req.query.location === 'string' ? req.query.location : null;
+            
+            const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : 10;
+            const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
 
-            const hotelData: IHotelData = await hotelService.handleGetListHotel(location);
+            const hotelData: IHotelData = await hotelService.handleGetListHotel(location, perPage, currentPage);
            
             return res.status(hotelData.status).json({
                 errCode: hotelData.errCode,
                 message: hotelData.errMessage,
                 data: hotelData.hotelInfo || 'null',
+                total: hotelData.total || 0,
+                currentPage:hotelData.currentPage ||0,
+                perPage: hotelData.perPage || 0,
                 });
         } catch(error){
             next(error)
@@ -321,6 +331,108 @@ class AdminController {
                 errCode: hotelData.errCode,
                 message: hotelData.errMessage,
                 data: hotelData.hotelInfo || 'null',
+                });
+        } catch(error){
+            next(error)
+        }
+    }
+
+    //
+    // transport
+
+    handleAddNewTransport = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
+            const data = req.body;
+           
+            const transportData: ITransportData = await transportService.transportNew(data);
+           
+            return res.status(transportData.status).json({
+                errCode: transportData.errCode,
+                message: transportData.errMessage,
+                data: transportData.transportInfo || 'null',
+                });
+        } catch(error){
+            next(error)
+        }
+    }
+    // handle Update Hotel
+    handleUpdateTransport = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
+
+            const data = req.body;
+           
+            const transportData: ITransportData = await transportService.handleUpdateTransport(data);
+           
+            return res.status(transportData.status).json({
+                errCode: transportData.errCode,
+                message: transportData.errMessage,
+                data: transportData.transportInfo || 'null',
+                });
+        } catch(error){
+            next(error)
+        }
+    }
+
+    // handle get list transport
+    handleGetListTransport = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
+
+            const departure: string | null = typeof req.query.departure === 'string' ? req.query.departure : null;
+            const destination: string | null = typeof req.query.destination === 'string' ? req.query.destination : null;
+
+            const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : 10;
+            const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
+
+            const transportData: ITransportData = await transportService.handleGetListTransport(departure, destination, perPage, currentPage);
+           
+            return res.status(transportData.status).json({
+                errCode: transportData.errCode,
+                message: transportData.errMessage,
+                data: transportData.transportInfo || 'null',
+                total: transportData.total || 0,
+                currentPage:transportData.currentPage ||0,
+                perPage: transportData.perPage || 0,
+                });
+        } catch(error){
+            next(error)
+        }
+    }
+
+    // handle remove transport
+    handleRemoveTransport = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
+
+            const { idTransport } = req.body;
+
+            const transportData: ITransportData = await transportService.handleRemoveTransportById(idTransport);
+           
+            return res.status(transportData.status).json({
+                errCode: transportData.errCode,
+                message: transportData.errMessage,
+                data: transportData.transportInfo || 'null',
+                });
+        } catch(error){
+            next(error)
+        }
+    }
+
+    // get list tour incoming
+
+    handleGetListTourIncoming = async (req: Request, res: Response, next: NextFunction)=>{
+        try{       
+
+            const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : 10;
+            const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
+
+            const tourData: TourData = await tourService.getListTourComing(perPage, currentPage);
+           
+            return res.status(tourData.status).json({
+                errCode: tourData.errCode,
+                message: tourData.errMessage,
+                data: tourData.tourInfor || 'null',
+                total: tourData.total || 0,
+                currentPage:tourData.currentPage ||0,
+                perPage: tourData.perPage || 0,
                 });
         } catch(error){
             next(error)

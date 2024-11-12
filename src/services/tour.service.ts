@@ -1,24 +1,23 @@
 'use strict'
-
+import { addDays } from 'date-fns';
+import { ObjectId } from 'mongodb';
 import { AppDataSource } from '../databases/connectDatabase';
 import { TourData } from '../databases/interface/tourInterface';
-const managerTour = AppDataSource.mongoManager;
 import { Tour } from '../databases/models/entities/Tour';
-import { ObjectId } from 'mongodb';
+const managerTour = AppDataSource.mongoManager;
 // firebase
-import { v4 as uuidv4 } from "uuid";
-import { logger } from '../log';
-import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
-import instanceStorageFireball, { storageData } from '../databases/firebase/firebase.init';
 import { validate } from 'class-validator';
-import { number } from 'joi';
+import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
+import { v4 as uuidv4 } from "uuid";
+import instanceStorageFireball, { storageData } from '../databases/firebase/firebase.init';
+import { logger } from '../log';
 
 // lodash
 import _ from 'lodash';
-import { generateUrlArrayImage, generateUrlImage } from './common/util';
+import { FilterQuery } from 'mongoose';
 import errorCodes from '../common/errorCode/errorCodes';
 import { FindOptions } from './common/interface';
-import { FilterQuery } from 'mongoose';
+import { generateUrlArrayImage, generateUrlImage } from './common/util';
 class ToursService {
 
     // upload image to firebase
@@ -553,7 +552,8 @@ class ToursService {
         data: Tour[]; 
         total: number; 
         currentPage: number; 
-        perPage: number }
+        perPage: number 
+    }
         > =>{
         try{
             // const query: Partial<Tour> = {};
@@ -995,5 +995,114 @@ class ToursService {
     }
 
     }
+
+    // get list tour coming
+    getListTourComing = async (
+        perPage: number | null = null,
+        currentPage: number = 1, 
+    ) : Promise<
+    TourData
+    > =>{
+        try{
+            let tourData : TourData;
+            const options: FindOptions = {};
+            if (perPage) {
+                options.limit = perPage;
+                options.skip = (currentPage - 1) * perPage; 
+            }
+            const skip = (currentPage - 1) * (perPage || Number.MAX_SAFE_INTEGER);
+
+             // Tính ngày hiện tại và ngày trong vòng 7 ngày tới
+            const currentDate = new Date();
+            const endDate = addDays(currentDate, 7);
+
+            const query: any = {
+                closeOrderTime: {
+                    $gte: currentDate,  
+                    $lte: endDate,      
+                },
+            };
+            const total = await managerTour.getMongoRepository(Tour).find({
+                where: query,
+            });
+
+            const tour = await managerTour.getMongoRepository(Tour).find({
+                where: query,
+                take: perPage || 10,
+                skip: skip,
+            });
+        if (tour.length > 0) {
+            tourData = {
+                status: 200,
+                errCode: 200,
+                errMessage: `Get transports successfully.`,
+                tourInfor: tour, 
+                total: total.length || 0,      
+                currentPage: currentPage, 
+                perPage: perPage || 10 
+            };
+        } else {
+            tourData = {
+                status: 400,
+                errCode: 400,
+                errMessage: `Not found`,
+                tourInfor: [] 
+            };
+        }
+
+        return tourData;
+          
+        }catch (error)
+        {
+            const tourData = {
+                status: 500,
+                errCode: 500,
+                errMessage: 'Internal error'
+            };
+            console.log(error)
+            return tourData;
+        }
+
+    }
+
+
+    // get tour by id
+
+    checkTourApprove = async (id: string) : Promise<boolean> =>{
+        try{
+            
+            const tour = await managerTour.getMongoRepository(Tour).findOne({
+                where: { 
+                    _id: new ObjectId(id),
+                    delFlg: 0
+                 }
+              });
+            if(tour)
+            {
+                return tour.isApprove == 1 ? true : false;
+            }else{
+                return false;
+            }
+        }catch (error)
+        {
+            console.log(error)
+            return false;
+        }
+
+    }
+
+    checkTour = async (id: string): Promise<boolean> => {
+        try {
+          let holderStore = await managerTour.findOne(Tour, { where: { _id: new ObjectId(id) } });
+          if (holderStore) {
+            return true;
+          } else {
+            return false;
+          }
+        } catch (error) {
+          return false;
+        }
+      };
+
 }
 export default new ToursService();

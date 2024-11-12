@@ -56,6 +56,15 @@ export const adminUrls = [
   'hotel',
   'hotel/update',
   'hotel/remove-hotel',
+  // transport
+  'transport',
+  'transport/update',
+  'transport/remove-transport',
+
+  //
+  'incoming-tours',
+
+
 // ].map((url) => url.toLowerCase().trim());
 ].map((endpoint) => (adminBaseUrl + endpoint).toLowerCase().trim());
 
@@ -73,6 +82,12 @@ export const userUrl = [
   '/get-user-by-id:id',
   '/get-user-by-id',
   '/update-password',
-  '/update-user-by-id'
+  '/update-user-by-id',
+  // booking tour
+  '/bookings',
+  '/bookings/status',
+  '/payment',
+  '/bookings',
+  '/bookings/detail',
 ].map((endpoint) => (userBaseUrl + endpoint).toLowerCase().trim());
 

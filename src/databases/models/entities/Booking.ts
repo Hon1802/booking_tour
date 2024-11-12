@@ -1,127 +1,94 @@
-'use strict'
-import { Entity, ObjectIdColumn, ObjectId, Column, BeforeInsert, BeforeUpdate } from 'typeorm';
-import { IsEmail, IsNotEmpty, MaxLength, IsOptional, IsInt, Min, Max, IsDate, IsString, Matches, MinLength} from 'class-validator';
-import { Transform } from 'class-transformer';
+'use strict';
+import { Entity, Column, BeforeUpdate, BeforeInsert } from 'typeorm';
+import { IsNotEmpty, MaxLength, IsString, IsOptional, IsInt, Min, Max, IsEmail, IsNumber, IsEnum, ValidateNested, IsArray } from 'class-validator';
 
-
+import { OrderStatus, PaymentStatus, Person } from './common';
+import { Type } from 'class-transformer';
+import { BaseEntity } from './Origin';
+ 
 @Entity()
-export class User {
-  @ObjectIdColumn()
-  public id: ObjectId | undefined;
+export class Bookings extends BaseEntity {
+  @Column()
+  @IsNotEmpty()
+  public tourId!: string;
 
-  @Column({ type: 'varchar', length: 50, name: 'email' })
-  @IsEmail({}, { message: 'Email must be a valid email address' })
-  @IsNotEmpty({ message: 'Email is required' })
+  @Column()
+  @IsNotEmpty()
+  public userId!: string;
+
+  @Column()
+  @IsOptional()
+  public paymentId!: string;
+
+  @Column()
+  @IsEmail()
   public email!: string;
 
-  @Column({ type: 'varchar', length: 255, name: 'password' })
-  @IsNotEmpty({ message: 'Password is required' })
-  @MinLength(8, { message: 'Password must be at least 8 characters long' })
-  @Matches(/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]/, {
-    message:
-    'Password must include at least one uppercase letter, one lowercase letter, one number, and one special character',
-  })
-  public password!: string;
-
-
-  @Column({ type: 'varchar', length: 50, name: 'name' })
-  @IsNotEmpty({ message: 'Name is required' })
-  @MaxLength(50, { message: 'Name cannot be longer than 50 characters' })
-  public name!: string;
-
-  @Column({ type: 'tinyint', name: 'userFlg', default: 1 })
-  @IsInt()
-  @Min(0)
-  @Max(2)
-  public userFlg!: number;
-
-  @Column({ type: 'date', nullable: true, name: 'dateOfBirth' })
-  @IsDate()
-  @IsOptional()
-  public dateOfBirth!: Date;
-
-  @Column({ type: 'varchar', length: 20, nullable: true })
+  @Column()
   @IsString()
-  @IsOptional()
+  @IsNotEmpty()
+  public fullName!: string;
+
+  @Column()
+  @IsString()
+  @IsNotEmpty()
   public phone!: string;
 
-  @Column({ type: 'text', nullable: true })
-  @IsString()
-  @IsOptional()
-  public address!: string;
+  @Column('json')
+  @IsArray()
+  @ValidateNested({ each: true })
+  @Type(() => Object)
+  public adults!: Person[];
 
-  @Column({ type: 'string', nullable: true })
-  @IsString()
-  @IsOptional()
-  public urlAvatar!: string;
+  @Column('json')
+  @IsArray()
+  @ValidateNested({ each: true })
+  @Type(() => Object)
+  public children!: Person[]; 
 
-  @Column({ type: 'tinyint', name: 'delFlg', default: 0 })
-  @IsInt()
+  @Column('float')
+  @IsNumber()
   @Min(0)
-  @Max(1)
-  public delFlg!: number;
+  public depositAmount!: number;
 
-  @Column({ type: 'string', nullable: true, name: 'gender' })
+  @Column('float')
+  @IsNumber()
+  @Min(0)
+  public totalAmount!: number;
+
+  @Column()
   @IsString()
   @IsOptional()
-  public gender!: string;
-// refreshToken
-  @Column({ type: 'string', nullable: true, name: 'refresh_token' })
+  public method!: string;
+
+  @Column()
   @IsString()
   @IsOptional()
-  public refreshToken!: string;
-  // public_key
-  @Column({ type: 'string', nullable: true, name: 'public_key' })
+  public paymentAccount!: string;
+
+  @Column()
   @IsString()
   @IsOptional()
-  public accessToken!: string;
+  public payerName!: string;
 
-  @Column({ type: 'string', nullable: true, name: 'avatar' })
-  @IsString()
-  @IsOptional()
-  public avatar!: string;
+  @Column()
+  @IsEnum(OrderStatus)
+  public orderStatus!: OrderStatus;
 
-  @Column({ type: 'bigint', nullable: true, name: 'created_by' })
-  @IsInt()
-  @IsOptional()
-  public createdBy!: number;
-
-  @Column({ type: 'datetime', nullable: true, name: 'created_at' })
-  @IsDate()
-  @IsOptional()
-  @Transform(({ value }) => value || null)
-  public createdAt!: Date;
-
-  @Column({ type: 'bigint', nullable: true, name: 'updated_by' })
-  @IsInt()
-  @IsOptional()
-  public updatedBy!: number;
-
-  @Column({ type: 'datetime', nullable: true, name: 'updated_at' })
-  @IsDate()
-  @IsOptional()
-  @Transform(({ value }) => value || null)
-  public updatedAt!: Date;
-
-  @Column({ type: 'bigint', nullable: true, name: 'deleted_by' })
-  @IsInt()
-  @IsOptional()
-  public deletedBy!: number;
-
-  @Column({ type: 'datetime', nullable: true, name: 'deleted_at' })
-  @IsDate()
-  @IsOptional()
-  @Transform(({ value }) => value || null)
-  public deletedAt!: Date;
-
-  @BeforeInsert()
-  private beforeInsert() {
-    this.createdAt = new Date();
-    this.updatedAt = new Date();
-  }
+  @Column()
+  @IsEnum(PaymentStatus)
+  public paymentStatus!: PaymentStatus;
 
   @BeforeUpdate()
-  private beforeUpdate() {
-    this.updatedAt = new Date();
+  private updateOrderStatus() {
+    const threeHoursInMs = 3 * 60 * 60 * 1000; // 3 tiếng tính bằng mili giây
+    if (
+      this.updatedAt = new Date(),
+      this.paymentStatus !== PaymentStatus.COMPLETED &&
+      this.createdAt &&
+      new Date().getTime() > this.createdAt.getTime() + threeHoursInMs
+    ) {
+      this.orderStatus = OrderStatus.CANCELLED;
+    }
   }
 }

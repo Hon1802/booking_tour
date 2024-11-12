@@ -8,4 +8,7 @@ export interface IHotelData {
     errMessage: string | object;
     hotelInfo?: object; // optional property
     hotelArray?: Array<Hotels>; 
+    total?: number; 
+        currentPage?: number; 
+        perPage?: number 
 }

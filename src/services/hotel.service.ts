@@ -186,27 +186,50 @@ class hotelsService {
     }
     // get list hotel 
 
-    handleGetListHotel = async (location?: string | null) : Promise<IHotelData> =>{
+    handleGetListHotel = async (
+        location?: string | null, 
+        perPage: number | null = null,
+        currentPage: number = 1, 
+    ) : Promise<
+    IHotelData
+    > =>{
         try{
             let hotelData : IHotelData;
-            
-            const hotels = location
-            ? await managerHotel.getMongoRepository(Hotels).find({
-                  where: {
-                      location: {
-                          $regex: location,  // Tìm kiếm với regex
-                          $options: 'i'      // Không phân biệt chữ hoa chữ thường
-                      }
-                  }
-              })
-            : await managerHotel.getMongoRepository(Hotels).find();
+            const options: FindOptions = {};
+            if (perPage) {
+                options.limit = perPage;
+                options.skip = (currentPage - 1) * perPage; 
+            }
+            const skip = (currentPage - 1) * (perPage || Number.MAX_SAFE_INTEGER);
+            const total = await managerHotel.getMongoRepository(Hotels).find({
+                where: location ? {
+                    location: {
+                        $regex: location,
+                        $options: 'i'
+                    }
+                } : {}
+            });
+            // Lấy danh sách khách sạn theo location hoặc tất cả nếu không có location
+            const hotels = await managerHotel.getMongoRepository(Hotels).find({
+                where: location ? {
+                    location: {
+                        $regex: location,
+                        $options: 'i'
+                    }
+                } : {},
+                take: perPage || 10, // Nếu `perPage` không có thì lấy tất cả
+                skip: skip
+            });
             // Kiểm tra nếu có khách sạn trả về
         if (hotels.length > 0) {
             hotelData = {
                 status: 200,
                 errCode: 200,
                 errMessage: `Get hotels successfully.`,
-                hotelInfo: hotels // Trả về danh sách khách sạn
+                hotelInfo: hotels, // Trả về danh sách khách sạn
+                total: total.length || 0,      // Tổng số lượng bản ghi
+                currentPage: currentPage, // Trang hiện tại
+                perPage: perPage || 10 // Số bản ghi mỗi trang (hoặc tất cả nếu không có perPage)
             };
         } else {
             hotelData = {

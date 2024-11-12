@@ -8,4 +8,7 @@ export interface TourData {
     errMessage: string | object;
     tourInfor?: object; // optional property
     tourArray?: Array<Tour>; 
+    total?: number,
+    currentPage?: number,
+    perPage?: number
 }

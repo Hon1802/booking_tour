@@ -403,6 +403,38 @@ class UsersService {
       return false;
     }
   };
+
+  // check exit
+
+  checkUser = async (id: string): Promise<boolean> => {
+    try {
+      let holderStore = await managerUser.findOne(User, { where: { _id: new ObjectId(id) } });
+      if (holderStore) {
+        return true;
+      } else {
+        return false;
+      }
+    } catch (error) {
+      return false;
+    }
+  };
+
+  // get email by id
+  getEmailById = async (id: string): Promise<string> => {
+    try {
+      if (!ObjectId.isValid(id)) {
+        return 'invalid';
+      }
+      let holderStore = await managerUser.findOne(User, { where: { _id: new ObjectId(id) } });
+      console.log(holderStore)
+     
+      return holderStore?.email || 'null';
+    } catch (error) {
+      console.log(error)
+      return 'null';
+    }
+  };
+
 }
 
 export default new UsersService();
