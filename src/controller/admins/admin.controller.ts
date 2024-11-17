@@ -379,11 +379,12 @@ class AdminController {
 
             const departure: string | null = typeof req.query.departure === 'string' ? req.query.departure : null;
             const destination: string | null = typeof req.query.destination === 'string' ? req.query.destination : null;
+            const transportName: string | null = typeof req.query.transportName === 'string' ? req.query.transportName : null;
 
             const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : 10;
             const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
 
-            const transportData: ITransportData = await transportService.handleGetListTransport(departure, destination, perPage, currentPage);
+            const transportData: ITransportData = await transportService.handleGetListTransport(departure, destination, transportName, perPage, currentPage);
            
             return res.status(transportData.status).json({
                 errCode: transportData.errCode,
@@ -434,6 +435,31 @@ class AdminController {
                 currentPage:tourData.currentPage ||0,
                 perPage: tourData.perPage || 0,
                 });
+        } catch(error){
+            next(error)
+        }
+    } 
+    
+    // accept tour incoming
+
+    handleAcceptTourIncoming = async (req: Request, res: Response, next: NextFunction)=>{
+        try{       
+
+           const {tourId} = req.body;
+           if(!tourId)
+           {
+                return res.status(400).json({
+                    errCode: '400',
+                    message: 'Input invalid value - tourId'
+                })
+           }
+           const tourData: TourData = await tourService.AcceptTourComing(tourId);
+            return res.status(tourData.status).json({
+                errCode: tourData.errCode,
+                message: tourData.errMessage
+            })
+
+               
         } catch(error){
             next(error)
         }

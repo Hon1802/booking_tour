@@ -1,6 +1,8 @@
 'use strict'
 
+import { Hotels } from "../models/entities/Hotel";
 import { Tour } from "../models/entities/Tour";
+import { Transport } from "../models/entities/Transport";
 
 export interface TourData {
     status: number;
@@ -10,5 +12,7 @@ export interface TourData {
     tourArray?: Array<Tour>; 
     total?: number,
     currentPage?: number,
-    perPage?: number
+    perPage?: number,
+    hotel?: Hotels | null,
+    transportation?: Transport | null,
 }

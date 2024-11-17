@@ -42,6 +42,7 @@ class transportsService {
             transport.type = dataTransport?.type;
             transport.departure = dataTransport?.departure;
             transport.destination = dataTransport?.destination;
+            transport.transportName = dataTransport?.transportName || 'not valid';
             transport.price = parseFloat(dataTransport?.price ?? '0');
             transport.delFlg = 0;
             const errors = await validate(transport);
@@ -123,6 +124,7 @@ class transportsService {
             transport.destination = dataTransport?.destination;
             transport.type = dataTransport?.type;
             transport.price = parseFloat(dataTransport?.price);
+            transport.transportName = dataTransport?.transportName;
             transport.delFlg = 0;
 
             const errors = await validate(transport);
@@ -146,6 +148,7 @@ class transportsService {
                         departure: dataTransport?.departure || transportHolder.departure,
                         destination: dataTransport?.description || transportHolder.destination,
                         type: dataTransport?.location || transportHolder.type,
+                        transportName: dataTransport?.transportName || transportHolder.transportName,
                         price: parseFloat(dataTransport?.price) || transportHolder.price
                     } },
                     { returnDocument: "after" }
@@ -184,6 +187,7 @@ class transportsService {
     handleGetListTransport = async (
         departure?: string | null, 
         destination?: string | null, 
+        transportName?: string | null,
         perPage: number | null = null,
         currentPage: number = 1, 
     ) : Promise<
@@ -204,6 +208,9 @@ class transportsService {
             }
             if (destination) {
                 query.destination = { $regex: destination, $options: 'i' };
+            }
+            if (transportName) {
+                query.transportName = { $regex: transportName, $options: 'i' };
             }
 
             // Total count of matching transport records
@@ -344,6 +351,24 @@ class transportsService {
 
     // }
 
-    
+    getTransById = async (id: string) : Promise<Transport | null> =>{
+        try{
+            const trans = await managerTransport.getMongoRepository(Transport).findOne({
+                where: { 
+                    _id: new ObjectId(id)
+                 }
+              });
+            if(trans)
+            {
+                return trans
+            }else{
+                return null
+            }
+        }catch (error)
+        {
+            return null;
+        }
+
+    }
 }
 export default new transportsService();

@@ -63,6 +63,7 @@ export const adminUrls = [
 
   //
   'incoming-tours',
+  'incoming-tours/accept',
 
 
 // ].map((url) => url.toLowerCase().trim());

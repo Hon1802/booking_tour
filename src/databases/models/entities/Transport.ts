@@ -18,6 +18,10 @@ export class Transport {
   @IsNotEmpty({ message: 'Company is required' })
   public company!: string;
 
+  @Column({ type: 'varchar', name: 'transportName' })
+  @IsNotEmpty({ message: 'transportName is required' })
+  public transportName!: string;
+
   @Column({ type: 'varchar', name: 'departure' })
   @IsNotEmpty({ message: 'Departure is required' })
   public departure!: string;

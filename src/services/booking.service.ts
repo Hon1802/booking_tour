@@ -51,4 +51,29 @@ export class BookingService {
     await bookingRepository.save(booking);
   }
     
+  // change all booking with tour id
+
+   // Hàm cập nhật
+   async acceptBooking(idTour: string): Promise<boolean> {
+    const bookingRepository = managerBooking.getMongoRepository(Bookings);
+    const bookings = await bookingRepository.find({
+        where: { 
+          tourId: idTour,
+          acceptFlg: { $ne: 1 }
+         }
+    });
+    if (!bookings) {
+      console.log('Booking not found');
+      return false;
+    }
+    for (const item of bookings) {
+      console.log(item.fullName);
+      item.orderStatus = OrderStatus.COMPLETED;
+      item.acceptFlg = 1;
+      // Save the updated item to the database
+      await bookingRepository.save(item); 
+  }
+
+    return true;
+  }
 }
