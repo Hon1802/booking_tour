@@ -18,6 +18,11 @@ import { FilterQuery } from 'mongoose';
 import errorCodes from '../common/errorCode/errorCodes';
 import { FindOptions } from './common/interface';
 import { generateUrlArrayImage, generateUrlImage } from './common/util';
+import hotelService from './hotel.service';
+import { Hotels } from '../databases/models/entities/Hotel';
+import transportService from './transport.service';
+import { Transport } from '../databases/models/entities/Transport';
+import { BookingService } from './booking.service';
 class ToursService {
 
     // upload image to firebase
@@ -175,11 +180,26 @@ class ToursService {
               });
             if(tour)
             {
+                let hotel: Hotels | null = null;
+                let transport: Transport | null = null;
+
+                if(tour?.hotelId)
+                {
+                    hotel = await hotelService.getHotelById(tour?.hotelId);
+                }
+
+                if(tour?.transportationId)
+                {
+                    transport = await transportService.getTransById(tour?.transportationId);
+                }
+
                 tourData = {
                     status: 200,
                     errCode: 200,
                     errMessage: `Get tours successfully.`,
-                    tourInfor: tour || {}
+                    tourInfor: tour || {},
+                    hotel: hotel,
+                    transportation: transport
                   };
             }else{
                 tourData = {
@@ -995,7 +1015,69 @@ class ToursService {
     }
 
     }
+    // accept booking with id tour
 
+    AcceptTourComing = async (id: string) : Promise<TourData> =>{
+    try{
+        let tourData : TourData;
+
+        if (!ObjectId.isValid(id)) {
+            tourData = {
+              status: 400,
+              errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
+              errMessage: errorCodes.RESPONSE.ID_NOT_SUPPORT.message
+            };
+            logger.error('error id');
+            return tourData;
+          }
+
+        const tour = await managerTour.getMongoRepository(Tour).findOne({
+            where: { 
+                _id: new ObjectId(id),
+                delFlg: 0,
+                isApprove: { $ne: 1 },
+                }
+            });
+        if(tour)
+        {
+            const bookingService = new BookingService;
+            tour.isApprove = 1;
+            await managerTour.getMongoRepository(Tour).save(tour);
+            const accept = await bookingService.acceptBooking(id);
+            if(accept)
+            {
+                tourData = {
+                    status: 200,
+                    errCode: 200,
+                    errMessage: `Tour accept successfully.`,
+                };
+            } else{
+                tourData = {
+                    status: 400,
+                    errCode: 400,
+                    errMessage: `Booking is not available.`,
+                };
+            }
+        }else{
+            tourData = {
+                status: 400,
+                errCode: errorCodes.RESPONSE.TOUR_ACTIVE_OR_BOOKED.code,
+                errMessage: `Cannot accpet the tour. The tour is not available.`,
+            };
+        }
+        return tourData;
+    }catch (error)
+    {
+        const tourData = {
+            status: 500,
+            errCode: 500,
+            errMessage: 'Internal error'
+        };
+        console.log(error)
+        return tourData;
+    }
+
+    }
     // get list tour coming
     getListTourComing = async (
         perPage: number | null = null,

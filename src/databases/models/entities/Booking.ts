@@ -79,6 +79,10 @@ export class Bookings extends BaseEntity {
   @IsEnum(PaymentStatus)
   public paymentStatus!: PaymentStatus;
 
+  @Column({ type: 'tinyint', name: 'acceptFlg' })
+  @IsInt()
+  public acceptFlg!: number;
+
   @BeforeUpdate()
   private updateOrderStatus() {
     const threeHoursInMs = 3 * 60 * 60 * 1000; // 3 tiếng tính bằng mili giây

@@ -1275,3 +1275,840 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-11-12T16:47:37.156Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-12T16:48:01.417Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-12T16:48:03.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:16:31.231Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=66dff1661981c10425334e0f","timestamp":"2024-11-14T12:16:31.619Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:31.620Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:31.621Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:31.621Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:31.622Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:31.623Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:31.623Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:31.624Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:31.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:16:34.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=66dff1661981c10425334e0f","timestamp":"2024-11-14T12:16:34.267Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:34.267Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:34.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:34.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:34.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:34.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:34.269Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:34.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:16:34.270Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-14T12:17:01.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/latest-tour","timestamp":"2024-11-14T12:17:18.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.865Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.865Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.866Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.866Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.866Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.868Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:18.870Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify invalid algorithm","name":"JsonWebTokenError","stack":"JsonWebTokenError: invalid algorithm\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:145:19\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-14T12:17:18.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/latest-tour","timestamp":"2024-11-14T12:17:20.657Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.658Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.658Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.659Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.659Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.662Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.663Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.663Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.664Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.664Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.668Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.668Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.669Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:20.669Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify invalid algorithm","name":"JsonWebTokenError","stack":"JsonWebTokenError: invalid algorithm\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:145:19\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-14T12:17:20.729Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/latest-tour","timestamp":"2024-11-14T12:17:24.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.818Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.818Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.819Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.820Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.820Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tour","timestamp":"2024-11-14T12:17:24.820Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify invalid algorithm","name":"JsonWebTokenError","stack":"JsonWebTokenError: invalid algorithm\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:145:19\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-14T12:17:24.884Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/latest-tours","timestamp":"2024-11-14T12:17:55.826Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.828Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.830Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.831Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.844Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:55.845Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify invalid algorithm","name":"JsonWebTokenError","stack":"JsonWebTokenError: invalid algorithm\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:145:19\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-14T12:17:55.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /api/latest-tours","timestamp":"2024-11-14T12:17:57.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.485Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.485Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.486Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.486Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /api/latest-tours","timestamp":"2024-11-14T12:17:57.487Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify invalid algorithm","name":"JsonWebTokenError","stack":"JsonWebTokenError: invalid algorithm\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:145:19\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-14T12:17:57.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.290Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.293Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.294Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.299Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-14T12:18:06.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-11-14T12:18:06.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:19:11.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:19:17.139Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-14T12:19:42.096Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:21:48.821Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:21:48.867Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:21:59.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:22:02.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-14T12:22:29.996Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:23:10.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:23:13.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:23:56.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:23:59.618Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:26:32.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:26:35.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-14T12:27:02.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:27:11.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:27:15.148Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-14T12:27:42.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:28:17.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:28:20.743Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:29:15.441Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:29:18.472Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-14T12:29:45.558Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-14T12:30:01.666Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-14T12:30:05.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=67320d434e5782a1a0ecb1fe","timestamp":"2024-11-14T12:30:06.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:30:06.668Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:30:06.670Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:30:06.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:30:06.672Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:30:06.672Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:30:06.673Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:30:06.673Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-14T12:30:06.674Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-14T12:30:31.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-14T12:30:34.795Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-14T12:30:34.795Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-14T12:30:34.796Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-14T12:30:34.797Z"}
+{"email":"test939@gmail.com","exp":1731760234,"iat":1731587434,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-11-14T12:30:34.958Z","userId":"66e003e57e6fb12f1c145aa0"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-14T12:30:39.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-14T12:30:39.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-14T12:30:39.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-14T12:30:39.474Z"}
+{"email":"admin123@gmail.com","exp":1731760239,"iat":1731587439,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"admin","timestamp":"2024-11-14T12:30:39.635Z","userId":"66dff8fd1d00c35eb270d579"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=66dd9d7edea32a959e16f014","timestamp":"2024-11-14T12:30:49.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.017Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.020Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.020Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.022Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.022Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:49.024Z"}
+{"expiredAt":"2024-09-12T09:06:37.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-14T12:30:49.096Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=66dd9d7edea32a959e16f014","timestamp":"2024-11-14T12:30:52.396Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.397Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.398Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.398Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.403Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.404Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.404Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.406Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.408Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:30:52.409Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/get-tour-by-id/?tourid=67320d434e5782a1a0ecb1fe","timestamp":"2024-11-14T12:31:03.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.326Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.326Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.327Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/get-tour-by-id/","timestamp":"2024-11-14T12:31:03.327Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T09:19:38.414Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T09:19:41.037Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T09:20:08.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T09:54:05.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T09:54:08.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T09:54:32.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T09:54:44.630Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T09:54:46.903Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T09:55:14.707Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T09:55:43.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T09:55:46.195Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T09:56:13.613Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:01:04.677Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:01:09.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:01:34.742Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:11:08.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:11:11.617Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:11:38.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.326Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.327Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.327Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.328Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.328Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.330Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.330Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.330Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.330Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.331Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:03.332Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error verify invalid algorithm","name":"JsonWebTokenError","stack":"JsonWebTokenError: invalid algorithm\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:145:19\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-15T10:12:03.390Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-15T10:12:10.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-15T10:12:10.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-15T10:12:10.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-15T10:12:10.125Z"}
+{"email":"admin123@gmail.com","exp":1731838330,"iat":1731665530,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"admin","timestamp":"2024-11-15T10:12:10.252Z","userId":"66dff8fd1d00c35eb270d579"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.986Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.986Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:21.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:12:24.169Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.253Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.259Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:24.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:13:52.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:13:54.929Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.537Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.537Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.539Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.539Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:56.539Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.459Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.459Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.459Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.460Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.460Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.460Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.460Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.460Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.460Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:13:57.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.715Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.715Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.715Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.716Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.716Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.717Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.720Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.720Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/incoming-tours/accept","timestamp":"2024-11-15T10:14:08.721Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:14:22.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.787Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.794Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.794Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:26.794Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.343Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.345Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.346Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.347Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.347Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.348Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.348Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.349Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.349Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.351Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.351Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.353Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.354Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.354Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:52.355Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-15T10:14:52.367Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:14:52.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:14:55.157Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.167Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.169Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.169Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.171Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.172Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:14:55.172Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:15:13.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:15:17.622Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:15:43.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.674Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.675Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.678Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.679Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.680Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.681Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.682Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.682Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.684Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.685Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.689Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:16:42.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:17:55.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:18:04.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:18:06.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.967Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.969Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.970Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.970Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.970Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.972Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.972Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.973Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.973Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.973Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:06.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:18:41.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:18:43.565Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:18:51.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:18:54.479Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.279Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.279Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.280Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.281Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.281Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.281Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.282Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.282Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.283Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.283Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.283Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.284Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.284Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.286Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.287Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.288Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.289Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.290Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:18:55.291Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.466Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.466Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.466Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.466Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.466Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.467Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:12.467Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-15T10:19:12.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.875Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.877Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.877Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.877Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.879Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.879Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.880Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.880Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.881Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.881Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.881Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.881Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:14.882Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-15T10:19:14.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:19:22.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.020Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.022Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.029Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.030Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.031Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:23.032Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-15T10:19:23.106Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.529Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.529Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:40.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.603Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.603Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.604Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.604Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.604Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.605Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.605Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.606Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.606Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.606Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.607Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:19:57.607Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:21:02.956Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:21:05.860Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:21:42.657Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:21:45.054Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.899Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.899Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.901Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.901Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.902Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.903Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.903Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.904Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.904Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.904Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.905Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.905Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.905Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.906Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.906Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.906Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.907Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.907Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:22:02.907Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:22:12.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:22:56.926Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:23:00.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.039Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.045Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.046Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.047Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.048Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.048Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.049Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.053Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.055Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.056Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.056Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.057Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:23:23.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:23:26.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:25:01.680Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:25:04.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:25:54.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:25:57.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.625Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.627Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.627Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.628Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.628Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.628Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.629Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.629Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.630Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.630Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.632Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.632Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.632Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:26:00.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:26:24.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:27:15.072Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.272Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.272Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.273Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.274Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.275Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.275Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.276Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.276Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.277Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.277Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.280Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.280Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.281Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.281Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.281Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.282Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:15.282Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-15T10:27:15.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:27:17.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.762Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.762Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.763Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.763Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.763Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.764Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.764Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.764Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.765Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.765Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.766Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.766Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.766Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.767Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:17.767Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:27:45.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-15T10:27:50.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:28:13.099Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:28:15.831Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:28:43.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-15T10:30:51.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-15T10:30:55.408Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-15T10:31:21.960Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /","timestamp":"2024-11-15T11:00:12.558Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.564Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.569Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.573Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.575Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.578Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.579Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.580Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.581Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.582Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.582Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.583Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.584Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.585Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.586Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /","timestamp":"2024-11-15T11:00:12.586Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /hnap1/","timestamp":"2024-11-15T11:00:21.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.978Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.979Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.979Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.980Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.981Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.983Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.983Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.984Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.984Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.984Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.985Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.985Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.986Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.986Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /hnap1/","timestamp":"2024-11-15T11:00:21.988Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:04:02.762Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:04:05.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-17T04:04:32.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:06:48.702Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:06:51.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-17T04:07:18.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:10:56.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:10:58.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-17T04:11:26.555Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.763Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.764Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.767Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.769Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.781Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.782Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.784Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.785Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.794Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:16:59.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:18:49.782Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:18:54.337Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:19:18.370Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:19:20.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-17T04:19:22.968Z"}

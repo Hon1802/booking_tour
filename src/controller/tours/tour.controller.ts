@@ -47,7 +47,9 @@ class ToursController {
             return res.status(tourData.status).json({
                 errCode: tourData.errCode,
                 message: tourData.errMessage,
-                tours: tourData.tourInfor
+                tours: tourData.tourInfor,
+                hotel: tourData?.hotel,
+                trans: tourData?.transportation
                 });
         } catch(error){
             next(error)

@@ -308,44 +308,26 @@ class hotelsService {
 
     // get hotel by id
 
-    // gethotelById = async (id: string) : Promise<hotelData> =>{
-    //     try{
-    //         let hotelData : hotelData;
-    //         const hotel = await managerhotel.getMongoRepository(hotel).findOne({
-    //             where: { 
-    //                 _id: new ObjectId(id),
-    //                 delFlg: 0
-    //              }
-    //           });
-    //         if(hotel)
-    //         {
-    //             hotelData = {
-    //                 status: 200,
-    //                 errCode: 200,
-    //                 errMessage: `Get hotels successfully.`,
-    //                 hotelInfor: hotel || {}
-    //               };
-    //         }else{
-    //             hotelData = {
-    //                 status: 400,
-    //                 errCode: 400,
-    //                 errMessage: `Not found`,
-    //                 hotelInfor: hotel || {}
-    //               };
-    //         }
-    //         return hotelData;
-    //     }catch (error)
-    //     {
-    //         const hotelData = {
-    //             status: 500,
-    //             errCode: 500,
-    //             errMessage: 'Internal error'
-    //         };
-    //         console.log(error)
-    //         return hotelData;
-    //     }
+    getHotelById = async (id: string) : Promise<Hotels | null> =>{
+        try{
+            const hotel = await managerHotel.getMongoRepository(Hotels).findOne({
+                where: { 
+                    _id: new ObjectId(id),
+                    delFlg: 0
+                 }
+              });
+            if(hotel)
+            {
+                return hotel
+            }else{
+                return null
+            }
+        }catch (error)
+        {
+            return null;
+        }
 
-    // }
+    }
 
     // get hotel home
 
