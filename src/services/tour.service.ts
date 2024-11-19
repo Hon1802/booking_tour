@@ -23,6 +23,7 @@ import { Hotels } from '../databases/models/entities/Hotel';
 import transportService from './transport.service';
 import { Transport } from '../databases/models/entities/Transport';
 import { BookingService } from './booking.service';
+import { sentAcceptMail } from '../helpers/sentAcceptMaill';
 class ToursService {
 
     // upload image to firebase
@@ -87,21 +88,6 @@ class ToursService {
                 return tourData;
             }
 
-            // Calculate the duration in days between startDay and endDay
-            // const startDate = new Date(dataTour?.departureTime);
-            // const endDate = new Date(dataTour?.returnTime);
-            // const timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
-            // const durationInDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
-
-            // if(dataTour.images)
-            // {
-            //     const uploadedImages = dataTour?.images.map( async (item:any) => {
-            //         const urlImage = await this.handleUploadImg(item);
-            //         console.log(urlImage)
-            //         return urlImage;
-            //     });
-            //     uploadedImages();
-            // }
             tour.name = dataTour?.name;
             tour.description = dataTour?.description;
             tour.location = dataTour?.location;
@@ -119,6 +105,7 @@ class ToursService {
             tour.estimatedTime = dataTour?.estimatedTime ? new Date(dataTour.estimatedTime) : new Date();
             tour.closeOrderTime = dataTour?.closeOrderTime ? new Date(dataTour.closeOrderTime) : new Date();
             tour.limit = dataTour?.limit;
+            tour.isApprove = 0;
             tour.images =  generateUrlImage(dataTour?.images) || [
                 {
                     urlImage : 'https://achautravel.com/upload/images/1689131743.jpeg'
@@ -183,6 +170,8 @@ class ToursService {
                 let hotel: Hotels | null = null;
                 let transport: Transport | null = null;
 
+                tour.isApprove = tour.isApprove === 1 ? true : false;
+
                 if(tour?.hotelId)
                 {
                     hotel = await hotelService.getHotelById(tour?.hotelId);
@@ -232,12 +221,14 @@ class ToursService {
                 order: {createdAt: 'DESC'},
                 take: count
             })
-            // Chuyển đổi mảng tours thành đối tượng với id làm khóa
-            // const toursObject = tours.reduce((acc, tour) => {
-            //     if(tour.id)
-            //     acc[tour.id.toString()] = tour;
-            //     return acc;
-            // }, {} as { [key: string]: typeof tours[0] });
+            
+            if(tours)
+            {
+                tours.forEach(tour => {
+                    tour.isApprove = tour.isApprove === 1 ? true : false;
+                });
+            }
+
             tourData = {
                 status: 200,
                 errCode: 200,
@@ -337,6 +328,7 @@ class ToursService {
             tour.priceChild = dataTour?.priceChild || tourHolder.priceChild;
             tour.delFlg = 0;
             tour.buySlot = tourHolder.buySlot || 0;
+            tour.isApprove = tourHolder.isApprove;
             tour.transportationId = dataTour?.transportationId;
             tour.hotelId = dataTour?.hotelId;
             tour.estimatedTime = dataTour?.estimatedTime ? new Date(dataTour.estimatedTime) : new Date();
@@ -377,7 +369,7 @@ class ToursService {
                         plan: dataTour?.plan || tourHolder.plan || '',
                         priceAdult: dataTour?.priceAdult || tourHolder.priceAdult,
                         priceChild: dataTour?.priceChild || tourHolder.priceChild,
-                        delFlg: 0,
+                        delFlg: 0,                        
                         buySlot: tourHolder.buySlot || 0,
                         transportationId : dataTour?.transportationId || tourHolder.transportationId,
                         hotelId : dataTour?.hotelId || tourHolder.hotelId,
@@ -533,6 +525,7 @@ class ToursService {
               );
             if(tour)
             {
+                tour.isApprove = tour.isApprove === 1 ? true : false;
                 tourData = {
                     status: 200,
                     errCode: 200,
@@ -611,6 +604,12 @@ class ToursService {
                     take: perPage || total, // Nếu perPage không có thì lấy tất cả
                     skip: skip // Bỏ qua số bản ghi đã tính toán
                 });
+                if(tours)
+                {
+                    tours.forEach(tour => {
+                        tour.isApprove = tour.isApprove === 1 ? true : false;
+                    });
+                }
                 return {
                     data: tours,
                     total,
@@ -777,6 +776,14 @@ class ToursService {
                     take: perPage || total, // Nếu perPage không có thì lấy tất cả
                     skip: skip // Bỏ qua số bản ghi đã tính toán
                 });
+
+                if(tours)
+                    {
+                        tours.forEach(tour => {
+                            tour.isApprove = tour.isApprove === 1 ? true : false;
+                        });
+                    }
+
                 return {
                     data: tours,
                     total,
@@ -852,6 +859,14 @@ class ToursService {
                     take: perPage || total, // Nếu perPage không có thì lấy tất cả
                     skip: skip // Bỏ qua số bản ghi đã tính toán
                 });
+
+                if(tours)
+                    {
+                        tours.forEach(tour => {
+                            tour.isApprove = tour.isApprove === 1 ? true : false;
+                        });
+                    }
+
                 return {
                     data: tours,
                     total,
@@ -926,6 +941,14 @@ class ToursService {
                     take: perPage || total, // Nếu perPage không có thì lấy tất cả
                     skip: skip // Bỏ qua số bản ghi đã tính toán
                 });
+
+                if(tours)
+                    {
+                        tours.forEach(tour => {
+                            tour.isApprove = tour.isApprove === 1 ? true : false;
+                        });
+                    }
+
                 return {
                     data: tours,
                     total,
@@ -1038,6 +1061,76 @@ class ToursService {
                 isApprove: { $ne: 1 },
                 }
             });
+
+            const testHTML = `
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <meta charset="UTF-8">
+              <title>Mail Acceptance Form</title>
+              <style>
+                body {
+                  font-family: Arial, sans-serif;
+                  line-height: 1.6;
+                }
+                .container {
+                  width: 60%;
+                  margin: auto;
+                  border: 1px solid #ddd;
+                  padding: 20px;
+                  border-radius: 10px;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+                .header {
+                  text-align: center;
+                  background-color: #f4f4f4;
+                  padding: 10px;
+                  border-bottom: 2px solid #ddd;
+                }
+                .content {
+                  margin-top: 20px;
+                }
+                .footer {
+                  margin-top: 30px;
+                  text-align: center;
+                  font-size: 0.9em;
+                  color: #555;
+                }
+                .button {
+                  display: inline-block;
+                  background-color: #28a745;
+                  color: white;
+                  padding: 10px 20px;
+                  text-decoration: none;
+                  border-radius: 5px;
+                  margin-top: 20px;
+                }
+              </style>
+            </head>
+            <body>
+              <div class="container">
+                <div class="header">
+                  <h2>Chấp Nhận Đăng Ký</h2>
+                </div>
+                <div class="content">
+                  <p>Kính gửi <strong>{{customerName}}</strong>,</p>
+                  <p>Chúng tôi vui mừng thông báo rằng yêu cầu của bạn đã được chấp nhận. Dưới đây là thông tin chi tiết:</p>
+                  <ul>
+                    <li><strong>Mã yêu cầu:</strong> {{requestID}}</li>
+                    <li><strong>Ngày xác nhận:</strong> {{confirmationDate}}</li>
+                  </ul>
+                  <p>Cảm ơn bạn đã tin tưởng và sử dụng dịch vụ của chúng tôi. Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi qua email hoặc số điện thoại được cung cấp.</p>
+                  <a href="{{supportLink}}" class="button">Liên hệ hỗ trợ</a>
+                </div>
+                <div class="footer">
+                  <p>Trân trọng,<br>Đội ngũ dịch vụ khách hàng</p>
+                </div>
+              </div>
+            </body>
+            </html>
+            `;
+            
+        await sentAcceptMail('soihoang1802@gmail.com','nguyenvanhon.tk4@gmail.com',testHTML,'Accept require tour')
         if(tour)
         {
             const bookingService = new BookingService;
@@ -1046,6 +1139,7 @@ class ToursService {
             const accept = await bookingService.acceptBooking(id);
             if(accept)
             {
+                //sent mail
                 tourData = {
                     status: 200,
                     errCode: 200,

@@ -2112,3 +2112,118 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:19:18.370Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:19:20.727Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-17T04:19:22.968Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:26:12.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:26:15.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-17T04:26:42.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.488Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:27:17.496Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:31:03.285Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:31:05.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.757Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.757Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:31:05.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-17T04:31:33.358Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:32:27.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:32:29.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-17T04:32:57.194Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:33:52.308Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:33:54.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:34:27.895Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:34:30.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-17T04:34:42.415Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-17T04:34:44.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.507Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/incoming-tours/accept","timestamp":"2024-11-17T04:34:45.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-17T04:35:12.493Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-19T16:52:30.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-19T16:52:33.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-19T16:53:00.616Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-19T16:54:47.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-19T16:54:49.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-19T16:55:17.359Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-19T16:57:39.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-19T16:57:43.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-19T16:58:09.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-19T16:59:42.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-19T16:59:44.998Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-19T17:00:01.411Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-19T17:00:03.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=67320d434e5782a1a0ecb1fe","timestamp":"2024-11-19T17:00:19.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-19T17:00:19.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-19T17:00:19.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-19T17:00:19.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-19T17:00:19.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-19T17:00:19.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-19T17:00:19.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-19T17:00:19.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-11-19T17:00:19.326Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-19T17:00:31.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-19T17:01:02.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-19T17:01:04.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-19T17:01:32.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-19T17:01:52.616Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-19T17:01:55.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-number/","timestamp":"2024-11-19T17:02:06.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-number/","timestamp":"2024-11-19T17:02:06.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-number/","timestamp":"2024-11-19T17:02:06.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-number/","timestamp":"2024-11-19T17:02:06.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-number/","timestamp":"2024-11-19T17:02:06.299Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-number/","timestamp":"2024-11-19T17:02:06.299Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-number/","timestamp":"2024-11-19T17:02:06.300Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-19T17:02:22.703Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-19T17:04:05.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-19T17:04:08.109Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-19T17:04:35.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-19T17:05:39.899Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-19T17:05:42.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-19T17:06:09.976Z"}
