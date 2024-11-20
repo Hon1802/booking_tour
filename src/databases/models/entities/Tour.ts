@@ -50,7 +50,7 @@ export class Tour {
   
   // limit
   @Column({ type: 'tinyint' , name: 'isApprove' })
-  public isApprove!: number;
+  public isApprove!: number | boolean;
 
   // exactly address
   @Column({ type: 'varchar' , name: 'address' })

@@ -76,4 +76,20 @@ export class BookingService {
 
     return true;
   }
+
+  // check exist
+  // Hàm cập nhật
+  async checkBooking(id: string): Promise< boolean > {
+    const bookingRepository = managerBooking.getMongoRepository(Bookings);
+    const booking = await bookingRepository.findOne({
+        where: { 
+            _id: new ObjectId(id),
+            delFlg: 0
+         }
+    });
+    if (booking) {
+      return true;
+    }
+    return false;
+  }
 }
