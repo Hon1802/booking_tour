@@ -2615,3 +2615,72 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-20T17:22:49.867Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-20T17:22:49.868Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-20T17:23:05.578Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-22T02:12:44.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-22T02:12:47.232Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-22T02:13:14.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/payment","timestamp":"2024-11-22T02:13:14.700Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.701Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.702Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.703Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.704Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.704Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.705Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.706Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.707Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.707Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.708Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:14.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-22T02:13:24.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-22T02:13:24.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-22T02:13:24.303Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-22T02:13:24.304Z"}
+{"email":"test939@gmail.com","exp":1732414404,"iat":1732241604,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-11-22T02:13:24.584Z","userId":"66e003e57e6fb12f1c145aa0"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/payment","timestamp":"2024-11-22T02:13:44.478Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.479Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.485Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.486Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.488Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:13:44.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-22T02:15:14.223Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-22T02:15:16.699Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/payment","timestamp":"2024-11-22T02:15:16.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.715Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.715Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.716Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.716Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.717Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.717Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.718Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.720Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.720Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-11-22T02:15:16.720Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Payment saved:","timestamp":"2024-11-22T02:15:16.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-22T02:15:31.630Z"}

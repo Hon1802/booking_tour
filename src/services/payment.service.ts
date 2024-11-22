@@ -9,6 +9,7 @@ import _ from 'lodash';
 import { ObjectId } from 'mongodb';
 import errorCodes from '../common/errorCode/errorCodes';
 import tourService from './tour.service';
+import { BookingService } from './booking.service';
 const managerPayment = AppDataSource.mongoManager;
 class PaymentService {
 
@@ -41,7 +42,8 @@ class PaymentService {
                 logger.error('error id');
                 return paymentData;
               }
-            const checkBooking = await tourService.checkTour(dataPayment?.bookingId)
+            const booking = new BookingService();
+            const checkBooking = await booking.checkBooking(dataPayment?.bookingId)
             if(!checkBooking)
             {
                 paymentData = {
