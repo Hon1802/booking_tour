@@ -991,3 +991,6 @@ adminRoute.post('/incoming-tours/cancel', adminController.handleCancelTourIncomi
 
 // get list deposit user
 adminRoute.get('/deposit-users', adminController.handleGetListDepositUser); 
+
+// get list booking
+adminRoute.get('/bookings', adminController.handleGetListBooking); 

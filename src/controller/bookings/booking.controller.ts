@@ -4,6 +4,7 @@ import { Bookings } from '../../databases/models/entities/Booking';
 import { OrderStatus, PaymentStatus } from '../../databases/models/entities/common';
 import userService from '../../services/user.service';
 import tourService from '../../services/tour.service';
+import paymentService from '../../services/payment.service';
 
 export class BookingController {
   private bookingService: BookingService;
@@ -26,6 +27,7 @@ export class BookingController {
 
       const user = await userService.checkUser(userId);
       const tour = await tourService.checkTour(tourId);
+      const payment = await paymentService.getById(paymentId);
       if(!user)
       {
         return res.status(400).json({
@@ -50,6 +52,8 @@ export class BookingController {
 
       const getEmail = await userService.getEmailById(userId);
 
+
+
       const newBookingData = {
           tourId: tourId,
           userId: userId,
@@ -61,11 +65,11 @@ export class BookingController {
           children: information?.children || [],
           orderStatus: O_Status,
           paymentStatus: PaymentStatus.NEW_REQUEST,
-          depositAmount: 0,
-          totalAmount: 0,
-          method: '',
-          paymentAccount: '',
-          payerName: '',
+          depositAmount: payment?.PaymentData?.depositAmount || 0,
+          totalAmount: payment?.PaymentData?.totalAmount || 0,
+          method: payment?.PaymentData?.paymentMethod || '' ,
+          paymentAccount: payment?.PaymentData?.paymentAccount || '',
+          payerName: payment?.PaymentData?.payerName || 'no name',
           updateOrderStatus: function (): void {
               throw new Error('Function not implemented.');
           },
