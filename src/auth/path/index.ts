@@ -72,6 +72,7 @@ export const adminUrls = [
   //
   'bookings',
   'bookings/detail',
+  'refunds',
 
   //
 
