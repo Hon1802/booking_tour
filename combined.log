@@ -4491,3 +4491,278 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.891Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:44:58.592Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-24T11:46:20.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:47:07.287Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:47:09.803Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:47:37.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:48:23.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:48:26.402Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:49:34.967Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:49:37.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:50:05.053Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:56:24.862Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:56:27.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:56:54.953Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:58:23.959Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:58:42.148Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.012Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.013Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.017Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.017Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.020Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.021Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.022Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:01.027Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-24T11:59:01.054Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.645Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.646Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.646Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:02.651Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-24T11:59:02.653Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:59:09.967Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:59:12.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.209Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.210Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.211Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.211Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.213Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.213Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.213Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T11:59:20.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T12:00:09.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.379Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.379Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.380Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.380Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:09.386Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-24T12:00:09.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.916Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.924Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.924Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.925Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.925Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:10.926Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-24T12:00:10.927Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.830Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.830Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.831Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.831Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:11.837Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-24T12:00:11.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T12:00:13.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.785Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.787Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.787Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.794Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.794Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:15.794Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-24T12:00:16.105Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.529Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.529Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:36.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.882Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.883Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.884Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.884Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.885Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.885Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.887Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.887Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.892Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.892Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:37.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T12:00:39.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:41.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.680Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.681Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.681Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.682Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.682Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.683Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.684Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.684Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.685Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.685Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.685Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.687Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:00:43.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T12:03:10.683Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T12:03:13.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.632Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.634Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.635Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.639Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.646Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:15.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T12:03:40.777Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.476Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.477Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.477Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.478Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.478Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.479Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.479Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.479Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-24T12:04:31.982Z"}

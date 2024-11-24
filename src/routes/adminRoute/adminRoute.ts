@@ -998,3 +998,4 @@ adminRoute.get('/bookings/detail', adminController.handleBookingById);
 // refunds
 adminRoute.get('/refunds', adminController.handleGetListBookingRefunds); 
 
+adminRoute.put('/refunds/status', adminController.handleUpdateStatusBookingRefunds); 

@@ -604,6 +604,31 @@ class AdminController {
       next(error);
     }
   };
+   // handle Update Status Booking
+   handleUpdateStatusBookingRefunds = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const {status, bookingId} = req.body;
+      const bookingService = new BookingService();
+
+      if (!ObjectId.isValid(bookingId)) {
+        logger.error('error id');
+        return res.status(400).json({
+          errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
+          message: errorCodes.RESPONSE.ID_NOT_SUPPORT.message,
+          data: 'null'
+        });
+      }  
+
+      const bookingData: any = await bookingService.updateStatus(bookingId, status);
+
+      return res.status(200).json({
+        errCode: 200,
+        message: 'Update success',
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
 }
 
 export default new AdminController();
