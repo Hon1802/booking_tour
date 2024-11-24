@@ -10,6 +10,8 @@ import { logger } from '../../log';
 import hotelService from '../../services/hotel.service';
 import tourService from '../../services/tour.service';
 import transportService from '../../services/transport.service';
+import { IBookingData } from '../../databases/interface/bookingInterface';
+import { BookingService } from '../../services/booking.service';
 // import { File } from 'multer';
 interface MulterRequest extends Request {
     file?: Express.Multer.File;  // Nếu chỉ upload 1 file
@@ -487,6 +489,30 @@ class AdminController {
         } catch(error){
             next(error)
         }
+    }
+
+    // handle get list deposit user
+    handleGetListDepositUser = async (req: Request, res: Response, next: NextFunction)=>{
+    try{
+        const bookingService = new BookingService();
+        const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : 1000;
+        const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
+        
+        const tourId: string | null = typeof req.query.tourId === 'string' ? req.query.tourId : 'null';
+       
+        const bookingData: IBookingData = await bookingService.getDepositUserBooking(tourId, perPage, currentPage);
+        
+        return res.status(bookingData.status).json({
+            errCode: bookingData.errCode,
+            message: bookingData.errMessage,
+            data: bookingData.userDepositArray || 'null',
+            total: bookingData.total || 0,
+            currentPage:bookingData.currentPage ||0,
+            perPage: bookingData.perPage || 0,
+            });
+    } catch(error){
+        next(error)
+    }
     }
 }
 

@@ -66,6 +66,9 @@ export const adminUrls = [
   'incoming-tours/accept',
   'incoming-tours/cancel',
 
+  //
+  'deposit-users',
+
 
 // ].map((url) => url.toLowerCase().trim());
 ].map((endpoint) => (adminBaseUrl + endpoint).toLowerCase().trim());
