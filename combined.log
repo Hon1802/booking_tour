@@ -4766,3 +4766,157 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.483Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds/status","timestamp":"2024-11-24T12:03:47.483Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-24T12:04:31.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T16:26:41.160Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T16:26:43.467Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T16:27:11.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T16:27:40.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T16:27:42.866Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T16:28:10.828Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/bookings/detail?bookingid=67337a71f5c06bab3ac144c6","timestamp":"2024-11-24T16:29:07.362Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.363Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.364Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.366Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.366Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.366Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.367Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.367Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.367Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.371Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.371Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T16:29:07.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T16:31:02.114Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T16:31:04.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T16:31:14.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T16:31:16.957Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T16:31:44.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.380Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.390Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.391Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:08.391Z"}
+{"expiredAt":"2024-11-14T15:53:11.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-24T16:33:08.457Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.811Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.811Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.813Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T16:33:17.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:33:54.525Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T16:34:46.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T16:34:48.443Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.500Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:48.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:34:49.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T16:35:16.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T16:35:25.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T16:35:27.952Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T16:35:45.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T16:35:47.608Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.500Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.502Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings","timestamp":"2024-11-24T16:35:57.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T16:36:15.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-24T16:36:23.967Z"}
