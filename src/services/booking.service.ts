@@ -12,6 +12,7 @@ import { FindOptions } from 'typeorm';
 import errorCodes from '../common/errorCode/errorCodes';
 import { logger } from '../log';
 import tourService from './tour.service';
+import { BadRequestError } from './common/http_error';
 export class BookingService {
   // Hàm tạo mới
   async createBooking(bookingData: Partial<Bookings>): Promise<Bookings> {
@@ -232,20 +233,37 @@ export class BookingService {
 
   // Hàm xóa (soft delete)
   async deleteBooking(id: string): Promise<void> {
-    const bookingRepository = managerBooking.getRepository(Bookings);
+    const bookingRepository = managerBooking.getMongoRepository(Bookings);
     const booking = await bookingRepository.findOne({
       where: {
-        id: new ObjectId(id),
+        _id: new ObjectId(id),
         delFlg: 0
       }
     });
     if (!booking) {
       throw new Error('Booking not found');
     }
+    booking.delFlg = 1;
     booking.deletedAt = new Date();
     await bookingRepository.save(booking);
   }
+  
+  // get by id
+  async getBookingById(id: string): Promise<Bookings> {
 
+    
+    const bookingRepository = managerBooking.getMongoRepository(Bookings);
+    const booking = await bookingRepository.findOne({
+      where: {
+        _id: new ObjectId(id),
+        delFlg: 0
+      }
+    });
+    if (!booking) {
+      throw new BadRequestError('Booking not found');
+    }
+    return booking;
+  }
   // change all booking with tour id
 
   // Hàm cập nhật

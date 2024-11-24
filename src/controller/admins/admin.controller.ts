@@ -12,6 +12,10 @@ import tourService from '../../services/tour.service';
 import transportService from '../../services/transport.service';
 import { IBookingData } from '../../databases/interface/bookingInterface';
 import { BookingService } from '../../services/booking.service';
+import { Bookings } from '../../databases/models/entities/Booking';
+
+import errorCodes from '../../common/errorCode/errorCodes';
+import { ObjectId } from 'mongodb';
 // import { File } from 'multer';
 interface MulterRequest extends Request {
     file?: Express.Multer.File;  // Nếu chỉ upload 1 file
@@ -547,6 +551,43 @@ class AdminController {
             next(error)
         }
         }
+    // handle get booking by id
+    handleBookingById = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
+            const bookingService = new BookingService();
+           
+            const bookingId: string | null = typeof req.query.bookingId === 'string' ? req.query.bookingId : '';
+           
+            if(!bookingId){
+                return res.status(400).json({
+                    errCode: 400,
+                    message: 'Bad request',
+                    data: 'null',
+                    });
+            }
+
+            if (!ObjectId.isValid(bookingId)) {
+                logger.error('error id');
+                return res.status(400).json({
+                    errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
+                    message: errorCodes.RESPONSE.ID_NOT_SUPPORT.message,
+                    data: 'null',
+                    });
+           
+    
+              }
+            const bookingData: Bookings = await bookingService.getBookingById(bookingId);
+            
+            return res.status(200).json({
+                errCode: 200,
+                message: 'Get success',
+                data: bookingData || 'null',
+                });
+        } catch(error){
+            next(error)
+        }
+        }    
+
 }
 
 export default new AdminController();

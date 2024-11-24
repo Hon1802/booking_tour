@@ -71,7 +71,9 @@ export const adminUrls = [
 
   //
   'bookings',
-  
+  'bookings/detail',
+
+  //
 
 
 // ].map((url) => url.toLowerCase().trim());
