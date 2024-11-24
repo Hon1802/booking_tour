@@ -4211,3 +4211,283 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/bookings/detail","timestamp":"2024-11-24T11:10:13.758Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:10:21.543Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-24T11:10:36.675Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:11:38.928Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:11:43.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:12:09.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:12:24.280Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:12:26.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:12:54.364Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:14:08.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:14:12.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:14:35.131Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:14:37.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:14:43.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:14:46.096Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:15:13.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:15:54.391Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:15:56.859Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.427Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.428Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.429Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.430Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.430Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.432Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.432Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.433Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.433Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.435Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.435Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.436Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.436Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.437Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:16:20.437Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:16:24.478Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.000Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.002Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.009Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.012Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:53.017Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.101Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.112Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.114Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.116Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.116Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.117Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.118Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.119Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.119Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.120Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.120Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:54.125Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.259Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.266Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-11-24T11:17:55.268Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:19:56.404Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:20:03.966Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.237Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.237Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.239Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.239Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.240Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:04.245Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-24T11:20:04.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:20:06.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.259Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.260Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.262Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.264Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.265Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.266Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.266Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.267Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:06.267Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:20:34.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.852Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.853Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.854Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.856Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.860Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:20:37.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:32:56.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:32:58.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:33:18.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:33:21.045Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:34:01.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:34:04.424Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:34:32.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.702Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.703Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.704Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.704Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.705Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.705Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.706Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.707Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.707Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.708Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:34:35.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:34:58.300Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:35:00.733Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:35:28.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.723Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.724Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.726Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.729Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.732Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.732Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.734Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.738Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.738Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:35:29.743Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.189Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.189Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.189Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.190Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.190Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.191Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.191Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.196Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.202Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:36:00.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:41:00.420Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:41:02.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:41:16.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:41:47.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:41:49.229Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:42:04.419Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:42:06.669Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:42:37.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:42:43.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:42:46.070Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:43:05.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:43:07.410Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:43:14.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:43:16.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:43:36.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:43:38.782Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.800Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.800Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.802Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.803Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.803Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.803Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.804Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.804Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.806Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.806Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.806Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:43:38.807Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:44:06.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T11:44:28.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T11:44:30.866Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.880Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.881Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.882Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.882Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.883Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.884Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.884Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.885Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.887Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/refunds","timestamp":"2024-11-24T11:44:30.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T11:44:58.592Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-24T11:46:20.876Z"}
