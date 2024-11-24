@@ -41,7 +41,26 @@ export class BookingService {
 
     return await bookingRepository.save(booking);
   }
+  // Hàm cập nhật status
+  async updateStatus(id: string, statusUpdate: string): Promise<Bookings | null> {
+    const bookingRepository = managerBooking.getMongoRepository(Bookings);
+    const booking = await bookingRepository.findOne({
+      where: {
+        _id: new ObjectId(id),
+        delFlg: 0
+      }
+    });
+    if (!booking) {
+      throw new BadRequestError(`Booking not found with id : ${id}`);
+    }
+    if (!Object.values(OrderStatus).includes(statusUpdate as OrderStatus)) {
+      throw new BadRequestError(`Invalid order status : ${statusUpdate}`);
+    }
+    // Cập nhật trạng thái đơn hàng
+    booking.orderStatus = statusUpdate as OrderStatus;
 
+    return await bookingRepository.save(booking);
+  }
   // Hàm get list deposit users
   async getDepositUserBooking(
     idTour: string,

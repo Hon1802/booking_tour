@@ -78,10 +78,20 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 app.use('/', routes);
 
 // middleware
-
-app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+interface CustomError extends Error {
+  status?: number;
+}
+app.use((err: CustomError, req: Request, res: Response, next: NextFunction) => {
   console.error(err.stack);
-  res.status(500).json({ message: err.message });
+  const status = err?.status || 500; // Mặc định là 500 nếu không được cung cấp
+  const message = err.message || "Internal Server Error";
+
+  res.status(status).json({
+    error: {
+      message,
+      status,
+    },
+  });
 });
 
 app.listen(port, () => {
