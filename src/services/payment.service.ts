@@ -110,6 +110,56 @@ class PaymentService {
     }
 
 
+    // get by id
+    getById = async(idPay: string): Promise<PaymentData> =>{
+      try {
+        let paymentData: PaymentData;
+
+        if (!ObjectId.isValid(idPay)) {
+          paymentData = {
+            status: 400,
+            errCode: errorCodes.RESPONSE.ID_NOT_SUPPORT.code,
+            errMessage: errorCodes.RESPONSE.ID_NOT_SUPPORT.message
+          };
+          logger.error('error id');
+          return paymentData;
+        }
+
+        const payment = await managerPayment.getMongoRepository(Payments).findOne({
+          where: {
+            _id: new ObjectId(idPay),
+            delFlg: 0
+          }
+        }); 
+        if (payment) {
+          
+          paymentData = {
+            status: 200,
+            errCode: 200,
+            errMessage: `Get tours successfully.`,
+            PaymentInfo: payment || {},
+            method: payment?.paymentMethod
+          };
+        } else {
+          paymentData = {
+            status: 400,
+            errCode: 400,
+            errMessage: `Not found`,
+            PaymentInfo: payment || {}
+          };
+        }
+        return paymentData;
+      } catch (error) {
+        const paymentData = {
+          status: 500,
+          errCode: 500,
+          errMessage: 'Internal error'
+        };
+        console.log(error);
+        return paymentData;
+      }
+  }
+
 
 }
 export default new PaymentService();

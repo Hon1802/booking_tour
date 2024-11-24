@@ -69,6 +69,10 @@ export const adminUrls = [
   //
   'deposit-users',
 
+  //
+  'bookings',
+  
+
 
 // ].map((url) => url.toLowerCase().trim());
 ].map((endpoint) => (adminBaseUrl + endpoint).toLowerCase().trim());

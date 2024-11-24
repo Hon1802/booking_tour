@@ -11,4 +11,5 @@ export interface PaymentData {
     total?: number,
     currentPage?: number,
     perPage?: number,
+    method?: string,
 }

@@ -514,6 +514,39 @@ class AdminController {
         next(error)
     }
     }
+
+    // handle get list booking
+    handleGetListBooking = async (req: Request, res: Response, next: NextFunction)=>{
+        try{
+            const bookingService = new BookingService();
+            const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : 1000;
+            const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
+            
+            const tourId: string | null = typeof req.query.tourId === 'string' ? req.query.tourId : '';
+            const paymentStatus: string | null = typeof req.query.paymentStatus === 'string' ? req.query.paymentStatus : '';
+            const orderStatus: string | null = typeof req.query.orderStatus === 'string' ? req.query.orderStatus : '';
+            const method: string | null = typeof req.query.method === 'string' ? req.query.method : '';
+            const bookingData: IBookingData = await bookingService.getListBooking(
+                tourId, 
+                perPage, 
+                currentPage,
+                paymentStatus,
+                orderStatus,
+                method
+            );
+            
+            return res.status(bookingData.status).json({
+                errCode: bookingData.errCode,
+                message: bookingData.errMessage,
+                data: bookingData.userDepositArray || 'null',
+                total: bookingData.total || 0,
+                currentPage:bookingData.currentPage ||0,
+                perPage: bookingData.perPage || 0,
+                });
+        } catch(error){
+            next(error)
+        }
+        }
 }
 
 export default new AdminController();
