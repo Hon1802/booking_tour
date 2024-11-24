@@ -5,6 +5,8 @@ import _ from 'lodash';
 import { Bookings } from '../databases/models/entities/Booking';
 import { ObjectId } from 'mongodb';
 import { OrderStatus } from '../databases/models/entities/common';
+import { sentAcceptMail } from '../helpers/sentAcceptMaill';
+import { contentAcceptEmail, contentEmail } from './common/contentEmail';
 export class BookingService {
 
   // Hàm tạo mới
@@ -68,8 +70,46 @@ export class BookingService {
     }
     for (const item of bookings) {
       console.log(item.fullName);
+      try{
+        const contentToEmail = contentAcceptEmail(item?.fullName, item?.tourId, item?.createdAt);
+        await sentAcceptMail('soihoang1802@gmail.com', item?.email , contentToEmail, 'Accept require tour');
+      } catch(error)
+      {
+        console.log('error sent email :', item?.email);
+      }
       item.orderStatus = OrderStatus.COMPLETED;
       item.acceptFlg = 1;
+      // Save the updated item to the database
+      await bookingRepository.save(item); 
+  }
+
+    return true;
+  }
+
+   // Hàm cancel cập nhật
+   async cancelBooking(idTour: string): Promise<boolean> {
+    const bookingRepository = managerBooking.getMongoRepository(Bookings);
+    const bookings = await bookingRepository.find({
+        where: { 
+          tourId: idTour,
+          acceptFlg: { $ne: 1 }
+         }
+    });
+    if (!bookings) {
+      console.log('Booking not found');
+      return false;
+    }
+    for (const item of bookings) {
+      console.log(item.fullName);
+      try{
+        const contentToEmail = contentEmail(item?.fullName, item?.tourId, item?.createdAt);
+        await sentAcceptMail('soihoang1802@gmail.com', item?.email , contentToEmail, 'Cancel require tour');
+      } catch(error)
+      {
+        console.log('error sent email :', item?.email);
+      }
+      item.orderStatus = OrderStatus.CANCELLED_BY_ADMIN;
+      item.acceptFlg = 0;
       // Save the updated item to the database
       await bookingRepository.save(item); 
   }

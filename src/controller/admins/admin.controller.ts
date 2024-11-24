@@ -464,6 +464,30 @@ class AdminController {
             next(error)
         }
     }
+
+    // cancel tour incoming
+
+    handleCancelTourIncoming = async (req: Request, res: Response, next: NextFunction)=>{
+        try{    
+           const {tourId} = req.body;
+           if(!tourId)
+           {
+                return res.status(400).json({
+                    errCode: '400',
+                    message: 'Input invalid value - tourId'
+                })
+           }
+           const tourData: TourData = await tourService.CancelTourComing(tourId);
+            return res.status(tourData.status).json({
+                errCode: tourData.errCode,
+                message: tourData.errMessage
+            })
+
+               
+        } catch(error){
+            next(error)
+        }
+    }
 }
 
 export default new AdminController();
