@@ -2751,3 +2751,451 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T07:17:02.403Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T07:17:30.184Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-24T07:17:30.579Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T07:34:09.036Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T07:34:11.566Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T07:34:39.137Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T07:50:06.224Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T07:50:08.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T07:50:38.860Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T07:50:41.191Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T07:50:48.304Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T07:50:50.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T07:51:18.390Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T07:51:38.823Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T07:51:41.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T07:52:09.009Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T07:53:05.614Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T07:53:07.942Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T07:53:35.700Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T08:46:53.410Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T08:46:59.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T08:47:01.282Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T08:47:29.240Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-11-24T08:47:36.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-24T08:47:36.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-24T08:47:36.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-11-24T08:47:36.316Z"}
+{"email":"admin123@gmail.com","exp":1732610856,"iat":1732438056,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"admin","timestamp":"2024-11-24T08:47:36.443Z","userId":"66dff8fd1d00c35eb270d579"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.239Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.244Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.245Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.249Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:07.259Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.390Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:08.396Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T08:48:26.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.027Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.029Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.030Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.030Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.031Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.032Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.032Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.035Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.035Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.036Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.036Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.036Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.037Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.037Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:27.038Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-24T08:48:27.048Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T08:48:29.208Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.211Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.211Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.213Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.213Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.219Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T08:48:29.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T08:48:56.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T08:49:27.460Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T08:49:29.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T08:49:57.546Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T08:52:22.044Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T08:52:24.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T08:52:52.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T08:53:08.910Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T08:53:11.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T08:53:31.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T08:53:33.809Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T08:54:01.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T08:56:52.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T08:56:54.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T08:57:22.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T09:01:07.999Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T09:01:10.553Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.149Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.150Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.151Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.151Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.154Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.156Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.157Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:12.158Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-24T09:01:12.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T09:01:38.084Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?idtour=3123123","timestamp":"2024-11-24T09:01:45.598Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.603Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.603Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.604Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.605Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.606Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.607Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.607Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.609Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:45.610Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-24T09:01:45.681Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?idtour=3123123","timestamp":"2024-11-24T09:01:48.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.317Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.317Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.326Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:01:48.326Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-24T09:01:48.397Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=3123123","timestamp":"2024-11-24T09:02:04.300Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.300Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.321Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.322Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:04.322Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-24T09:02:04.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=3123123","timestamp":"2024-11-24T09:02:05.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.450Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.454Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.455Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.457Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.457Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:05.457Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-11-24T09:02:05.518Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.592Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.592Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.593Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.593Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.593Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.594Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.594Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.596Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.597Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.598Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.598Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-11-24T09:02:43.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-11-24T09:02:43.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=673f42fbd1415b211f33943e","timestamp":"2024-11-24T09:02:55.013Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.017Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.017Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.017Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.017Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:55.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=673f42fbd1415b211f33943e","timestamp":"2024-11-24T09:02:56.532Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.533Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.534Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.535Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.537Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.537Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.540Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.540Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.541Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.541Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:02:56.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=66dd8815921170e8a40c462e","timestamp":"2024-11-24T09:03:12.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.942Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.948Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.950Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:12.950Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T09:03:52.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=66dd8815921170e8a40c462e","timestamp":"2024-11-24T09:03:52.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.916Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.916Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.917Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.918Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.920Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.921Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.922Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.924Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:52.924Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-24T09:03:52.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T09:03:55.180Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=66dd8815921170e8a40c462e","timestamp":"2024-11-24T09:03:55.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.185Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.185Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.187Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.189Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.189Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.190Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.190Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.191Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.191Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:03:55.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T09:04:22.820Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=66dff1661981c10425334e0f","timestamp":"2024-11-24T09:04:49.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.247Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.249Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:04:49.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T09:06:24.821Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T09:06:27.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T09:07:26.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T09:07:33.680Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T09:07:35.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=66dff1661981c10425334e0f","timestamp":"2024-11-24T09:07:36.073Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.074Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.075Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.076Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.077Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.077Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.078Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.078Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.079Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.079Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.080Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.081Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.081Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.083Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.083Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:07:36.083Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T09:08:03.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T09:09:42.274Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=66dff1661981c10425334e0f","timestamp":"2024-11-24T09:09:42.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.457Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.459Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.459Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.460Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.460Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.463Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:42.465Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-11-24T09:09:42.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T09:09:44.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=66dff1661981c10425334e0f","timestamp":"2024-11-24T09:09:44.646Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.646Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.648Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.649Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.651Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:09:44.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-11-24T09:10:01.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-11-24T09:10:04.286Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/deposit-users?tourid=66dff1661981c10425334e0f","timestamp":"2024-11-24T09:10:04.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.299Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.300Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.300Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.301Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.302Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.303Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.303Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.303Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.304Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.304Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.305Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.305Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.306Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.306Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/deposit-users","timestamp":"2024-11-24T09:10:04.306Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-11-24T09:10:32.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-11-24T09:10:42.794Z"}

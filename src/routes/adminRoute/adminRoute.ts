@@ -988,3 +988,6 @@ adminRoute.get('/incoming-tours', adminController.handleGetListTourIncoming);
 // duyệt tour
 adminRoute.post('/incoming-tours/accept', adminController.handleAcceptTourIncoming);
 adminRoute.post('/incoming-tours/cancel', adminController.handleCancelTourIncoming); 
+
+// get list deposit user
+adminRoute.get('/deposit-users', adminController.handleGetListDepositUser); 
