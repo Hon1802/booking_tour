@@ -8,7 +8,8 @@ export interface PaymentData {
     errMessage: string | object;
     PaymentInfo?: object; // optional property
     PaymentArray?: Array<Payments>; 
-    total?: number,
+    PaymentData?: Payments;
+    total?: number;
     currentPage?: number,
     perPage?: number,
     method?: string,

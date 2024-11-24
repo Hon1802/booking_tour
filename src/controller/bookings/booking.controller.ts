@@ -65,11 +65,11 @@ export class BookingController {
           children: information?.children || [],
           orderStatus: O_Status,
           paymentStatus: PaymentStatus.NEW_REQUEST,
-          depositAmount: 0,
-          totalAmount: 0,
-          method: payment?.method || '' ,
-          paymentAccount: '',
-          payerName: '',
+          depositAmount: payment?.PaymentData?.depositAmount || 0,
+          totalAmount: payment?.PaymentData?.totalAmount || 0,
+          method: payment?.PaymentData?.paymentMethod || '' ,
+          paymentAccount: payment?.PaymentData?.paymentAccount || '',
+          payerName: payment?.PaymentData?.payerName || 'no name',
           updateOrderStatus: function (): void {
               throw new Error('Function not implemented.');
           },

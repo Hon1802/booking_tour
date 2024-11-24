@@ -138,7 +138,7 @@ class PaymentService {
             errCode: 200,
             errMessage: `Get tours successfully.`,
             PaymentInfo: payment || {},
-            method: payment?.paymentMethod
+            PaymentData: payment
           };
         } else {
           paymentData = {
