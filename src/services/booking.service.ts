@@ -208,6 +208,8 @@ export class BookingService {
       if (method) {
         query.method = { $regex: method, $options: 'i' };
       }
+      query.delFlg = { $ne: 1 };
+      
       const total = await managerBooking.getMongoRepository(Bookings).find({
         where: query
       });
@@ -299,7 +301,7 @@ export class BookingService {
         query.paymentStatus = { $regex: paymentStatus, $options: 'i' };
       }
       
-      query.orderStatus = { $in: ['CANCELLED_BY_ADMIN', 'REFUND_COMPLETED'] };
+      query.orderStatus = { $in: ['CANCELLED_BY_ADMIN', 'REFUND_COMPLETED','CANCELLED'] };
 
       if (method) {
         query.method = { $regex: method, $options: 'i' };
@@ -379,7 +381,6 @@ export class BookingService {
   
   // get by id
   async getBookingById(id: string): Promise<Bookings> {
-
 
     const bookingRepository = managerBooking.getMongoRepository(Bookings);
     const booking = await bookingRepository.findOne({

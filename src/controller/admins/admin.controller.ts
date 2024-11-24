@@ -562,6 +562,7 @@ class AdminController {
           data: 'null'
         });
       }
+
       const bookingData: Bookings = await bookingService.getBookingById(bookingId);
 
       return res.status(200).json({
@@ -569,6 +570,7 @@ class AdminController {
         message: 'Get success',
         data: bookingData || 'null'
       });
+      
     } catch (error) {
       next(error);
     }
