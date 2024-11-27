@@ -533,7 +533,8 @@ class AdminController {
         data: bookingData.userDepositArray || 'null',
         total: bookingData.total || 0,
         currentPage: bookingData.currentPage || 0,
-        perPage: bookingData.perPage || 0
+        perPage: bookingData.perPage || 0,
+        totalRevenue: bookingData.totalRevenue || 0
       });
     } catch (error) {
       next(error);

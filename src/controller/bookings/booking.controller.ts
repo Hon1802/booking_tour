@@ -117,4 +117,29 @@ export class BookingController {
       next(error);
     }
   };
+ // Xử lý lấy tour booking by user Id
+  handleGetBooking = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const userId = typeof req.query.userId === 'string' ? req.query.userId : '';
+      const perPage = typeof req.query.perPage === 'string' ? parseInt(req.query.perPage) : 1000;
+      const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
+      console.log('User ID:', userId);
+      const data = await this.bookingService.getListBookingById(userId,perPage,currentPage )
+      res.status(200).send(data);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  // Xử lý lấy tour booking by booking Id
+  handleGetBookingDetail = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const bookingId = typeof req.query.bookingId === 'string' ? req.query.bookingId : '';
+      console.log('bookingId: ', bookingId);
+      const data = await this.bookingService.getDetailBookingById(bookingId)
+      res.status(200).send(data);
+    } catch (error) {
+      next(error);
+    }
+  };
 }
