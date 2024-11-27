@@ -1204,11 +1204,11 @@ class ToursService {
     }
   };
 
-  checkTour = async (id: string): Promise<boolean> => {
+  checkTour = async (id: string): Promise<Tour | boolean> => {
     try {
       let holderStore = await managerTour.findOne(Tour, { where: { _id: new ObjectId(id) } });
       if (holderStore) {
-        return true;
+        return holderStore;
       } else {
         return false;
       }

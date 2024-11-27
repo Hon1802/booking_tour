@@ -33,6 +33,8 @@ customerRoute.patch('/update-password', userController.handleUpdatePassword);
 // booking
 
 customerRoute.post('/bookings', bookingController.handleAddNewBooking);
+customerRoute.get('/bookings', bookingController.handleGetBooking);
+customerRoute.get('/bookings/detail', bookingController.handleGetBookingDetail);
 customerRoute.put('/bookings/status', bookingController.handleUpdateBooking);
 
 // payment

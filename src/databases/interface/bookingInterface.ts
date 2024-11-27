@@ -11,5 +11,6 @@ export interface IBookingData {
     userDepositArray?: Array<any>; 
     total?: number; 
     currentPage?: number; 
-    perPage?: number 
+    perPage?: number;
+    totalRevenue?:number
 }
