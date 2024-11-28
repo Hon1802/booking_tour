@@ -4,7 +4,7 @@ const managerBooking = AppDataSource.mongoManager;
 import _ from 'lodash';
 import { Bookings } from '../databases/models/entities/Booking';
 import { ObjectId } from 'mongodb';
-import { OrderStatus } from '../databases/models/entities/common';
+import { OrderStatus, PaymentStatus } from '../databases/models/entities/common';
 import { sentAcceptMail } from '../helpers/sentAcceptMaill';
 import { contentAcceptEmail, contentEmail } from './common/contentEmail';
 import { IBookingData } from '../databases/interface/bookingInterface';
@@ -23,6 +23,27 @@ export class BookingService {
     const newBooking = bookingRepository.create(bookingData);
     return await bookingRepository.save(newBooking);
   }
+
+    // Hàm cập nhật payment
+    async updatePaymentBooking(id: string, statusUpdate: string): Promise<Bookings | null> {
+      const bookingRepository = managerBooking.getMongoRepository(Bookings);
+      const booking = await bookingRepository.findOne({
+        where: {
+          _id: new ObjectId(id),
+          delFlg: 0
+        }
+      });
+      if (!booking) {
+        throw new Error('Booking not found');
+      }
+      if (!Object.values(PaymentStatus).includes(statusUpdate as PaymentStatus)) {
+        throw new Error('Invalid order status');
+      }
+      // Cập nhật trạng thái đơn hàng
+      booking.paymentStatus = statusUpdate as PaymentStatus;
+  
+      return await bookingRepository.save(booking);
+    }
 
   // Hàm cập nhật
   async updateBooking(id: string, statusUpdate: string): Promise<Bookings | null> {
