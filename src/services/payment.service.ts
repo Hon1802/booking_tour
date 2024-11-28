@@ -58,6 +58,14 @@ class PaymentService {
                   };
                 return paymentData;
             }
+            let PayStatus;
+            if(dataPayment?.depositAmount == dataPayment?.totalAmount){
+              PayStatus = 'COMPLETED'
+            }else{
+              PayStatus = 'DEPOSIT_ADVANCE'
+            }
+            const bookingServer = new BookingService();
+            await bookingServer.updatePaymentBooking(dataPayment.bookingId, PayStatus);
             payment.bookingId = dataPayment?.bookingId;
             payment.paymentMethod = dataPayment?.payment_method;
             payment.depositAmount = dataPayment?.depositAmount;
@@ -66,6 +74,7 @@ class PaymentService {
             payment.paymentAccount = dataPayment?.paymentAccount;
             payment.payerName = dataPayment?.payerName;
             payment.delFlg = 0;
+
             const errors = await validate(payment);
             if (errors.length > 0) {
                 paymentData = {
@@ -78,7 +87,7 @@ class PaymentService {
                 };
               } else {
                 const newPayment = await managerPayment.save(payment);
-                logger.info('Payment saved:');
+                
                 const formatPayment = _.omit(newPayment, [
                     'createdAt', 
                     'updatedAt', 
@@ -89,6 +98,7 @@ class PaymentService {
                     'deletedBy', 
                     'deletedAt'
                 ]);
+                logger.info('Payment saved:' );
                 paymentData = {
                     status: 200,
                     errCode: 200,
