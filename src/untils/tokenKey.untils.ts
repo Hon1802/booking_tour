@@ -1,3 +1,6 @@
+import { UserData } from "../databases/interface/userInterface";
+import { handleUserRegister } from "../services/userService";
+import { Request, Response } from 'express';
 export const createToken = async (req: Request, res: Response) => {
     const { fullName, address, email, password} = req.body;
     if (!email || !password) {

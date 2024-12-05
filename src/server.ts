@@ -54,7 +54,7 @@ app.use(cors(allowedOrigins));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // check token
-app.use(checkToken)
+// app.use(checkToken)
 
 
 // wagger

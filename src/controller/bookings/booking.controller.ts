@@ -71,7 +71,7 @@ export class BookingController {
           paymentAccount: payment?.PaymentData?.paymentAccount || '',
           payerName: payment?.PaymentData?.payerName || 'no name',
           updateOrderStatus: function (): void {
-              throw new Error('Function not implemented.');
+            throw new Error('Function not implemented.');
           },
           delFlg: 0,
       };

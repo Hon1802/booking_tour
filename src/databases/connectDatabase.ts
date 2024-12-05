@@ -8,14 +8,22 @@ import currentConfig from '../config';
 
 export const AppDataSource = new DataSource({
   type: 'mongodb',
-  url: currentConfig.db.url,
-  database: 'datatourv2',
+  // url: currentConfig.db.url,
+  // url: 'mongodb+srv://mongoAdmin:securePassword123@13.229.198.83:27017/',
+  // url:"mongodb+srv://admintest:12345@cluster0.48rjqxr.mongodb.net/",
+  // url: 'mongodb://mongoAdmin:securePassword123@13.229.198.83:27017/booking_tour_prod?authSource=admin&authMechanism=SCRAM-SHA-256',
+  // host: "13.229.198.83", 
+  // port: 27017, 
+  // database: "booking_tour_prod", 
+  // username: "mongoAdmin",
+  // password: "securePassword123",
+  url:'mongodb+srv://admintest:12345@cluster0.48rjqxr.mongodb.net/datatourv2',
   useNewUrlParser: true,
   synchronize: true,
   logging: true,
-  entities: [__dirname + '/models/entities/*.ts'],
+  entities: [__dirname + '/models/entities/*.{js,ts}'],
   subscribers: [],
-  migrations: [__dirname + '/migration/*.ts']
+  migrations: [__dirname + '/migration/*.{js,ts}']
 });
 
 const closeConnection = async (): Promise<void> => {
@@ -65,8 +73,10 @@ class Database {
       await AppDataSource.initialize();
       logger.info('Database connection successful!');
     } catch (err) {
+      console.log('check', err)
       if (err instanceof Error) {
         logger.error('Error during database connection:', err.message);
+        logger.error('Stack trace:', err.message); 
       } else {
         logger.error('Unknown error during database connection');
       }

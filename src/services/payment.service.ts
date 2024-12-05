@@ -64,12 +64,11 @@ class PaymentService {
             }else{
               PayStatus = 'DEPOSIT_ADVANCE'
             }
-            const bookingServer = new BookingService();
-            await bookingServer.updatePaymentBooking(dataPayment.bookingId, PayStatus);
+            
             payment.bookingId = dataPayment?.bookingId;
             payment.paymentMethod = dataPayment?.payment_method;
             payment.depositAmount = dataPayment?.depositAmount;
-            payment.totalAmount = dataPayment?.totalAmount;
+            payment.totalAmount = dataPayment?.totalAmount ;
             payment.status = dataPayment?.status;
             payment.paymentAccount = dataPayment?.paymentAccount;
             payment.payerName = dataPayment?.payerName;
@@ -88,6 +87,9 @@ class PaymentService {
               } else {
                 const newPayment = await managerPayment.save(payment);
                 
+                const bookingServer = new BookingService();
+                await bookingServer.updatePaymentBooking(dataPayment.bookingId, PayStatus, newPayment);
+
                 const formatPayment = _.omit(newPayment, [
                     'createdAt', 
                     'updatedAt', 

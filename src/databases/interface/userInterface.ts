@@ -8,6 +8,7 @@ export interface UserData {
   userInfor?: object; // optional property
   accessToken?: string;
   refreshToken?: string;
+  publicKey?: string;
   gender?:string
 }
 export interface userInterface {
