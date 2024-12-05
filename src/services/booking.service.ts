@@ -16,6 +16,7 @@ import { BadRequestError } from './common/http_error';
 import calculateRefundAmount from './common/refund';
 import userService from './user.service';
 import { Tour } from '../databases/models/entities/Tour';
+import { Payments } from '../databases/models/entities/Payment';
 export class BookingService {
   // Hàm tạo mới
   async createBooking(bookingData: Partial<Bookings>): Promise<Bookings> {
@@ -25,7 +26,7 @@ export class BookingService {
   }
 
     // Hàm cập nhật payment
-    async updatePaymentBooking(id: string, statusUpdate: string): Promise<Bookings | null> {
+    async updatePaymentBooking(id: string, statusUpdate: string, paymentData: Payments): Promise<Bookings | null> {
       const bookingRepository = managerBooking.getMongoRepository(Bookings);
       const booking = await bookingRepository.findOne({
         where: {
@@ -40,6 +41,13 @@ export class BookingService {
         throw new Error('Invalid order status');
       }
       // Cập nhật trạng thái đơn hàng
+      booking.paymentId = paymentData?.id?.toString() ?? "";
+      booking.depositAmount = paymentData?.depositAmount;
+      booking.totalAmount = paymentData?.totalAmount;
+      booking.method = paymentData?.paymentMethod;
+      booking.payerName = paymentData?.payerName;
+      booking.paymentAccount = paymentData?.paymentAccount;
+      
       booking.paymentStatus = statusUpdate as PaymentStatus;
   
       return await bookingRepository.save(booking);
@@ -705,7 +713,7 @@ export class BookingService {
 
   // check exist
   // Hàm cập nhật
-  async checkBooking(id: string): Promise<boolean> {
+  async checkBooking(id: string): Promise< Bookings | null> {
     const bookingRepository = managerBooking.getMongoRepository(Bookings);
     const booking = await bookingRepository.findOne({
       where: {
@@ -713,9 +721,7 @@ export class BookingService {
         delFlg: 0
       }
     });
-    if (booking) {
-      return true;
-    }
-    return false;
+    
+    return booking;
   }
 }

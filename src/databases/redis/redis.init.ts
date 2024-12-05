@@ -11,11 +11,18 @@ class RedisConnection {
     private idleTimeout: NodeJS.Timeout | null = null; // Biến để theo dõi thời gian không hoạt động
 
     private constructor() {
+        // this.redisClient = createClient({
+        //     password: 'XvVd3Rj2F7rPAvL9cflJBujV4daURdM5',
+        //     socket: {
+        //         host: 'redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com',
+        //         port: 13005,
+        //     },
+        // });
         this.redisClient = createClient({
-            password: 'XvVd3Rj2F7rPAvL9cflJBujV4daURdM5',
+            password: '',
             socket: {
-                host: 'redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com',
-                port: 13005,
+                host: 'localhost',
+                port: 6379,
             },
         });
 

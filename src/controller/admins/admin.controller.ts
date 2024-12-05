@@ -554,7 +554,7 @@ class AdminController {
           data: 'null'
         });
       }
-
+      logger.info(`P::Booking tour detail id ${bookingId}`)
       if (!ObjectId.isValid(bookingId)) {
         logger.error('error id');
         return res.status(400).json({

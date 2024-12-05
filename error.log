@@ -98,3 +98,78 @@
 {"level":"\u001b[31merror\u001b[39m","message":"Booking not found","timestamp":"2024-11-28T16:56:19.779Z"}
 {"expiredAt":"2024-11-26T10:22:34.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-28T17:00:18.131Z"}
 {"level":"\u001b[31merror\u001b[39m","message":"Booking not found","timestamp":"2024-11-28T17:15:24.100Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T09:17:45.039Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T09:19:17.484Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T09:19:31.970Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T09:21:01.781Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during closing connection Cannot execute operation on \"default\" connection because connection is not yet established.","stack":"CannotExecuteNotConnectedError: Cannot execute operation on \"default\" connection because connection is not yet established.\n    at DataSource.destroy (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:306:19)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:23:25\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:9:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:5:12)\n    at closeConnection (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:21:51)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:36:9\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:9:71","timestamp":"2024-12-03T09:21:46.729Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:18:54.519Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:20:11.738Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:21:21.738Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:22:22.426Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:22:43.639Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:25:26.489Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:29:33.647Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:30:25.896Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T10:30:25.910Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:31:09.040Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T10:31:09.041Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:40:54.803Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T10:40:54.803Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:43:41.345Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T10:43:41.346Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:45:27.445Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T10:45:27.446Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during closing connection Cannot execute operation on \"default\" connection because connection is not yet established.","stack":"CannotExecuteNotConnectedError: Cannot execute operation on \"default\" connection because connection is not yet established.\n    at DataSource.destroy (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:306:19)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:23:25\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:9:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:5:12)\n    at closeConnection (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:21:51)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:36:9\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:9:71","timestamp":"2024-12-03T10:46:38.804Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:46:48.663Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T10:46:48.663Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:58:21.633Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T10:58:21.634Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T10:58:28.515Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T10:58:28.515Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:00:20.227Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:00:20.228Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:00:43.179Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:00:43.181Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:43:21.665Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:43:21.666Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:46:53.135Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:46:53.136Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:47:38.018Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:47:38.018Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:47:46.941Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:47:46.942Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:49:01.200Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:49:01.201Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during closing connection Cannot execute operation on \"default\" connection because connection is not yet established.","stack":"CannotExecuteNotConnectedError: Cannot execute operation on \"default\" connection because connection is not yet established.\n    at DataSource.destroy (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:306:19)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:29:25\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:9:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:5:12)\n    at closeConnection (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:27:51)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:43:9\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:9:71","timestamp":"2024-12-03T11:49:09.310Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:50:41.450Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:50:41.451Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:51:04.496Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:51:04.496Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:52:22.389Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:52:22.390Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:53:19.856Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:53:19.857Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:53:29.524Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:53:29.525Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-03T11:53:45.704Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-03T11:53:45.704Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-04T16:54:51.296Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-04T16:54:51.296Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-04T16:55:03.286Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-04T16:55:03.287Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-04T16:56:06.662Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-04T16:56:06.663Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-04T16:56:46.637Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-04T16:56:46.638Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-04T16:58:09.158Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-04T16:58:09.159Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-04T17:02:22.736Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-04T17:02:22.737Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during closing connection Cannot execute operation on \"default\" connection because connection is not yet established.","stack":"CannotExecuteNotConnectedError: Cannot execute operation on \"default\" connection because connection is not yet established.\n    at DataSource.destroy (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:306:19)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:31:25\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:9:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:5:12)\n    at closeConnection (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:29:51)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:44:9\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\databases\\connectDatabase.ts:9:71","timestamp":"2024-12-04T17:03:02.762Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error during database connection:","timestamp":"2024-12-04T17:03:18.356Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Stack trace:","timestamp":"2024-12-04T17:03:18.357Z"}
+{"expiredAt":"2024-11-11T17:16:38.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-12-04T17:53:54.834Z"}
+{"expiredAt":"2024-11-26T08:47:36.000Z","level":"\u001b[31merror\u001b[39m","message":"error verify jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:64:9\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\auth\\index.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-12-05T13:32:32.816Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-12-05T14:57:27.292Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-12-05T15:31:59.965Z"}
