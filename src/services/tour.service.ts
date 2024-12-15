@@ -1022,7 +1022,7 @@ class ToursService {
 
       if (tour) {
         const bookingService = new BookingService();
-        tour.isApprove = 0;
+        tour.isApprove = 1;
         await managerTour.getMongoRepository(Tour).save(tour);
         const accept = await bookingService.acceptBooking(id);
         if (accept) {
