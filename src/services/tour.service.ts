@@ -1084,7 +1084,7 @@ class ToursService {
 
       if (tour) {
         const bookingService = new BookingService();
-        tour.isApprove = 0;
+        tour.isApprove = 2;
         tour.buySlot = 0;
         tour.delFlg = 1;
         await managerTour.getMongoRepository(Tour).save(tour);
@@ -1216,6 +1216,33 @@ class ToursService {
       return false;
     }
   };
+  
+  // checkTour = async (id: string): Promise<Tour | boolean> => {
+  //   try {
+  //     let holderStore = await managerTour.findOne(Tour, { where: { _id: new ObjectId(id) } });
+  //     if (holderStore) {
+  //       return holderStore;
+  //     } else {
+  //       return false;
+  //     }
+  //   } catch (error) {
+  //     return false;
+  //   }
+  // };
+
+  returnEstDate = async (id: string): Promise<Date> => {
+    try {
+      let holderStore = await managerTour.findOne(Tour, { where: { _id: new ObjectId(id) } });
+      if (holderStore) {
+        return holderStore.estimatedTime;
+      } else {
+        return new Date();
+      }
+    } catch (error) {
+      return new Date();
+    }
+  };
+
   updateBySlotTour = async (id: string, numberTiket: number): Promise<Tour | boolean> => {
     try {
       

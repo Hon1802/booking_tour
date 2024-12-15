@@ -17,6 +17,7 @@ const calculateRefundAmount = ({
 }: RefundParams): number => {
     if (status === "CANCELLED_BY_ADMIN") {
         // Hoàn trả toàn bộ tiền đặt cọc
+        console.log('Toàn bộ')
         return depositAmount;
     } else if (status === "CANCELLED") {
         if (!(departureDate instanceof Date) || isNaN(departureDate.getTime())) {
@@ -29,7 +30,9 @@ const calculateRefundAmount = ({
         const daysUntilDeparture = Math.ceil(
             (departureDate.getTime() - cancelDate.getTime()) / (1000 * 60 * 60 * 24)
         );
-
+        // console.log('dep', daysUntilDeparture);
+        // console.log('cancel', cancelDate);
+        // console.log('huỷ trước : ', daysUntilDeparture);
         // Tính phần trăm số tiền bị trừ
         let refundPercentage = 0;
 
@@ -44,8 +47,9 @@ const calculateRefundAmount = ({
         } else if (daysUntilDeparture >= 1 && daysUntilDeparture <= 3) {
             refundPercentage = 0; 
         }
+        // console.log('% refund : ', refundPercentage);
 
-        return (totalAmount * refundPercentage) / 100;
+        return ((totalAmount * refundPercentage) / 100);
     }
 
     return 0;
