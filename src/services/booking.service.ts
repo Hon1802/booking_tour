@@ -74,7 +74,7 @@ export class BookingService {
     if(numberTicket>0)
     {
       await tourService.updateBySlotTour(booking.tourId, (0-numberTicket));
-    }
+    } 
     return await bookingRepository.save(booking);
   }
   // Hàm cập nhật status
@@ -568,29 +568,62 @@ export class BookingService {
         skip: skip
       });
       if (bookings.length > 0) {
+        // const bookingsSummary = bookings.map(async(booking) => {
+          
+        //   const dateCheck = await tourService.returnEstDate(booking.tourId);
 
-        const bookingsSummary = bookings.map((booking) => ({
-          idOder: booking.id,
-          paymentId: booking.paymentId,
-          fullName: booking.fullName || 'no name',
-          payerName: booking.payerName || 'no name',
-          phone: booking.phone || 'no phone',
-          email: booking.email || 'no email',
-          paymentStatus: booking.paymentStatus || 'no status',
-          orderStatus: booking.orderStatus || 'no status',
-          paymentAccount: booking.paymentAccount || 0,
-          depositAmount: booking.depositAmount || 0,
-          status: booking.orderStatus || '',
-          refundAmount: calculateRefundAmount({
-            depositAmount: booking.depositAmount,
-            totalAmount: booking.totalAmount,
-            departureDate: dateStart || new Date(),
-            status: booking.orderStatus,
-            cancelDate: new Date()
-          }
-          )
-        }));
-
+        //   const refundAmount = calculateRefundAmount({
+        //     depositAmount: booking.depositAmount,
+        //     totalAmount: booking.totalAmount,
+        //     departureDate:  dateCheck || new Date(),
+        //     status: booking.orderStatus,
+        //     cancelDate: new Date(),
+        //   });
+      
+        //   return {
+        //     idOder: booking.id,
+        //     paymentId: booking.paymentId,
+        //     fullName: booking.fullName || 'no name',
+        //     payerName: booking.payerName || 'no name',
+        //     phone: booking.phone || 'no phone',
+        //     email: booking.email || 'no email',
+        //     paymentStatus: booking.paymentStatus || 'no status',
+        //     orderStatus: booking.orderStatus || 'no status',
+        //     paymentAccount: booking.paymentAccount || 0,
+        //     depositAmount: booking.depositAmount || 0,
+        //     status: booking.orderStatus || '',
+        //     refundAmount: refundAmount             
+        //   }
+        // });
+        const bookingsSummary = await Promise.all(
+          bookings.map(async (booking) => {
+            const dateCheck = await tourService.returnEstDate(booking.tourId);
+      
+            const refundAmount = calculateRefundAmount({
+              depositAmount: booking.depositAmount,
+              totalAmount: booking.totalAmount,
+              departureDate: dateCheck || new Date(),
+              status: booking.orderStatus,
+              cancelDate: new Date(),
+            });
+            // console.log('total: ',booking.totalAmount)
+            // console.log('refund : ', refundAmount);
+            return {
+              idOder: booking.id,
+              paymentId: booking.paymentId,
+              fullName: booking.fullName || 'no name',
+              payerName: booking.payerName || 'no name',
+              phone: booking.phone || 'no phone',
+              email: booking.email || 'no email',
+              paymentStatus: booking.paymentStatus || 'no status',
+              orderStatus: booking.orderStatus || 'no status',
+              paymentAccount: booking.paymentAccount || 0,
+              depositAmount: booking.depositAmount || 0,
+              status: booking.orderStatus || '',
+              refundAmount: refundAmount,
+            };
+          })
+        );
         bookingData = {
           status: 200,
           errCode: 200,

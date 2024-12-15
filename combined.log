@@ -9387,3 +9387,54 @@
 {"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-12-15T14:11:22.893Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Payment saved:","timestamp":"2024-12-15T14:11:23.407Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-12-15T14:12:03.494Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:19:21.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:19:23.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:19:51.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T16:26:49.892Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T16:26:49.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T16:26:49.984Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Northern Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-15T16:27:36.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Northern Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-15T16:27:37.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:33:15.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:33:17.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:33:57.591Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:33:59.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:34:27.665Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:35:59.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:36:02.133Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:36:29.970Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:37:16.976Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:37:19.272Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:37:47.058Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:38:23.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:38:26.065Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:38:54.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:49:23.688Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:49:25.775Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:49:53.767Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:51:10.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:51:12.797Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:51:40.814Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:51:57.908Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:51:59.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:52:27.990Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:53:35.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:53:37.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:54:05.488Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:55:56.011Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:55:58.044Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:56:26.102Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:57:36.476Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:57:38.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:58:06.574Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:58:33.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:58:35.464Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:59:01.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:59:04.118Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T16:59:31.817Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T16:59:41.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T16:59:43.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T17:00:11.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T17:01:01.655Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T17:01:04.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-12-15T17:01:08.819Z"}
