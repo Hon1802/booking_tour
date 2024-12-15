@@ -1216,5 +1216,29 @@ class ToursService {
       return false;
     }
   };
+  updateBySlotTour = async (id: string, numberTiket: number): Promise<Tour | boolean> => {
+    try {
+      
+      const tour = await managerTour.findOne(Tour, { where: { _id: new ObjectId(id) } });
+
+      if (tour) {
+        const newBuySlot = tour.buySlot + numberTiket;
+        if (newBuySlot >= 0) {
+          const updateTour = await managerTour.getMongoRepository(Tour).findOneAndUpdate(
+            { _id: new ObjectId(id) },
+            { $set: { buySlot: newBuySlot } },
+            { returnDocument: 'after' }
+          );
+          return true;
+        } else {
+          console.log('buySlot cannot be less than 0');
+          return false;
+        }
+      }     
+      return false;
+    } catch (error) {
+      return false;
+    }
+  };
 }
 export default new ToursService();

@@ -9322,3 +9322,68 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:32:57.750Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:33:01.397Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:33:27.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:41:05.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:41:08.080Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:41:35.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:44:35.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:44:38.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:45:05.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:48:17.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:48:20.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:48:51.202Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:48:53.556Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:49:21.297Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:51:17.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:51:20.001Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:51:47.783Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:52:50.981Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:52:53.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:53:21.057Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:54:04.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:54:07.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:54:35.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:57:59.598Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:58:02.053Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:58:29.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:59:26.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:59:29.530Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:59:56.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T14:00:54.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:00:54.088Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:00:54.190Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T14:01:02.471Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:01:02.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:01:02.485Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T14:01:16.300Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:01:16.359Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:01:16.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T14:01:38.663Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:01:38.676Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:01:38.678Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T14:03:31.132Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:03:31.142Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:03:31.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T14:04:11.420Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T14:04:11.468Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:04:11.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:04:11.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T14:04:13.701Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T14:04:13.705Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:04:13.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:04:13.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T14:04:41.502Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-12-15T14:05:20.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Payment saved:","timestamp":"2024-12-15T14:05:20.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T14:07:46.357Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T14:07:52.968Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T14:07:55.069Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T14:08:23.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T14:08:23.317Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:08:23.328Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:08:23.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-15T14:08:42.308Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:08:42.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-15T14:08:42.318Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-12-15T14:11:22.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Payment saved:","timestamp":"2024-12-15T14:11:23.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-12-15T14:12:03.494Z"}

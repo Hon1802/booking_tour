@@ -76,8 +76,14 @@ export class BookingController {
           delFlg: 0,
       };
 
+      
+      const numberTicket = information?.adults.length + information?.children.length;
+      if(numberTicket>0)
+      {
+        await tourService.updateBySlotTour(tourId, numberTicket);
+      }
+        
       const newBooking = await this.bookingService.createBooking(newBookingData);
-
       res.status(201).json({
         message: 'Booking created successfully',
         id: newBooking.id
