@@ -9181,3 +9181,144 @@
 {"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-12-05T15:31:59.965Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Payment saved:","timestamp":"2024-12-05T15:32:00.409Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-12-05T15:32:36.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:54.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:54.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:54.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:54.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:55.116Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:55.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:55.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:55.402Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:55.409Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:55.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:55.617Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-10T13:16:57.769Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:57.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:57.776Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:58.079Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:58.086Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:58.441Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:58.446Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:58.850Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:58.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:59.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:59.324Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:16:59.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:16:59.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:00.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:00.348Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:00.851Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:00.855Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:01.363Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:01.369Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:01.877Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:01.883Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:02.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:02.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:02.905Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:02.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:03.428Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:03.432Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:03.934Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:03.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:04.445Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:04.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:04.964Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:04.973Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:05.478Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:05.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:05.985Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:05.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:06.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:06.507Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:07.009Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:07.016Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:07.519Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:07.527Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:08.030Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:08.035Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:08.543Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:08.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:09.050Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:09.054Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:09.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:09.569Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:10.079Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:10.085Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:10.594Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:10.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:11.106Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:11.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:11.617Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:11.622Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:12.134Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:12.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:12.647Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:12.653Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:13.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:13.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:13.672Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:13.677Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:14.181Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:14.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:14.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:14.702Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:15.209Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:15.213Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:15.716Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:15.723Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:16.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:16.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:16.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:16.762Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:17.273Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:17.277Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:17.786Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:17.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:18.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:18.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:18.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:18.811Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:19.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:19.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:19.830Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:19.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:20.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:20.349Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:20.865Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:20.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:21.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:21.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:21.887Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:21.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:22.403Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:22.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:22.909Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:22.915Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:23.426Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:23.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:23.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:23.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:24.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:24.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:24.958Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:24.961Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:25.468Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:25.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:25.977Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:25.983Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:26.496Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:26.501Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:27.004Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:27.009Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Reconnecting","timestamp":"2024-12-10T13:17:27.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Error with AggregateError","timestamp":"2024-12-10T13:17:27.519Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-10T13:17:34.707Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-10T13:17:37.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-10T13:18:04.808Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:28:45.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:28:48.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:29:15.999Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-15T13:32:57.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-15T13:33:01.397Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-15T13:33:27.839Z"}
