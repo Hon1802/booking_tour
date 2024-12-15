@@ -70,7 +70,11 @@ export class BookingService {
     }
     // Cập nhật trạng thái đơn hàng
     booking.orderStatus = statusUpdate as OrderStatus;
-
+    const numberTicket = booking?.adults.length + booking?.children.length;
+    if(numberTicket>0)
+    {
+      await tourService.updateBySlotTour(booking.tourId, (0-numberTicket));
+    }
     return await bookingRepository.save(booking);
   }
   // Hàm cập nhật status
