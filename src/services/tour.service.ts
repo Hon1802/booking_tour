@@ -159,7 +159,7 @@ class ToursService {
       const tour = await managerTour.getMongoRepository(Tour).findOne({
         where: {
           _id: new ObjectId(id),
-          delFlg: 0
+          // delFlg: 0
         }
       });
       if (tour) {
@@ -210,6 +210,9 @@ class ToursService {
     try {
       let tourData: TourData;
       const tours = await managerTour.getMongoRepository(Tour).find({
+        where: {
+          delFlg: { $ne: 1 }
+        },
         order: { createdAt: 'DESC' },
         take: count
       });
