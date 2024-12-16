@@ -197,15 +197,32 @@ class UsersService {
         }
         
         if( (checkValueRedis) &&  (UpdateData.email !== holderStore.email)){
-          userData = {
-              status: 400,
-              errCode: 400,
-              errMessage: `You can not update email`
-            };
-          return userData;
+
+          await managerUser.getMongoRepository(User).findOneAndUpdate(
+            // Điều kiện tìm kiếm
+            { _id: new ObjectId(UpdateData.id) },
+            // Cập nhật dữ liệu
+            {
+              $set: {
+                name : UpdateData.fullName,
+                phone: UpdateData.phone || holderStore.phone || '',
+                email : UpdateData.email , 
+                gender : UpdateData.gender || holderStore.gender || '',
+                dateOfBirth: UpdateData.birthday || holderStore.dateOfBirth ,
+                avatar: UpdateData.urlAvatar || holderStore.avatar,
+              }
+            }
+          );
+
+          // userData = {
+          //     status: 400,
+          //     errCode: 400,
+          //     errMessage: `You can not update email`
+          //   };
+          // return userData;
         }
         
-        const user = await managerUser.getMongoRepository(User).findOneAndUpdate(
+        await managerUser.getMongoRepository(User).findOneAndUpdate(
             // Điều kiện tìm kiếm
             { _id: new ObjectId(UpdateData.id) },
             // Cập nhật dữ liệu

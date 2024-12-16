@@ -251,7 +251,7 @@ class AccessService {
 
       // generate new password
       const newPass = generatePassword();
-      console.log(newPass)
+      console.log('new pass', newPass)
 
       const passBcrypt = await bcrypt.hash(newPass, parseInt(salt_rounds));
       // sent

@@ -116,10 +116,10 @@ class ToursController {
                 location : ${location}; 
                 sortBy : ${sortBy};`);
             // const status = typeof req.query.status === 'string' ? req.query.status : 'active';
-            const status = 
-                typeof req.query.status === 'string' 
-                    ? (req.query.status === 'active' ? 0 : req.query.status === 'inactive' ? 1 : 2) 
-                    : 2;
+            const status = 0;
+                // typeof req.query.status === 'string' 
+                //     ? (req.query.status === 'active' ? 0 : req.query.status === 'inactive' ? 1 : 2) 
+                //     : 2;
             const tourData: any = await tourService.filterTourCustomer(
                 perPage, 
                 currentPage, 
@@ -147,10 +147,10 @@ class ToursController {
             const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
             logger.info('p:: Get latest tour ');
             // const status = typeof req.query.status === 'string' ? req.query.status : 'active';
-            const status = 
-                typeof req.query.status === 'string' 
-                    ? (req.query.status === 'active' ? 0 : req.query.status === 'inactive' ? 1 : 2) 
-                    : 2;
+            const status = 0;
+                // typeof req.query.status === 'string' 
+                //     ? (req.query.status === 'active' ? 0 : req.query.status === 'inactive' ? 1 : 2) 
+                //     : 2;
             const tourData: any = await tourService.latestTourCustomer(
                 perPage, 
                 currentPage, 
@@ -172,10 +172,10 @@ class ToursController {
             const currentPage = typeof req.query.currentPage === 'string' ? parseInt(req.query.currentPage, 10) : 1;
             logger.info('p:: Get latest tour ');
             // const status = typeof req.query.status === 'string' ? req.query.status : 'active';
-            const status = 
-                typeof req.query.status === 'string' 
-                    ? (req.query.status === 'active' ? 0 : req.query.status === 'inactive' ? 1 : 2) 
-                    : 2;
+            const status = 0;
+                // typeof req.query.status === 'string' 
+                //     ? (req.query.status === 'active' ? 0 : req.query.status === 'inactive' ? 1 : 2) 
+                //     : 2;
             const tourData: any = await tourService.HotTourCustomer(
                 perPage, 
                 currentPage, 
