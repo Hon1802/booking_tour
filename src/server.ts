@@ -26,7 +26,12 @@ const allowedOrigins = {
     'http://127.0.0.1:3000',
     'http://localhost:3001',
     'http://127.0.0.1:3001',
-    'https://re-project.vercel.app'
+    'https://re-project.vercel.app',
+    'http://54.169.251.27:3000',
+    'https://vanhon.test.bilisoftware.com',
+    'https://vanhon.admin.test.bilisoftware.com',
+    'https://54.255.182.230',
+    'http://54.255.182.230',
   ],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: 'Content-Type,Authorization',
@@ -54,7 +59,7 @@ app.use(cors(allowedOrigins));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // check token
-// app.use(checkToken)
+app.use(checkToken)
 
 
 // wagger

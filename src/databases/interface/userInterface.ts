@@ -43,7 +43,11 @@ export interface Config {
       port: string;
       name: string;
       url: string;
-    
     };
+    redis?:{
+      host:string;
+      port:number;
+      password?:string;
+    }
   };
 }
