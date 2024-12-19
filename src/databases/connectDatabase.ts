@@ -9,15 +9,7 @@ import currentConfig from '../config';
 export const AppDataSource = new DataSource({
   type: 'mongodb',
   // url: currentConfig.db.url,
-  // url: 'mongodb+srv://mongoAdmin:securePassword123@13.229.198.83:27017/',
-  // url:"mongodb+srv://admintest:12345@cluster0.48rjqxr.mongodb.net/",
-  url: 'mongodb://mongoAdmin:securePassword123@13.229.198.83:27017/booking_tour_prod?authSource=admin&authMechanism=SCRAM-SHA-256',
-  // host: "13.229.198.83", 
-  // port: 27017, 
-  // database: "booking_tour_prod", 
-  // username: "mongoAdmin",
-  // password: "securePassword123",
-  // url:'mongodb+srv://admintest:12345@cluster0.48rjqxr.mongodb.net/datatourv2',
+  url:'mongodb://mongoAdmin:securePassword123@54.255.182.230:27017/booking_tour_prod?authSource=admin&authMechanism=SCRAM-SHA-256',
   useNewUrlParser: true,
   synchronize: true,
   logging: true,
@@ -51,15 +43,47 @@ process.on('SIGTERM', async () => {
 });
 
 
+// class Database {
+//   // Declare the static instance property
+//   private static instance: Database;
+
+//   private constructor() {
+//     this.initializeConnection();
+//   }
+
+//   // Singleton pattern to ensure a single instance
+//   static getInstance(): Database {
+//     if (!Database.instance) {
+//       Database.instance = new Database();
+//     }
+//     return Database.instance;
+//   }
+
+//   // Connect to the database
+//   private async initializeConnection(): Promise<void> {
+//     try {
+//       await AppDataSource.initialize();
+//       logger.info('Database connection successful!');
+//     } catch (err) {
+//       console.log('check', err)
+//       if (err instanceof Error) {
+//         logger.error('Error during database connection:', err.message);
+//         logger.error('Stack trace:', err.message); 
+//       } else {
+//         logger.error('Unknown error during database connection');
+//       }
+//     }
+//   }
+// }
+
+
 class Database {
-  // Declare the static instance property
   private static instance: Database;
 
   private constructor() {
-    this.initializeConnection();
+    this.initializeConnectionWithRetry();
   }
 
-  // Singleton pattern to ensure a single instance
   static getInstance(): Database {
     if (!Database.instance) {
       Database.instance = new Database();
@@ -67,21 +91,41 @@ class Database {
     return Database.instance;
   }
 
-  // Connect to the database
-  private async initializeConnection(): Promise<void> {
-    try {
-      await AppDataSource.initialize();
-      logger.info('Database connection successful!');
-    } catch (err) {
-      console.log('check', err)
-      if (err instanceof Error) {
-        logger.error('Error during database connection:', err.message);
-        logger.error('Stack trace:', err.message); 
-      } else {
-        logger.error('Unknown error during database connection');
+  private async initializeConnectionWithRetry(
+    retries = 5,
+    delay = 5000 // 5 seconds
+  ): Promise<void> {
+    for (let attempt = 1; attempt <= retries; attempt++) {
+      try {
+        await AppDataSource.initialize();
+        logger.info('Database connection successful!');
+        return; // Exit if successful
+      } catch (err) {
+        if (attempt < retries) {
+          logger.warn(
+            `Database connection failed on attempt ${attempt}. Retrying in ${delay / 1000} seconds...`
+          );
+          await this.sleep(delay);
+        } else {
+          logger.error(
+            `Failed to connect to database after ${retries} attempts. Exiting...`
+          );
+          if (err instanceof Error) {
+            logger.error('Error during database connection:', err.message);
+          } else {
+            logger.error('Unknown error during database connection');
+          }
+          logger.error(`Failed to connect to database after ${retries} attempts. Exiting...`);
+          process.exit(1); // Exit the application if unable to connect
+        }
       }
     }
   }
+
+  private sleep(ms: number): Promise<void> {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
 }
+
 const instanceMongoDb = Database.getInstance();
 export default instanceMongoDb;
