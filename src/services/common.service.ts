@@ -293,7 +293,17 @@ class CommonService {
             },
           },
           {
-            $sort: { "_id.year": 1, "_id.month": 1 }, // Sắp xếp theo năm, tháng
+            $addFields: {
+              dailyData: { 
+                $sortArray: { 
+                  input: "$dailyData", 
+                  sortBy: { day: 1 } // Sắp xếp dailyData theo ngày
+                } 
+              },
+            }
+          },
+          {
+            $sort: { "_id.year": 1, "_id.month": 1  }, // Sắp xếp theo năm, tháng
           },
         ])
         .toArray();
