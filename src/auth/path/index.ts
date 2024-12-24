@@ -76,8 +76,8 @@ export const adminUrls = [
   'refunds/status',
 
   //
-
-
+  'statistics',
+  'statistics/line'
 // ].map((url) => url.toLowerCase().trim());
 ].map((endpoint) => (adminBaseUrl + endpoint).toLowerCase().trim());
 

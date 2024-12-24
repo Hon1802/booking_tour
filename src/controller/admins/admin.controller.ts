@@ -10,12 +10,13 @@ import { logger } from '../../log';
 import hotelService from '../../services/hotel.service';
 import tourService from '../../services/tour.service';
 import transportService from '../../services/transport.service';
-import { IBookingData } from '../../databases/interface/bookingInterface';
+import { IBookingData, IDataStatic } from '../../databases/interface/bookingInterface';
 import { BookingService } from '../../services/booking.service';
 import { Bookings } from '../../databases/models/entities/Booking';
 
 import errorCodes from '../../common/errorCode/errorCodes';
 import { ObjectId } from 'mongodb';
+import commonService from '../../services/common.service';
 // import { File } from 'multer';
 interface MulterRequest extends Request {
   file?: Express.Multer.File; // Nếu chỉ upload 1 file
@@ -554,7 +555,7 @@ class AdminController {
           data: 'null'
         });
       }
-      logger.info(`P::Booking tour detail id ${bookingId}`)
+      logger.info(`P::Booking tour detail id ${bookingId}`);
       if (!ObjectId.isValid(bookingId)) {
         logger.error('error id');
         return res.status(400).json({
@@ -571,7 +572,6 @@ class AdminController {
         message: 'Get success',
         data: bookingData || 'null'
       });
-      
     } catch (error) {
       next(error);
     }
@@ -607,10 +607,10 @@ class AdminController {
       next(error);
     }
   };
-   // handle Update Status Booking
-   handleUpdateStatusBookingRefunds = async (req: Request, res: Response, next: NextFunction) => {
+  // handle Update Status Booking
+  handleUpdateStatusBookingRefunds = async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const {status, bookingId} = req.body;
+      const { status, bookingId } = req.body;
       const bookingService = new BookingService();
 
       if (!ObjectId.isValid(bookingId)) {
@@ -620,13 +620,70 @@ class AdminController {
           message: errorCodes.RESPONSE.ID_NOT_SUPPORT.message,
           data: 'null'
         });
-      }  
+      }
 
       const bookingData: any = await bookingService.updateStatus(bookingId, status);
 
       return res.status(200).json({
         errCode: 200,
-        message: 'Update success',
+        message: 'Update success'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  // handle get list booking refunds
+  handleStatics = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const fromDay: Date | null =
+        typeof req.query.fromDay === 'string' && !isNaN(Date.parse(req.query.fromDay))
+          ? new Date(req.query.fromDay)
+          : null;
+
+      const defaultFromDay = new Date(); // Current date/time
+      defaultFromDay.setMonth(defaultFromDay.getMonth() - 1);
+      const defaultToDay = new Date(); // Current date/time
+      const toDay: Date | null =
+        typeof req.query.toDay === 'string' && !isNaN(Date.parse(req.query.toDay)) ? new Date(req.query.toDay) : null;
+      console.log(fromDay, toDay);
+      const statisticsData: IDataStatic = await commonService.statisticsTour(
+        fromDay || defaultFromDay,
+        toDay || defaultToDay
+      );
+
+      return res.status(statisticsData.status).json({
+        errCode: statisticsData.errCode,
+        message: statisticsData.errMessage,
+        data: statisticsData.statisticsData || 'null'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  handleStaticsLine = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const fromDay: Date | null =
+        typeof req.query.fromDay === 'string' && !isNaN(Date.parse(req.query.fromDay))
+          ? new Date(req.query.fromDay)
+          : null;
+
+      const defaultFromDay = new Date(); // Current date/time
+      defaultFromDay.setMonth(defaultFromDay.getMonth() - 1);
+      const defaultToDay = new Date(); // Current date/time
+      const toDay: Date | null =
+        typeof req.query.toDay === 'string' && !isNaN(Date.parse(req.query.toDay)) ? new Date(req.query.toDay) : null;
+      console.log(fromDay, toDay);
+      const statisticsData: IDataStatic = await commonService.statisticsTourFomatLine(
+        fromDay || defaultFromDay,
+        toDay || defaultToDay
+      );
+
+      return res.status(statisticsData.status).json({
+        errCode: statisticsData.errCode,
+        message: statisticsData.errMessage,
+        data: statisticsData.statisticsData || 'null'
       });
     } catch (error) {
       next(error);

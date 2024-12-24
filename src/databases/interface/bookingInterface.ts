@@ -14,3 +14,9 @@ export interface IBookingData {
     perPage?: number;
     totalRevenue?:number
 }
+export interface IDataStatic {
+    status: number;
+    errCode: number | string;
+    errMessage: string | object;
+    statisticsData? : any
+}
