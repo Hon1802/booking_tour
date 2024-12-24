@@ -10172,3 +10172,86 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T02:52:21.170Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T02:52:21.170Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-12-24T02:52:30.012Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-24T16:38:38.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-24T16:38:41.039Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/statistics?fromday=11/10/2024&today=12/20/2024","timestamp":"2024-12-24T16:38:53.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.942Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.942Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:38:53.945Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/statistics?fromday=11/10/2024&today=12/20/2024","timestamp":"2024-12-24T16:39:00.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.742Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.742Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.742Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.742Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.743Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.743Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.744Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.744Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.745Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.745Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.745Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.745Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:00.746Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-24T16:39:08.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-24T16:39:17.551Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/statistics?fromday=11/10/2024&today=12/20/2024","timestamp":"2024-12-24T16:39:17.689Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.690Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.692Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.697Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.697Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.697Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.697Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:17.698Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Token verification failed: No metadata for \"User\" was found.","stack":"EntityMetadataNotFoundError: No metadata for \"User\" was found.\n    at DataSource.getMetadata (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\data-source\\DataSource.ts:450:30)\n    at MongoEntityManager.createEntityCursor (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:434:42)\n    at MongoEntityManager.executeFindOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:1102:29)\n    at MongoEntityManager.findOne (D:\\Doan\\VanHon\\VanHon\\manager-tour\\node_modules\\src\\entity-manager\\MongoEntityManager.ts:231:21)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:235:35\n    at Generator.next (<anonymous>)\n    at D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:4:12)\n    at checkTokenExist (D:\\Doan\\VanHon\\VanHon\\manager-tour\\src\\services\\userService.ts:232:74)","timestamp":"2024-12-24T16:39:17.726Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-24T16:39:19.784Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/admin/statistics?fromday=11/10/2024&today=12/20/2024","timestamp":"2024-12-24T16:39:19.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.789Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-12-24T16:39:25.286Z"}
