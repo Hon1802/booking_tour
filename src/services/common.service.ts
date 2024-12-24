@@ -9,6 +9,7 @@ import { generateOTP } from './common/util';
 import userService from './user.service';
 import { AppDataSource } from '../databases/connectDatabase';
 import { Bookings } from '../databases/models/entities/Booking';
+import { OrderStatus } from '../databases/models/entities/common';
 
 // some const
 const from_email = currentConfig.app.from_email;
@@ -183,16 +184,6 @@ class CommonService {
     try {
       // step 1: check email exist ??
       let responseData: IDataStatic;
-
-      // const emailExists = await userService.checkEmailExist(email);
-      // if (!emailExists) {
-      //     responseData = {
-      //         status: 400,
-      //         errCode: 400,
-      //         errMessage: `${email} is not exist `
-      //       };
-      //       return responseData;
-      // }
       const managerBooking = AppDataSource.mongoManager;
       const query: any = {
         createdAt: { $gte: fromDay, $lte: toDay } // Lọc theo thời gian
@@ -208,7 +199,7 @@ class CommonService {
 
       const totalCount = total.length > 0 ? total[0].total : 0;
 
-      const statusCounts = await managerBooking
+      const statusCounts:any = await managerBooking
         .getMongoRepository(Bookings)
         .aggregate([
           {
@@ -225,12 +216,20 @@ class CommonService {
         ])
         .toArray();
 
+        const normalizedStatusCounts = Object.values(OrderStatus).map((status) => {
+          const statusData = statusCounts.find((item: any) => item._id === status);
+          return {
+            status,
+            count: statusData ? statusData.count : 0,
+          };
+        });
+
       responseData = {
         status: 200,
         errCode: 200,
         errMessage: {
           total: totalCount,
-          dataOrder: statusCounts
+          dataOrder: normalizedStatusCounts
         }
       };
 
