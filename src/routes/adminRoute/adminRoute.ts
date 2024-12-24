@@ -999,3 +999,6 @@ adminRoute.get('/bookings/detail', adminController.handleBookingById);
 adminRoute.get('/refunds', adminController.handleGetListBookingRefunds); 
 
 adminRoute.put('/refunds/status', adminController.handleUpdateStatusBookingRefunds); 
+
+adminRoute.get('/statistics', adminController.handleStatics);
+adminRoute.get('/statistics/line', adminController.handleStaticsLine);
