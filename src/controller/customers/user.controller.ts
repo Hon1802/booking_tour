@@ -51,22 +51,20 @@ class UserController {
                     const imageUrl = await instanceStorageFireball.uploadImage(file);
                     imageUrls.push(imageUrl);
                   } catch (uploadErr) {
-                    console.error('Error uploading image to Firebase:', uploadErr);
+                    console.log('Error uploading image to Firebase:', uploadErr);
                     return res.status(500).json({
                       errCode: 500,
                       message: 'Error uploading image to Firebase.',
                     });
                   }
                 }
-                console.log('1')
                 const userData: UserData = await userService.updateImage(imageUrls[0],id);
         
                 return res.status(userData.status).json({
                     errCode: userData.errCode,
                     message: userData.errMessage,
                     ...(userData.userInfor && { userInfo: userData.userInfor }),
-                  });
-               
+                  });               
             }); 
         } catch(error){
             // next(error)
@@ -138,9 +136,6 @@ class UserController {
                   message: 'id, name, email is required to update'
                 });
           }
-
-
-
           let birthDate: Date | null = null;
           if (birthday) {
             const [day, month, year] = birthday.split('-').map(Number);
@@ -175,8 +170,6 @@ class UserController {
               });
             }
           }
-            
-          console.log(birthDate);
           const DataUpdate: DataUserUpdate ={
             id: id,
             fullName: fullName,

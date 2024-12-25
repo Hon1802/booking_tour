@@ -1,6 +1,7 @@
 // export default RedisConnection;
 import { createClient } from 'redis';
 import { logger } from '../../log';
+import currentConfig from '../../config';
 
 export type RedisClientType = ReturnType<typeof createClient>;
 
@@ -8,17 +9,16 @@ class RedisConnection {
     private static instance: RedisConnection;
     private redisClient: RedisClientType;
     private isConnected: boolean = false;
-    private idleTimeout: NodeJS.Timeout | null = null; // Biến để theo dõi thời gian không hoạt động
+    private idleTimeout: NodeJS.Timeout | null = null; 
 
     private constructor() {
         this.redisClient = createClient({
-            password: 'XvVd3Rj2F7rPAvL9cflJBujV4daURdM5',
+            password: currentConfig.redis?.password,
             socket: {
-                host: 'redis-13005.c292.ap-southeast-1-1.ec2.redns.redis-cloud.com',
-                port: 13005,
+                host: currentConfig.redis?.host,
+                port: currentConfig.redis?.port,
             },
         });
-
         this.redisClient.on('error', (err) => console.log('Redis Client Error', err));
         this.handleEventConnection(this.redisClient);
     }
@@ -55,6 +55,17 @@ class RedisConnection {
             this.resetIdleTimeout(); // Đặt lại thời gian không hoạt động
         } catch (error) {
             console.error(`Error setting value for key "${key}":`, error);
+            throw error;
+        }
+    }
+
+    public async pushValueArray(key: string, value: string): Promise<void> {
+        await this.checkConnection(); // Kiểm tra và kết nối lại nếu cần
+        try {
+            await this.redisClient.rPush(key, value);
+            this.resetIdleTimeout(); // Đặt lại thời gian không hoạt động
+        } catch (error) {
+            console.error(`Error push value for array "${key}":`, error);
             throw error;
         }
     }

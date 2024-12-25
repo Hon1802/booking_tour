@@ -14,6 +14,7 @@ import { saveToken } from './userService';
 import { sentMail } from '../helpers/sentEmail';
 import { ObjectId } from 'mongodb';
 import { generatePassword } from '../helpers/common';
+import RedisConnection from '../databases/redis/redis.init';
 // some const
 const privateKey = currentConfig.app.privateKey;
 const publicKey = currentConfig.app.publicKey
@@ -42,19 +43,21 @@ class AccessService {
         };
         return userData;
       } else {
+        let can_edit_email = 'EDIT'+email;
+        const redis = RedisConnection.getInstance();
+
+        const checkRedis = await redis.getValue(can_edit_email)
+
+        await redis.deleteValue(can_edit_email);
+        if(!(checkRedis.value)){
+          userData = {
+              status: 400,
+              errCode: 400,
+              errMessage: `Please verify your email again`
+            };
+          return userData;
+        }
         const user = new User();
-        // // create private key and public key
-        // const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
-        //   modulusLength: 4096,
-        //   publicKeyEncoding: {
-        //     type: 'pkcs1',
-        //     format: 'pem'
-        //   },
-        //   privateKeyEncoding: {
-        //     type: 'pkcs1',
-        //     format: 'pem'
-        //   }
-        // });
 
         // create token pair
         const tokens = await createTokenPair({ userId: user.id?.toString(), email }, publicKey.toString(), privateKey);
@@ -177,9 +180,9 @@ class AccessService {
           return userData;
         } else {
           userData = {
-            status: 401,
-            errCode: 401,
-            errMessage: 'Unauthorized - Incorrect email or password'
+            status: 400,
+            errCode: 400,
+            errMessage: 'Bad Request - Incorrect email or password'
           };
           return userData;
         }
@@ -248,7 +251,7 @@ class AccessService {
 
       // generate new password
       const newPass = generatePassword();
-      console.log(newPass)
+      console.log('new pass', newPass)
 
       const passBcrypt = await bcrypt.hash(newPass, parseInt(salt_rounds));
       // sent

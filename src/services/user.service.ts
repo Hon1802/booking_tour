@@ -66,9 +66,9 @@ class UsersService {
           }
         } else {
           userData = {
-            status: 401,
-            errCode: 401,
-            errMessage: 'Unauthorized - Incorrect old password'
+            status: 400,
+            errCode: 400,
+            errMessage: 'Bad request - Incorrect old password'
           };
           return userData;
         }
@@ -117,13 +117,14 @@ class UsersService {
         return userData;
       }
       let holderStore = await managerUser.findOne(User, { where: { _id: new ObjectId(id) } });
+      console.log(holderStore)
       if (holderStore) {
         if (holderStore.userFlg && holderStore.userFlg === 1) {
           _.set(holderStore, 'role', 'user');
         }
 
         // Xóa trường 'password' trong holderStore
-        const holderStoreWithoutPassword = _.omit(holderStore, ['password', 'delFlg', 'gender', 'userFlg']);
+        const holderStoreWithoutPassword = _.omit(holderStore, ['password', 'delFlg', 'userFlg']);
 
         userData = {
           status: 200,
@@ -166,8 +167,7 @@ class UsersService {
         where: { email: UpdateData.email },
       });
       const count = users.length;
-      console.log(count)
-      if(count > 0) {
+      if(count > 1) {
         userData = {
           status: 409,
           errCode: 409,
@@ -178,21 +178,27 @@ class UsersService {
 
       let holderStore = await managerUser.findOne(User, { where: { _id: new ObjectId(UpdateData.id) } });
       if (holderStore && holderStore.delFlg != -1) {
-        let can_edit_email = 'EDIT'+UpdateData.email;
-        const redis = RedisConnection.getInstance();
+        let checkValueRedis = false;
+        if(!!UpdateData.email){
+          console.log('exist')
+          let can_edit_email = 'EDIT'+UpdateData.email;
+          const redis = RedisConnection.getInstance();
+  
+          const checkRedis = await redis.getValue(can_edit_email)
 
-        const checkRedis = await redis.getValue(can_edit_email)
-        await redis.deleteValue(can_edit_email);
-        if(!(checkRedis.value) &&  UpdateData.email !== holderStore.email){
-          userData = {
-              status: 400,
-              errCode: 400,
-              errMessage: `You can not update email`
-            };
-          return userData;
+          if (checkRedis && checkRedis.value) {
+            await redis.deleteValue(can_edit_email);
+            checkValueRedis = false;
+          } else{
+            checkValueRedis = true;
+          }
+          console.log('exist', checkValueRedis)
+
         }
         
-        const user = await managerUser.getMongoRepository(User).findOneAndUpdate(
+        if( (checkValueRedis) &&  (UpdateData.email !== holderStore.email)){
+
+          await managerUser.getMongoRepository(User).findOneAndUpdate(
             // Điều kiện tìm kiếm
             { _id: new ObjectId(UpdateData.id) },
             // Cập nhật dữ liệu
@@ -200,7 +206,31 @@ class UsersService {
               $set: {
                 name : UpdateData.fullName,
                 phone: UpdateData.phone || holderStore.phone || '',
-                email : UpdateData.email, 
+                email : UpdateData.email , 
+                gender : UpdateData.gender || holderStore.gender || '',
+                dateOfBirth: UpdateData.birthday || holderStore.dateOfBirth ,
+                avatar: UpdateData.urlAvatar || holderStore.avatar,
+              }
+            }
+          );
+
+          // userData = {
+          //     status: 400,
+          //     errCode: 400,
+          //     errMessage: `You can not update email`
+          //   };
+          // return userData;
+        }
+        
+        await managerUser.getMongoRepository(User).findOneAndUpdate(
+            // Điều kiện tìm kiếm
+            { _id: new ObjectId(UpdateData.id) },
+            // Cập nhật dữ liệu
+            {
+              $set: {
+                name : UpdateData.fullName,
+                phone: UpdateData.phone || holderStore.phone || '',
+                email : UpdateData.email || holderStore.email, 
                 gender : UpdateData.gender || holderStore.gender || '',
                 dateOfBirth: UpdateData.birthday || holderStore.dateOfBirth ,
                 avatar: UpdateData.urlAvatar || holderStore.avatar,
@@ -215,10 +245,10 @@ class UsersService {
               name: UpdateData.fullName || holderStore.name,
               phone: UpdateData.phone || holderStore.phone,
               birthday: UpdateData.birthday || holderStore.dateOfBirth,
-              email: UpdateData.email,
+              email: UpdateData.email || holderStore.email,
               avatar: UpdateData.urlAvatar || holderStore.avatar,
               gender: UpdateData.gender || holderStore.gender,
-              id: UpdateData.id,
+              id: UpdateData.id || holderStore.id,
               role: 'user'
             }            
           };
@@ -244,7 +274,7 @@ class UsersService {
   updateImage = async (urlAvatar: string, id: string): Promise<UserData> => {
     try {
       let userData: UserData;
-
+      console.log(urlAvatar)
       if (!ObjectId.isValid(id)) {
         const userData = {
           status: 500,
@@ -263,14 +293,11 @@ class UsersService {
             urlAvatar: urlAvatar
           }
         },
-        { returnDocument: 'after' }
+        // { returnDocument: 'after' }
       );
-      console.log('32');
 
       if (user && user.value) {
-        console.log(user);
         const imageUrl = await instanceStorageFireball.deleteImage(user.value?.urlAvatar);
-
         userData = {
           status: 200,
           code: 200,
@@ -288,8 +315,7 @@ class UsersService {
         return userData;
       } else {
         const imageUrl = await instanceStorageFireball.deleteImage(urlAvatar);
-        console.log(imageUrl);
-        // logger.info(`Remove image in link ${urlAvatar}`)
+
         userData = {
           status: 400,
           errCode: 400,
@@ -394,6 +420,38 @@ class UsersService {
       return false;
     }
   };
+
+  // check exit
+
+  checkUser = async (id: string): Promise<boolean> => {
+    try {
+      let holderStore = await managerUser.findOne(User, { where: { _id: new ObjectId(id) } });
+      if (holderStore) {
+        return true;
+      } else {
+        return false;
+      }
+    } catch (error) {
+      return false;
+    }
+  };
+
+  // get email by id
+  getEmailById = async (id: string): Promise<string> => {
+    try {
+      if (!ObjectId.isValid(id)) {
+        return 'invalid';
+      }
+      let holderStore = await managerUser.findOne(User, { where: { _id: new ObjectId(id) } });
+      console.log(holderStore)
+     
+      return holderStore?.email || 'null';
+    } catch (error) {
+      console.log(error)
+      return 'null';
+    }
+  };
+
 }
 
 export default new UsersService();

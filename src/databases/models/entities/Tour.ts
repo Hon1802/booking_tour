@@ -16,10 +16,10 @@ export class Tour {
   public name!: string;
 
   // description of tour
-  @Column({ type: 'varchar', length: 255, name: 'description' })
+  @Column({ type: 'varchar', name: 'description' })
   @IsNotEmpty({ message: 'Description is required' })
   @MinLength(8, { message: 'Description must be at least 10 characters long' })
-  @MaxLength(500, {message: 'Description cannot be longer than 500 characters long' })
+  // @MaxLength(500, {message: 'Description cannot be longer than 500 characters long' })
   public description!: string;
   
   // how long ?
@@ -29,23 +29,59 @@ export class Tour {
   public duration!: string;
 
   // where
-  @Column({ type: 'varchar', length: 150, name: 'location' })
+  @Column({ type: 'varchar' , name: 'location' })
   @IsNotEmpty({ message: 'Location is required' })
-  @MaxLength(150, { message: 'Location cannot be longer than 150 characters' })
+  // @MaxLength(150, { message: 'Location cannot be longer than 150 characters' })
   public location!: string;
 
   // 
-  @Column({ type: 'varchar', length: 250, name: 'regulation' })
+  @Column({ type: 'varchar' , name: 'regulation' })
   @IsNotEmpty({ message: 'Regulation is required' })
-  @MaxLength(250, { message: 'Regulation cannot be longer than 250 characters' })
+  // @MaxLength(250, { message: 'Regulation cannot be longer than 250 characters' })
   public regulation!: string;
 
-  // exactly address
-  @Column({ type: 'varchar', length: 250, name: 'address' })
-  @IsNotEmpty({ message: 'Address is required' })
-  @MaxLength(250, { message: 'Address cannot be longer than 250 characters' })
-  public address!: string;
+  // 
+  @Column({ type: 'number' , name: 'buySlot' })
+  public buySlot!: number;
   
+  // limit
+  @Column({ type: 'number' , name: 'limit' })
+  public limit!: number;
+  
+  // limit
+  @Column({ type: 'tinyint' , name: 'isApprove' })
+  public isApprove!: number | boolean;
+
+  // exactly address
+  @Column({ type: 'varchar' , name: 'address' })
+  @IsNotEmpty({ message: 'Address is required' })
+  
+  // @MaxLength(250, { message: 'Address cannot be longer than 250 characters' })
+  public address!: string;
+
+  // exactly transportationId
+  @Column({ type: 'varchar' , name: 'transportationId' })
+  // @MaxLength(250, { message: 'Address cannot be longer than 250 characters' })
+  public transportationId !: string;
+  
+  // estimatedTime
+  @Column({ type: 'date',name: 'estimatedTime' })
+  @IsDate()
+  @IsOptional()
+  @Transform(({ value }) => value || null)
+  public estimatedTime!: Date;
+  
+  // closeOrderTime
+  @Column({ type: 'date',name: 'closeOrderTime' })
+  @IsDate()
+  @IsOptional()
+  @Transform(({ value }) => value || null)
+  public closeOrderTime!: Date;
+
+  // exactly hotelId
+  @Column({ type: 'varchar' , name: 'hotelId' })
+  // @MaxLength(250, { message: 'Address cannot be longer than 250 characters' })
+  public hotelId !: string;
     
   // price adult
   @Column({ type: 'string', name: 'priceAdult' })
@@ -53,9 +89,9 @@ export class Tour {
   public priceAdult!: string;
 
   // price child
-  @Column({ type: 'string', name: 'priceChild' })
+  @Column({ type: 'double', name: 'priceChild' })
   @IsNotEmpty({ message: 'Price children is required' })
-  public priceChild!: string;
+  public priceChild!: number;
 
   // Add the images field (array of objects with urlImage as a string)
   @Column({ type: 'json', name: 'images' })

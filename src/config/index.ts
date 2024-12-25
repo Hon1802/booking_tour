@@ -39,8 +39,12 @@ const config: Config = {
         host: 'localhost',
         port: '27017',
         name: 'mongodb',
-        url: process.env.MONGO_URI || 'no url',
-        
+        url: process.env.MONGO_URI || process.env.MONGO_URI_2 || 'no_url',
+    },
+    redis:{
+      host: process.env.REDIS_HOST || "localhost",
+      port: Number(process.env.REDIS_PORT?.toString()) || 6379,
+      password: process.env.REDIS_PASSWORD
     }
   },
   prod: {
@@ -57,8 +61,13 @@ const config: Config = {
         host: 'localhost',
         port: '27017',
         name: 'mongodb',
-        url: process.env.MONGO_URI || 'no url',
+        url: process.env.MONGO_URI || process.env.MONGO_URI_2 || 'no_url',
        
+    },
+    redis:{
+      host: process.env.REDIS_HOST || "localhost",
+      port: Number(process.env.REDIS_PORT?.toString()) || 6379,
+      password: process.env.REDIS_PASSWORD
     }
   },
   test: {
@@ -75,8 +84,13 @@ const config: Config = {
         host: 'localhost',
         port: '27017',
         name: 'mongodb',
-        url: process.env.MONGO_URI || 'no url',
+        url: process.env.MONGO_URI || process.env.MONGO_URI_2 || 'no_url',
         
+    },
+    redis:{
+      host: process.env.REDIS_HOST || "localhost",
+      port: Number(process.env.REDIS_PORT?.toString()) || 6379,
+      password: process.env.REDIS_PASSWORD
     }
   },
 };

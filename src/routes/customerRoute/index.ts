@@ -2,12 +2,17 @@
 import { Router, Request, Response } from 'express';
 import tourController from '../../controller/tours/tour.controller';
 import userController from '../../controller/customers/user.controller';
-
+import { BookingController } from '../../controller/bookings/booking.controller';
+import paymentController from '../../controller/payments/payment.controller';
+const bookingController = new BookingController();
 export const customerRoute = Router();
 // Tour routes
 customerRoute.get('/get-tour-by-number', tourController.handleGetTourByNumber);
 customerRoute.get('/get-tour-by-id', tourController.handleGetTourById);
 
+customerRoute.get('/hot-tours', tourController.handleGetHotTour);
+customerRoute.get('/latest-tours', tourController.handleGetLastedTour);
+customerRoute.get('/tours/filter', tourController.handleFilterTour);
 // User routes
 // get by id
 customerRoute.get('/get-user-by-id', userController.handleGetUserById);
@@ -23,3 +28,14 @@ customerRoute.delete('/delete-account', userController.handleUpdateStatusUser);
 
 // update password of user
 customerRoute.patch('/update-password', userController.handleUpdatePassword);
+
+
+// booking
+
+customerRoute.post('/bookings', bookingController.handleAddNewBooking);
+customerRoute.get('/bookings', bookingController.handleGetBooking);
+customerRoute.get('/bookings/detail', bookingController.handleGetBookingDetail);
+customerRoute.put('/bookings/status', bookingController.handleUpdateBooking);
+
+// payment
+customerRoute.post('/payment', paymentController.handleAddNewPayment);

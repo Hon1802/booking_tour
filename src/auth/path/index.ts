@@ -1,40 +1,106 @@
 // List of URLs to bypass
+const passBaseUrl = '/v1/api';
+
 export const bypassUrls = [
   '/',
-  '/v1/api/sign-up',
-  '/v1/api/sign-in',
-  '/v1/api/log-out',
-  '/v1/api/forgot-password',
-  '/v1/api/get-tour-by-number/',
-  '/v1/api/get-tour-by-id/:tourid',
-  '/v1/api/common/verification-email-exist',
-  '/v1/api/common/verification-email',
-  '/v1/api/common/confirm-otp-email'
+  '/sign-up',
+  '/sign-in',
+  '/log-out',
+  '/forgot-password',
+  '/get-tour-by-number/',
+  '/get-tour-by-id/:tourid',
+  '/get-tour-by-id/',
+  '/get-tour-by-id',
+  '/common/verification-email-exist',
+  '/common/verification-email',
+  '/common/confirm-otp-email',
+  
+  '/tours/filter',
+  '/tours/filter/',
+  
+  '/hot-tours',
+  '/hot-tours/',
 
-].map((url) => url.toLowerCase().trim());
+  '/latest-tours',
+  '/latest-tours/',
+
+].map((endpoint) => (passBaseUrl + endpoint).toLowerCase().trim());
 
 // List of URLs for admin access
+const adminBaseUrl = '/v1/api/admin/';
 
 export const adminUrls = [
-  '/v1/api/admin/new-tour',
-  '/v1/api/admin/get-tour-by-id/:tourid',
-  '/v1/api/admin/update-tour-status/',
-  '/v1/api/admin/get-tour-by-number/:count',
-  '/v1/api/admin/get-tour-by-number/',
-  '/v1/api/admin/update-tour-image'
-].map((url) => url.toLowerCase().trim());
+  // get
+  'hot-tour',
+  'get-tour-by-number/',
+  'get-tour-by-number',
+  'get-tour-by-id/:tourid',
+  'get-tour-by-id/',
+  'get-tour-by-id',
+  'get-tour-by-number',
+  'get-tour-by-number/',
+  'get-tour-by-number/:count',
+  'tours/filter',
+  'tours/filter/',
+  
+  // another
+  'tours/remove',
+  'update-tour-status/',
+  'upload-image-remove',
+  'update-tour-by-id',
+  'update-tour-by-id/',
+  'upload-image',
+  'new-image',
+  'new-tour',
+  // hotel
+  'hotel',
+  'hotel/update',
+  'hotel/remove-hotel',
+  // transport
+  'transport',
+  'transport/update',
+  'transport/remove-transport',
+
+  //
+  'incoming-tours',
+  'incoming-tours/accept',
+  'incoming-tours/cancel',
+
+  //
+  'deposit-users',
+
+  //
+  'bookings',
+  'bookings/detail',
+  'refunds',
+  'refunds/status',
+
+  //
+  'statistics',
+  'statistics/line'
+// ].map((url) => url.toLowerCase().trim());
+].map((endpoint) => (adminBaseUrl + endpoint).toLowerCase().trim());
 
 // List of URLs for admin access
-
+const userBaseUrl = '/v1/api';
 export const userUrl = [
-  '/v1/api/get-tour-by-number/',
-  '/v1/api/get-tour-by-id/:id',
-  '/v1/api/upload-avatar',
-  '/v1/api/delete-account',
-  '/v1/api/get-user-by-id/:id',
-  '/v1/api/get-user-by-id:id',
-  '/v1/api/update-password',
-  '/v1/api/update-user-by-id'
-
-].map((url) => url.toLowerCase().trim());
+  '/get-tour-by-number',
+  '/get-tour-by-number/',
+  '/get-tour-by-id/:id',
+  '/get-tour-by-id/',
+  '/get-tour-by-id',
+  '/upload-avatar',
+  '/delete-account',
+  '/get-user-by-id/:id',
+  '/get-user-by-id:id',
+  '/get-user-by-id',
+  '/update-password',
+  '/update-user-by-id',
+  // booking tour
+  '/bookings',
+  '/bookings/status',
+  '/payment',
+  '/bookings',
+  '/bookings/detail',
+].map((endpoint) => (userBaseUrl + endpoint).toLowerCase().trim());
 

@@ -8,6 +8,7 @@ export interface UserData {
   userInfor?: object; // optional property
   accessToken?: string;
   refreshToken?: string;
+  publicKey?: string;
   gender?:string
 }
 export interface userInterface {
@@ -42,7 +43,11 @@ export interface Config {
       port: string;
       name: string;
       url: string;
-    
     };
+    redis?:{
+      host:string;
+      port:number;
+      password?:string;
+    }
   };
 }

@@ -14,3 +14,4 @@ routes.use('/v1/api', customerRoute);
 routes.use('/v1/api/admin', adminRoute);
 // for common
 routes.use('/v1/api/common', commonRoute);
+// Endpoint mẫu

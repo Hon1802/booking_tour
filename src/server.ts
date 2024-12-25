@@ -1,10 +1,12 @@
 'use strict'
 import bodyParser from 'body-parser';
-import express from 'express';
+import express, { Application, NextFunction, Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import database from './databases/connectDatabase';
-
+// wagger
+import swaggerUi from 'swagger-ui-express';
+import swaggerJsdoc from 'swagger-jsdoc';
 // redis
 
 import { routes } from './routes';
@@ -24,7 +26,12 @@ const allowedOrigins = {
     'http://127.0.0.1:3000',
     'http://localhost:3001',
     'http://127.0.0.1:3001',
-    'https://re-project.vercel.app'
+    'https://re-project.vercel.app',
+    'http://54.169.251.27:3000',
+    'https://vanhon.test.bilisoftware.com',
+    'https://vanhon.admin.test.bilisoftware.com',
+    'https://54.255.182.230',
+    'http://54.255.182.230',
   ],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: 'Content-Type,Authorization',
@@ -53,8 +60,44 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // check token
 app.use(checkToken)
+
+
+// wagger
+// Cấu hình Swagger
+const swaggerOptions = {
+  definition: {
+    openapi: '3.0.0',
+    info: {
+      title: 'API Documentation',
+      version: '1.0.0',
+      description: 'Documentation for my Express API written in TypeScript',
+    },
+  },
+  // apis: ['./src/routes/*.ts'], // Đường dẫn chứa các định nghĩa API
+  apis: ['./src/routes/**/*.ts'], 
+};
+
+const swaggerDocs = swaggerJsdoc(swaggerOptions);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 //routes
 app.use('/', routes);
+
+// middleware
+interface CustomError extends Error {
+  status?: number;
+}
+app.use((err: CustomError, req: Request, res: Response, next: NextFunction) => {
+  console.error(err.stack);
+  const status = err?.status || 500; // Mặc định là 500 nếu không được cung cấp
+  const message = err.message || "Internal Server Error";
+
+  res.status(status).json({
+    error: {
+      message,
+      status,
+    },
+  });
+});
 
 app.listen(port, () => {
   console.log('run on : ' + port);
