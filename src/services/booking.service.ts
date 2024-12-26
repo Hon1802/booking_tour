@@ -17,6 +17,7 @@ import calculateRefundAmount from './common/refund';
 import userService from './user.service';
 import { Tour } from '../databases/models/entities/Tour';
 import { Payments } from '../databases/models/entities/Payment';
+import { contentUpdateInfoEmail } from './common/contentEmailRegister';
 export class BookingService {
   // Hàm tạo mới
   async createBooking(bookingData: Partial<Bookings>): Promise<Bookings> {
@@ -75,6 +76,10 @@ export class BookingService {
     {
       await tourService.updateBySlotTour(booking.tourId, (0-numberTicket));
     } 
+
+    const contentToEmail = contentUpdateInfoEmail(booking.email, booking.tourId, new Date(Date.now()),statusUpdate.toString());
+    await sentAcceptMail('soihoang1802@gmail.com', booking.email, contentToEmail, 'Accept require tour');
+
     return await bookingRepository.save(booking);
   }
   // Hàm cập nhật status
