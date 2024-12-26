@@ -5,6 +5,8 @@ import { OrderStatus, PaymentStatus } from '../../databases/models/entities/comm
 import userService from '../../services/user.service';
 import tourService from '../../services/tour.service';
 import paymentService from '../../services/payment.service';
+import { contentEmailRegisterUser } from '../../services/common/contentEmailRegister';
+import { sentAcceptMail } from '../../helpers/sentAcceptMaill';
 
 export class BookingController {
   private bookingService: BookingService;
@@ -76,13 +78,14 @@ export class BookingController {
           delFlg: 0,
       };
 
-      
+      const contentToEmail = contentEmailRegisterUser(getEmail, tourId, new Date(Date.now()));
+      await sentAcceptMail('soihoang1802@gmail.com', getEmail, contentToEmail, 'Accept require tour');
       const numberTicket = information?.adults.length + information?.children.length;
       if(numberTicket>0)
       {
         await tourService.updateBySlotTour(tourId, numberTicket);
       }
-        
+
       const newBooking = await this.bookingService.createBooking(newBookingData);
       res.status(201).json({
         message: 'Booking created successfully',

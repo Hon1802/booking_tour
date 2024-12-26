@@ -10255,3 +10255,753 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.793Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/admin/statistics","timestamp":"2024-12-24T16:39:19.793Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-12-24T16:39:25.286Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Database connection failed on attempt 1. Retrying in 5 seconds...","timestamp":"2024-12-25T23:53:56.678Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-25T23:53:56.706Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-25T23:54:07.195Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-25T23:54:26.781Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?sortby=cheapest&perpage=10&currentpage=1","timestamp":"2024-12-25T23:58:14.158Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.160Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.165Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-25T23:58:14.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-25T23:58:14.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/hot-tours?currentpage=1&perpage=10","timestamp":"2024-12-25T23:58:14.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.219Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.219Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.219Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-25T23:58:14.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-25T23:58:14.223Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/latest-tours?currentpage=1&perpage=10","timestamp":"2024-12-25T23:58:14.225Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.225Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.226Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.226Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.227Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.228Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.228Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.228Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.228Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.229Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.229Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.229Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-25T23:58:14.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-25T23:58:14.231Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:00:38.503Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:00:40.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:00:57.897Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:01:00.176Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:01:07.676Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:01:10.055Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-26T00:01:37.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:02:09.699Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:02:11.762Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-26T00:02:39.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:04:49.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:04:52.104Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=6&currentpage=1&keyword=&sortby=best-selling&location=northern%20vietnam","timestamp":"2024-12-26T00:04:58.870Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.871Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.873Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.874Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.874Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.874Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.875Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.876Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.877Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.877Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:58.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Northern Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-26T00:04:58.883Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=6&currentpage=1&keyword=&sortby=best-selling&location=northern%20vietnam","timestamp":"2024-12-26T00:04:59.079Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.080Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.080Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.081Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.081Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.081Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.083Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:04:59.083Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Northern Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-26T00:04:59.084Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-12-26T00:05:04.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-12-26T00:05:04.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-12-26T00:05:04.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-12-26T00:05:04.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=67645c47bff405bb5de0abe4","timestamp":"2024-12-26T00:05:05.126Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:05.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:05.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:05.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:05.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:05.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:05.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:05.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:05.128Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-26T00:05:19.860Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/sign-in","timestamp":"2024-12-26T00:05:20.100Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-12-26T00:05:20.100Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-12-26T00:05:20.101Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/sign-in","timestamp":"2024-12-26T00:05:20.102Z"}
+{"email":"20110371@student.hcmute.edu.vn","exp":1735344320,"iat":1735171520,"level":"\u001b[32minfo\u001b[39m","message":"decode verify","role":"user","timestamp":"2024-12-26T00:05:20.210Z","userId":"676c98d767268eacac7b0261"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:05:20.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.237Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.239Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.239Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.239Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.239Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.240Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.240Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.240Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.240Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:20.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:05:25.766Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.767Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.767Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.769Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.770Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.770Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.770Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:25.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings?currentpage=1&perpage=6&userid=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:05:25.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.887Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.887Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.888Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.889Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.896Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.896Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:25.896Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=6&currentpage=1&keyword=&sortby=best-selling&location=northern%20vietnam","timestamp":"2024-12-26T00:05:29.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Northern Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-26T00:05:29.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:05:29.518Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.519Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.519Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.519Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.519Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.520Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:29.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=6&currentpage=1&keyword=&sortby=best-selling&location=northern%20vietnam","timestamp":"2024-12-26T00:05:29.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.710Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.711Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:05:29.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Northern Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-26T00:05:29.713Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=67645c47bff405bb5de0abe4","timestamp":"2024-12-26T00:05:32.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:32.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:32.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:32.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:32.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:32.235Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:32.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:32.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:32.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=67645c47bff405bb5de0abe4","timestamp":"2024-12-26T00:05:37.911Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:37.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:37.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:37.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:37.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:37.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:37.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:37.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:37.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.373Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.374Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:52.375Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-12-26T00:05:52.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/payment","timestamp":"2024-12-26T00:05:52.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.738Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.738Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.738Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.739Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.739Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.739Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:05:52.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Payment saved:","timestamp":"2024-12-26T00:05:52.976Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=67645c47bff405bb5de0abe4","timestamp":"2024-12-26T00:05:53.058Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:53.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:53.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:53.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:53.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:53.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:53.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:53.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:05:53.060Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:05:59.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.405Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.406Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.406Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.406Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.408Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.408Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.408Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.408Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.409Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.409Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.409Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:05:59.409Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings?currentpage=1&perpage=6&userid=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:05:59.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.513Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:05:59.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:06:53.051Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:06:55.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=6&currentpage=1&keyword=&sortby=best-selling&location=central%20vietnam","timestamp":"2024-12-26T00:06:56.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.839Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.841Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.842Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.843Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:56.844Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Central Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-26T00:06:56.846Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:06:56.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.859Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.859Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.859Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.860Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.860Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.860Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.862Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.862Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:06:56.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=6&currentpage=1&keyword=&sortby=best-selling&location=central%20vietnam","timestamp":"2024-12-26T00:06:57.061Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.062Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.063Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:06:57.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Central Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-26T00:06:57.065Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=675ae8dc0ed94240b093bb0d","timestamp":"2024-12-26T00:06:59.032Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:06:59.032Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:06:59.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:06:59.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:06:59.033Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:06:59.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:06:59.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:06:59.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:06:59.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=675ae8dc0ed94240b093bb0d","timestamp":"2024-12-26T00:07:01.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:01.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:01.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:01.939Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:01.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:01.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:01.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:01.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:01.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.338Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.338Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.339Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.339Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.339Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.339Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.339Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:07:14.341Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-12-26T00:07:14.500Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/payment","timestamp":"2024-12-26T00:07:14.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.728Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.729Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.729Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.732Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.732Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.732Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.732Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:07:14.733Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Payment saved:","timestamp":"2024-12-26T00:07:14.970Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=675ae8dc0ed94240b093bb0d","timestamp":"2024-12-26T00:07:15.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:15.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:15.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:15.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:15.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:15.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:15.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:15.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:07:15.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-26T00:07:23.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:09:26.598Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:09:28.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=675ae8dc0ed94240b093bb0d","timestamp":"2024-12-26T00:09:31.928Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:31.929Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:31.930Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:31.930Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:31.930Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:31.931Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:31.931Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:31.931Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:31.932Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=6&currentpage=1&keyword=&sortby=best-selling&location=northern%20vietnam","timestamp":"2024-12-26T00:09:46.554Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.555Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.555Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.556Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.556Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.556Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.557Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.557Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.557Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.558Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.558Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.558Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.559Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.559Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Northern Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-26T00:09:46.561Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:09:46.568Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.569Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.569Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.569Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.570Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.570Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.570Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.570Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.573Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.573Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.574Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.574Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:09:46.575Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?perpage=6&currentpage=1&keyword=&sortby=best-selling&location=northern%20vietnam","timestamp":"2024-12-26T00:09:46.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.756Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.757Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.757Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.757Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.757Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.757Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:09:46.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 6; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : Northern Vietnam; \n                sortBy : best-selling;","timestamp":"2024-12-26T00:09:46.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=67645c47bff405bb5de0abe4","timestamp":"2024-12-26T00:09:49.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:49.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:49.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:49.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:49.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:49.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:49.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:49.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:49.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=67645c47bff405bb5de0abe4","timestamp":"2024-12-26T00:09:52.668Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:52.669Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:52.670Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:52.670Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:52.670Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:52.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:52.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:52.672Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:09:52.672Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-26T00:09:56.679Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.834Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.836Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:08.838Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"error id","timestamp":"2024-12-26T00:10:09.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/payment","timestamp":"2024-12-26T00:10:09.253Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.253Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/payment","timestamp":"2024-12-26T00:10:09.257Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Payment saved:","timestamp":"2024-12-26T00:10:09.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-tour-by-id/?tourid=67645c47bff405bb5de0abe4","timestamp":"2024-12-26T00:10:09.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:10:09.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:10:09.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:10:09.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:10:09.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:10:09.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:10:09.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:10:09.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-tour-by-id/","timestamp":"2024-12-26T00:10:09.751Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:10:34.507Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.508Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.509Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.512Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.514Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:10:34.516Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings?currentpage=1&perpage=6&userid=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:10:34.624Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.625Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.625Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.627Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.627Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.628Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.628Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.629Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.630Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.630Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.632Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.632Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings","timestamp":"2024-12-26T00:10:34.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings/detail?bookingid=676c9ee1cd85e88a96d4558f","timestamp":"2024-12-26T00:10:47.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.007Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.007Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.009Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.009Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.009Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.009Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.010Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.011Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.011Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:10:47.011Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:13:30.610Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:13:33.058Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:13:50.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:13:52.579Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:15:07.574Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:15:09.618Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-26T00:15:37.654Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Connected","timestamp":"2024-12-26T00:15:45.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connection successful!","timestamp":"2024-12-26T00:15:47.907Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.136Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.138Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.139Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.139Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.142Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.142Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.143Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.145Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/status","timestamp":"2024-12-26T00:15:51.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/bookings/detail?bookingid=676c9ee1cd85e88a96d4558f","timestamp":"2024-12-26T00:15:51.479Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.480Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.481Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.484Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.485Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.485Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/bookings/detail","timestamp":"2024-12-26T00:15:51.485Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"ConnectionRedis - Connection status:: Disconnected","timestamp":"2024-12-26T00:16:15.938Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/tours/filter?sortby=cheapest&perpage=10&currentpage=1","timestamp":"2024-12-26T00:16:18.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.376Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.379Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.379Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.379Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.380Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.380Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.380Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/tours/filter","timestamp":"2024-12-26T00:16:18.380Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"perPage : 10; \n                currentPage : 1; \n                keyword : ; \n                priceRanges : ; \n                fromPrice : ; toPrice : ; \n                location : ; \n                sortBy : cheapest;","timestamp":"2024-12-26T00:16:18.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/get-user-by-id?id=676c98d767268eacac7b0261","timestamp":"2024-12-26T00:16:18.384Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.386Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.387Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/get-user-by-id","timestamp":"2024-12-26T00:16:18.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/hot-tours?currentpage=1&perpage=10","timestamp":"2024-12-26T00:16:18.391Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/hot-tours","timestamp":"2024-12-26T00:16:18.396Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-26T00:16:18.396Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"url client: /v1/api/latest-tours?currentpage=1&perpage=10","timestamp":"2024-12-26T00:16:18.398Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.398Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.398Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.399Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.399Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.399Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.401Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"transform: /v1/api/latest-tours","timestamp":"2024-12-26T00:16:18.402Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"p:: Get latest tour ","timestamp":"2024-12-26T00:16:18.402Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connection closed successfully!","timestamp":"2024-12-26T00:17:12.792Z"}
